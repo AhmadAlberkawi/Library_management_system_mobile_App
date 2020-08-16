@@ -1,0 +1,15 @@
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\bin\Release\netstandard2.0\Bib.deps.json
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\bin\Release\netstandard2.0\Bib.dll
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\bin\Release\netstandard2.0\ref\Bib.dll
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\bin\Release\netstandard2.0\Bib.pdb
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\Bib.csprojAssemblyReference.cache
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\Page1.xaml.g.cs
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\Bib.AssemblyInfoInputs.cache
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\Bib.AssemblyInfo.cs
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\Bib.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\Bib.dll
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\ref\Bib.dll
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\Bib.pdb
