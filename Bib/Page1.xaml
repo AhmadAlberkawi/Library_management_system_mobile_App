@@ -6,17 +6,25 @@
              xmlns:local="clr-namespace:Bib.MarkupExtentions"
              mc:Ignorable="d"
              x:Class="Bib.Page1"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms">
     <ContentPage.Content>
         <StackLayout>
 
-            <StackLayout BackgroundColor="Black" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="30,20,0,30">
+            <StackLayout x:Name="header"  BackgroundColor="Black" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="30,20,0,30">
 
-                <Label Text="Login" TextColor="White" FontSize="48"/>
+                <Label x:Name="login" Text="Login" TextColor="White" FontSize="48"/>
 
             </StackLayout>
 
-            <Image Source="{local:EmbeddedImage Bib.Images.book_login.png }" Margin="0,65,0,35"/>
+            <StackLayout x:Name="body">
+            
+            <Image x:Name="bild" Source="{local:EmbeddedImage Bib.Images.book_login.png }" Margin="0,85,0,35"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center"  >
+                <Label x:Name="AdminOption" Text="Admin" Margin="80,5,150,0" FontSize="16" />
+                <Switch x:Name="Option" IsToggled="False" />
+            </StackLayout>
 
             <Entry x:Name="username" Placeholder="Nutzername" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="300" />
 
@@ -26,7 +34,9 @@
                   BackgroundColor="Black" TextColor="White" Padding="110,20,110,20"
                   HorizontalOptions="Center" VerticalOptions="Center" Margin="0,40,0,0"
             />
-             
+
+            </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

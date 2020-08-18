@@ -65,3 +65,6 @@ C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\obj\x86\Debug\.winmd_cache\$Micro
 C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\Rg.Plugins.Popup.dll
 C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\Rg.Plugins.Popup.pdb
 C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\obj\x86\Debug\Rg.Plugins.Popup.pri.xml
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\Plugin.Media.dll
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\Plugin.Media.pdb
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\obj\x86\Debug\Plugin.Media.pri.xml

@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>33B42D8057BDA3241A660D03487D9B1CB9D8DD7C204E741D6CFF1FBF83537CC4</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>7C7BDF849B6D9680862DFC1DAD1ABADADFFBBCCA9228EB59D5A2CB26ACA8182E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1a56d56b-24be-47f8-800c-f26b647f2a75_1.0.0.0_x86__mwpe4jdgferya</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1a56d56b-24be-47f8-800c-f26b647f2a75_mwpe4jdgferya!App</RegisteredUserModeAppID>
     <RegisteredPackageID>1a56d56b-24be-47f8-800c-f26b647f2a75</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-16T12:44:40.501</Modified>
+      <Modified>2020-08-18T18:16:40.512</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\Bib.UWP.exe">
       <PackagePath>entrypoint\Bib.UWP.exe</PackagePath>
-      <Modified>2020-08-16T12:44:39.484</Modified>
+      <Modified>2020-08-18T18:16:37.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\.nuget\packages\rg.plugins.popup\2.0.0.3\lib\uap10.0.17763\Rg.Plugins.Popup.dll">
       <PackagePath>Rg.Plugins.Popup.dll</PackagePath>
@@ -49,6 +49,10 @@
     <AppxPackagedFile Include="C:\Users\ahmad\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T01:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahmad\.nuget\packages\xam.plugin.media\5.0.1\lib\uap10.0.16299\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+      <Modified>2020-04-01T16:52:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\.nuget\packages\xamarin.essentials\1.5.3.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
@@ -72,7 +76,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\bin\Debug\netstandard2.0\Bib.dll">
       <PackagePath>Bib.dll</PackagePath>
-      <Modified>2020-08-16T13:24:18.749</Modified>
+      <Modified>2020-08-18T18:52:11.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -296,11 +300,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-16T12:44:39.370</Modified>
+      <Modified>2020-08-18T18:16:37.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-16T12:44:39.370</Modified>
+      <Modified>2020-08-18T18:16:37.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -316,11 +320,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-14T16:33:21.868</Modified>
+      <Modified>2020-08-18T18:16:38.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Debug\Core\Bib.UWP.exe">
       <PackagePath>Bib.UWP.exe</PackagePath>
-      <Modified>2020-08-16T12:44:40.485</Modified>
+      <Modified>2020-08-18T18:16:39.485</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

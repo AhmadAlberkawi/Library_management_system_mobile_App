@@ -147,7 +147,7 @@
                         </Grid>
                     </RelativeLayout>
 
-                    <ListView x:Name="StudentListView" ItemsSource="{Binding Students}" Margin="0,0,0,90" >
+                    <ListView x:Name="StudentListView" ItemsSource="{Binding Students}" SelectedItem="{Binding SelectedStudents}" Margin="0,0,0,90" >
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
@@ -178,7 +178,7 @@
                 <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Margin="0,0,30,30">
                     <Button Text="Regestrieren" Clicked="Button_Clicked_Student" BackgroundColor="#68C768" WidthRequest="160" HeightRequest="40"  />
                     <Button Text="Bearbeiten" Clicked="Button_Clicked_Student" BackgroundColor="#71A3D5" WidthRequest="160" HeightRequest="40" />
-                    <Button Text="Löschen" Clicked="Button_Clicked_Student" BackgroundColor="#D8836E" WidthRequest="160" HeightRequest="40" />
+                    <Button Text="Löschen" Command="{Binding RemoveStudentCommand}" BackgroundColor="#D8836E" WidthRequest="160" HeightRequest="40" />
                 </StackLayout>
             </Grid>
         </RelativeLayout>

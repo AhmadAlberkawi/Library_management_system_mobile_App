@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Rg.Plugins.Popup;
-
+using Plugin.Media;
 
 namespace Bib.UWP
 {
@@ -39,7 +39,7 @@ namespace Bib.UWP
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
             
 #if DEBUG
@@ -59,6 +59,8 @@ namespace Bib.UWP
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
+
+                await CrossMedia.Current.Initialize();
 
                 Rg.Plugins.Popup.Popup.Init();
                 Xamarin.Forms.Forms.Init(e, Rg.Plugins.Popup.Popup.GetExtraAssemblies());

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3ODmMmN5Mnjp5ii8lJ719h7o6MwYJxnk7D0KtnVJI3yqFH2SdFzKqSFMZviWUEx08qzk5sgs0RoS1En5Szx7ZA==",
+  "dgSpecHash": "DuFxW3+pyWaqXkjeh59WKGT4TpYun4mle47q2YcCRKSp6od8525Q706aTM23CnlUYz3/l6u+/3Y0MdQX10DrMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ahmad\\Desktop\\Projekt\\Bib\\Bib\\Bib.UWP\\Bib.UWP.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.10\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
+    "C:\\Users\\ahmad\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],

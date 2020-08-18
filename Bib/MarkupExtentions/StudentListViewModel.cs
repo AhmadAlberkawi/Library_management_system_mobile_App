@@ -8,13 +8,18 @@ using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
+
 namespace Bib
 {   
-    class StudentListViewModel : INotifyPropertyChanged
+    class StudentListViewModel
     {
         public ICommand AddStudentsCommand => new Command(AddStudent);
 
+        public ICommand RemoveStudentCommand => new Command(RemoveStudent);
+
         public ObservableCollection<Student> Students { get; set; }
+
+        public Student SelectedStudents { get; set; }
 
         public StudentListViewModel() {
 
@@ -34,7 +39,6 @@ namespace Bib
 
                 new Student(20205095,202050,"Khier","Mohammad","khier@th-brandenburg.de","image.png")
             };
-
         }
 
         public void AddStudent(object obj)
@@ -42,17 +46,9 @@ namespace Bib
             Students.Add((Student)obj);
         }
 
-        #region ListViewImplementation
-        public event PropertyChangedEventHandler PropertyChanged;
-        void OnPropertyChanged([CallerMemberName] string propertyName = "")
-        {
-            if (PropertyChanged == null)
-                return;
+        public void RemoveStudent() {
 
-
-            PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
-
+            Students.Remove(SelectedStudents);
         }
-        #endregion
     }
 }
