@@ -4,8 +4,8 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Bib.Android.dll" comes first in this list. */
 		"Bib.Android.dll",
 		"Bib.dll",
-		"ExifLib.dll",
 		"FormsViewGroup.dll",
+		"Plugin.Media.dll",
 		"Rg.Plugins.Popup.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
@@ -48,13 +48,6 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
-		"XLabs.Core.dll",
-		"XLabs.Forms.dll",
-		"XLabs.Forms.Droid.dll",
-		"XLabs.Ioc.dll",
-		"XLabs.Platform.dll",
-		"XLabs.Platform.Droid.dll",
-		"XLabs.Serialization.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

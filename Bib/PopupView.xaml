@@ -10,7 +10,7 @@
              >
 
 
-    <StackLayout x:Name="fenster" BackgroundColor="White" Margin="450,130,450,50" >
+    <StackLayout x:Name="fenster" BackgroundColor="White" Margin="450,130,450,30">
 
         <StackLayout BackgroundColor="Black" Orientation="Horizontal" WidthRequest="350" Padding="30,5,0,5" Margin="0,0,0,40">
 
@@ -21,10 +21,10 @@
         
         <Entry x:Name="Name" Text="{Binding Name}" Placeholder="Name" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
         <Entry x:Name="Vorname" Placeholder="Vorname" Text="{Binding Vorname}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
-        <Entry x:Name="Email" Placeholder="Email" Text="{Binding Email}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Email" Placeholder="Email" Text="{Binding Email}"  HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
         <Entry x:Name="Matrikelnummer" Placeholder="Matrikelnummer" Text="{Binding Matrikul}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
         <Entry x:Name="BibliothekNummer" Placeholder="BibliothekNummer" Text="{Binding BiblioNummer}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
-
+        
         <Button x:Name="registrieren" Clicked="registrieren_Clicked" Text="Hinzufügen" FontSize="20" BorderColor="Transparent" 
                   BackgroundColor="Black" TextColor="White" Padding="50,20,50,20"
                   HorizontalOptions="Center" VerticalOptions="Center" Margin="0,40,0,0"

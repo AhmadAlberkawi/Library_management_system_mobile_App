@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -29,16 +30,34 @@ namespace Bib
 
         private void registrieren_Clicked(object sender, EventArgs e)
         {
+            var email = Email.Text;
+            var matrikel = Matrikelnummer.Text;
 
-            Student st1 = new Student(Int32.Parse(Matrikelnummer.Text), Int32.Parse(BibliothekNummer.Text), Name.Text, Vorname.Text, Email.Text, "");
+            Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
+            Regex regex1 = new Regex(@"^(2020\d{4})$");
 
-            DisplayAlert("Alert", st1.ToString(), "OK");
+            Match match = regex.Match(email);
+            Match match1 = regex1.Match(matrikel);
+
+            if (match.Success && match1.Success)
+            {
+                Student st1 = new Student(Int32.Parse(Matrikelnummer.Text), Int32.Parse(BibliothekNummer.Text), Name.Text, Vorname.Text, Email.Text, "");
+                DisplayAlert("Alert", st1.ToString(), "OK");
+            }
+
+            else if (!match.Success && !match1.Success) 
+                DisplayAlert("Alert", "Die Email und Matrikelnummer stimmen nicht.", "OK");
+
+            else if(!match.Success)
+                DisplayAlert("Alert", "Die Email stimmt nicht.", "OK");
+
+            else if(!match1.Success)
+                DisplayAlert("Alert", "Matrikelnummer stimmt nicht.", "OK");
         }
 
         // Add Image for student
         private async void Add_Image(object sender, EventArgs e)
         {   
-
             await CrossMedia.Current.Initialize();
 
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
@@ -51,8 +70,7 @@ namespace Bib
             {
                 SaveToAlbum = true,
 
-             });
-
+            });
         }
     }
 }
