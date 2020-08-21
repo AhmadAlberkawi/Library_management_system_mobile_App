@@ -17,7 +17,7 @@ namespace Bib
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PopupView
     {
-        public PopupView()
+        public PopupView(string button, Student student)
         {
             InitializeComponent();
 
@@ -25,6 +25,19 @@ namespace Bib
 
             if (Device.RuntimePlatform == Device.UWP) {
                 fenster.Margin = new Thickness(450, 220, 450, 80);
+            }
+
+            if (button.Equals("Bearbeiten")) {
+
+                Foto.ImageSource = student.Foto;
+                Name.Text = student.Name;
+                Vorname.Text = student.Vorname;
+                Email.Text = student.Email;
+                Matrikelnummer.Text = student.Matrikul.ToString();
+                BibliothekNummer.Text = student.BiblioNummer.ToString();
+
+                registrieren.Text = "aktualisieren";
+                Title.Text = "Student bearbeiten";
             }
         }
 

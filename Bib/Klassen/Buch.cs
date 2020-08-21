@@ -37,8 +37,6 @@ namespace Biblio_test
             Kategorie = kategorie;
         }
 
-
-
         public string Titel 
         { 
             get
@@ -111,8 +109,6 @@ namespace Biblio_test
                 // brauch kein Set, da er automatisch gerechet wird
                 // mit Trigger in der DB
             }
-
-
         }
 
         public int Anzahl

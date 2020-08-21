@@ -9,7 +9,7 @@ namespace Biblio_test
     {
        private string rolle;
 
-       public Admin(string name, string vorname, string email, string foto, string rolle, int passwort):
+       public Admin(string name, string vorname, string email, string foto, string rolle, string passwort):
        base(name, vorname, email, foto)
        {
             Rolle = rolle;
@@ -36,7 +36,7 @@ namespace Biblio_test
             }
         }
 
-        public int Passwort { get; private set; }
+        public String Passwort { get; private set; }
 
         public override string ToString()
         {

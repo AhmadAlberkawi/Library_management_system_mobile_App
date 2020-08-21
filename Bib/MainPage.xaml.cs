@@ -1,4 +1,6 @@
-﻿using Rg.Plugins.Popup.Services;
+﻿using Bib.Klassen;
+using Biblio_test;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,8 +22,6 @@ namespace Bib
         public MainPage()
         {
             InitializeComponent();
-
-            this.BindingContext = new StudentListViewModel(); 
          
             if(Device.RuntimePlatform == Device.Android)
             {
@@ -53,6 +53,7 @@ namespace Bib
                     break;
 
                 case ("Student"):
+                    this.BindingContext = new StudentListViewModel();
                     Ueberblick_Page.IsVisible = false;
                     Ausleihe_Page.IsVisible = false;
                     Bücher_Page.IsVisible = false;
@@ -77,6 +78,7 @@ namespace Bib
                     break;
 
                 case ("Admin"):
+                    this.BindingContext = new AdminListViewModel();
                     Ueberblick_Page.IsVisible = false;
                     Student_Page.IsVisible = false;
                     Ausleihe_Page.IsVisible = false;
@@ -89,7 +91,43 @@ namespace Bib
             }
         }
 
-        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        private void Button_Clicked_Student(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+
+            Student student = StudentListView.SelectedItem as Student;
+
+            switch (b.Text)
+            {
+                case ("Regestrieren"):
+                    PopupNavigation.Instance.PushAsync(new PopupView("", null));
+                    break;
+
+                case ("Bearbeiten"):
+                    PopupNavigation.Instance.PushAsync(new PopupView("Bearbeiten", student));
+                    break;
+            }
+        }
+
+        private void Button_Clicked_Admin(object sender, EventArgs e)
+        {
+            Admin admin = AdminListView.SelectedItem as Admin;
+    
+            Button b = (Button)sender;
+
+            switch (b.Text)
+            {
+                case ("Regestrieren"):
+                    PopupNavigation.Instance.PushAsync(new PopupViewAdmin("",null));
+                    break;
+
+                case ("Bearbeiten"):
+                    PopupNavigation.Instance.PushAsync(new PopupViewAdmin("Bearbeiten", admin));
+                    break;
+            }
+        }
+
+        private void SearchBar_Student(object sender, TextChangedEventArgs e)
         {
             var _container = BindingContext as StudentListViewModel;
             StudentListView.BeginRefresh();
@@ -102,25 +140,17 @@ namespace Bib
             StudentListView.EndRefresh();
         }
 
-        private void Button_Clicked_Student(object sender, EventArgs e)
+        private void SearchBar_Admin(object sender, TextChangedEventArgs e)
         {
-            Button b = (Button)sender;
+            var _container = BindingContext as AdminListViewModel;
+            AdminListView.BeginRefresh();
 
-            switch (b.Text)
-            {
-                case ("Regestrieren"):
-                    PopupNavigation.Instance.PushAsync(new PopupView());
-                    break;
+            if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                AdminListView.ItemsSource = _container.Admins;
+            else
+                AdminListView.ItemsSource = _container.Admins.Where(i => i.Name.ToLower().Contains(e.NewTextValue.ToLower()));
 
-                case ("Bearbeiten"):
-
-                    break;
-
-                case ("Löschen"):
-
-                    break;
-            }
+            AdminListView.EndRefresh();
         }
-
     }
 }

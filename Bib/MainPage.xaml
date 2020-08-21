@@ -115,11 +115,11 @@
                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=1}"
              >
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Studenten List" FontSize="Medium"  HorizontalOptions="Start" VerticalOptions="Start" Margin="30,30,0,0" />
+                    <Label Text="Studenten Liste" FontSize="Medium"  HorizontalOptions="Start" VerticalOptions="Start" Margin="30,30,0,0" />
                 </StackLayout>
                 
                 <StackLayout>
-                    <SearchBar Placeholder="Suche" TextChanged="SearchBar_TextChanged" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Margin="0,30,30,5" WidthRequest="200"/>
+                    <SearchBar Placeholder="Suche" TextChanged="SearchBar_Student" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Margin="0,30,30,5" WidthRequest="200"/>
                     <RelativeLayout BackgroundColor="#f1eaea"  Padding="0" VerticalOptions="StartAndExpand" HorizontalOptions="Center" >
                         <Grid Padding="10" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
                             <Grid.ColumnDefinitions>
@@ -161,7 +161,7 @@
                                                 <ColumnDefinition Width="2*"/>
                                                 <ColumnDefinition Width="2*"/>
                                             </Grid.ColumnDefinitions>
-                                            <Image x:Name="Student_pic" Margin="10,0,10,0" Source="{Binding Foto}" HorizontalOptions="Center"  Grid.Column="0" HeightRequest="70" WidthRequest="70" />
+                                            <Image Margin="10,0,10,0" Source="{Binding Foto}" HorizontalOptions="Center"  Grid.Column="0" HeightRequest="70" WidthRequest="70" />
                                             <Label Margin="10,0,10,0" Text="{Binding Name}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" />
                                             <Label Margin="10,0,10,0" Text="{Binding Vorname}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="2" />
                                             <Label Margin="10,0,10,0" Text="{Binding Email}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15"  Grid.Column="3"/>
@@ -216,10 +216,69 @@
                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=1}"
              >
 
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Admin Liste" FontSize="Medium"  HorizontalOptions="Start" VerticalOptions="Start" Margin="30,30,0,0" />
+                </StackLayout>
+
+                <StackLayout>
+                    <SearchBar Placeholder="Suche" TextChanged="SearchBar_Admin" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Margin="0,30,30,5" WidthRequest="200"/>
+                    <RelativeLayout BackgroundColor="#f1eaea"  Padding="0" VerticalOptions="StartAndExpand" HorizontalOptions="Center" >
+                        <Grid Padding="10" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1.3*"/>
+                                <ColumnDefinition Width="1.3*"/>
+                                <ColumnDefinition Width="1.3*"/>
+                                <ColumnDefinition Width="2.5*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Margin="10,0,10,0" Text="Image" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="0" />
+                            <Label Margin="10,0,10,0" Text="Name" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="1" />
+                            <Label Margin="10,0,10,0" Text="Vorname" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="2" />
+                            <Label Margin="10,0,10,0" Text="Email" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="3"/>
+                            <Label Margin="10,0,10,0" Text="Rolle" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="4" />
+
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+
+                        </Grid>
+                    </RelativeLayout>
+
+                    <ListView x:Name="AdminListView" ItemsSource="{Binding Admins}" SelectedItem="{Binding SelectedAdmin}" Margin="0,0,0,90" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <RelativeLayout  Padding="0">
+                                        <Grid Padding="20,10,20,10" HeightRequest="50" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="1.3*"/>
+                                                <ColumnDefinition Width="1.3*"/>
+                                                <ColumnDefinition Width="1.3*"/>
+                                                <ColumnDefinition Width="2.5*"/>
+                                                <ColumnDefinition Width="2*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Image Margin="10,0,10,0" Source="{Binding Foto}" HorizontalOptions="Center"  Grid.Column="0" HeightRequest="70" WidthRequest="70" />
+                                            <Label Margin="10,0,10,0" Text="{Binding Name}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" />
+                                            <Label Margin="10,0,10,0" Text="{Binding Vorname}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="2" />
+                                            <Label Margin="10,0,10,0" Text="{Binding Email}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15"  Grid.Column="3"/>
+                                            <Label Margin="10,0,10,0" Text="{Binding Rolle}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="4" />
+                                        </Grid>
+                                    </RelativeLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Margin="0,0,30,30">
+                    <Button Text="Regestrieren" Clicked="Button_Clicked_Admin" BackgroundColor="#68C768" WidthRequest="160" HeightRequest="40"  />
+                    <Button Text="Bearbeiten" Clicked="Button_Clicked_Admin" BackgroundColor="#71A3D5" WidthRequest="160" HeightRequest="40" />
+                    <Button Text="Löschen" Command="{Binding RemoveAdminCommand}" BackgroundColor="#D8836E" WidthRequest="160" HeightRequest="40" />
+                </StackLayout>
             </Grid>
         </RelativeLayout>
 
-
     </Grid>
-
 </ContentPage>

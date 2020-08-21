@@ -8,7 +8,6 @@ using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-
 namespace Bib
 {   
     class StudentListViewModel
@@ -25,19 +24,15 @@ namespace Bib
 
             Students = new ObservableCollection<Student>()
             {
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-                new Student(20205094,202050,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
-
-                new Student(20205095,202050,"Khier","Mohammad","khier@th-brandenburg.de","image.png")
+                new Student(20205094,2020504,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
+                new Student(20209123,2020501,"Abboud","Zaher","abboudz@th-brandenburg.de","https://i.imgur.com/PmfYwFl.jpg"),
+                new Student(20204482,2020502,"Dovonon","Boris","dovonon@th-brandenburg.de","https://i.imgur.com/sRrYbDc.jpg"),
+                new Student(20208643,2020503,"Rouatbi","Rami","rouatbi@th-brandenburg.de","https://i.imgur.com/Xl8Tjmu.jpg"),
+                new Student(20205094,2020504,"Alberkawi","Ahmad","alberkaw@th-brandenburg.de","https://i.imgur.com/WXTbjzq.jpg"),
+                new Student(20209123,2020501,"Abboud","Zaher","abboudz@th-brandenburg.de","https://i.imgur.com/PmfYwFl.jpg"),
+                new Student(20204482,2020502,"Dovonon","Boris","dovonon@th-brandenburg.de","https://i.imgur.com/sRrYbDc.jpg"),
+                new Student(20208643,2020503,"Rouatbi","Rami","rouatbi@th-brandenburg.de","https://i.imgur.com/Xl8Tjmu.jpg"),
+                new Student(20205095,2020505,"Khier","Mohammad","khier@th-brandenburg.de","image.png")
             };
         }
 
