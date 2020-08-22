@@ -16,3 +16,4 @@ C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Debug\netstandard2.0\Bib.csproj.C
 C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Debug\netstandard2.0\PopupViewAdmin.xaml.g.cs
 C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Debug\netstandard2.0\PopupViewBook.xaml.g.cs
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Debug\netstandard2.0\PopupViewBorrow.xaml.g.cs

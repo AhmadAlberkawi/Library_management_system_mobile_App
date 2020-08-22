@@ -13,3 +13,7 @@ C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\XamlC.stam
 C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\Bib.dll
 C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\ref\Bib.dll
 C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\Bib.pdb
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\PopupView.xaml.g.cs
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\PopupViewAdmin.xaml.g.cs
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\PopupViewBook.xaml.g.cs
+C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\obj\Release\netstandard2.0\PopupViewBorrow.xaml.g.cs

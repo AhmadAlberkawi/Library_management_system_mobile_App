@@ -4,6 +4,8 @@ Bib.UWP.McgInterop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 Microsoft.Win32.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+Plugin.Media, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Rg.Plugins.Popup, Version=2.0.0.3, Culture=neutral, PublicKeyToken=null
 System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.AppContext, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
@@ -27,6 +29,7 @@ System.Drawing.Primitives, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f
 System.IO.FileSystem, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Linq, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Memory, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
 System.Net.Http, Version=4.2.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Net.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -63,8 +66,10 @@ System.Reflection.DispatchProxy, Version=4.0.4.0, Culture=neutral, PublicKeyToke
 System.Resources.ResourceManager, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Resources.Writer, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Runtime.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Runtime.InteropServices, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Runtime.InteropServices.RuntimeInformation, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Runtime.InteropServices.WindowsRuntime, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Runtime.Numerics, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Runtime.Serialization.Formatters, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -89,7 +94,6 @@ System.Text.RegularExpressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken
 System.Threading, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Threading.Overlapped, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Threading.Tasks, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-System.Threading.Tasks.Extensions, Version=4.1.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
 System.Threading.Thread, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Threading.ThreadPool, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Threading.Timer, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a

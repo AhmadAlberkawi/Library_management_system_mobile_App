@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:local="clr-namespace:Bib.MarkupExtentions"
+             mc:Ignorable="d"
+             x:Class="Bib.PopupViewBorrow">
+
+    <StackLayout x:Name="fenster" BackgroundColor="White" Margin="150,150,150,100">
+
+        <StackLayout BackgroundColor="Black" Orientation="Horizontal" WidthRequest="350" Padding="30,5,0,5" Margin="0,0,0,20">
+            
+            <Label x:Name="Title" Text="Wählen Sie bitte ein Buch aus?" TextColor="White" FontSize="20" Margin="0,0,0,0"/>
+
+        </StackLayout>
+                
+                <StackLayout>
+                     <Button x:Name="upbutton" Text="Bücher anzeigen" BackgroundColor="Black" TextColor="White" Clicked="registrieren_Clicked" />
+                      <SearchBar Placeholder="Suche" BackgroundColor="Black" TextColor="White" PlaceholderColor="White" TextChanged="SearchBar_Book" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Margin="0,0,30,5" WidthRequest="200"/>
+                    <RelativeLayout BackgroundColor="#f1eaea"  Padding="0" VerticalOptions="StartAndExpand" HorizontalOptions="Center" >
+                        <Grid Padding="10" HeightRequest="50" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1.3*"/>
+                                <ColumnDefinition Width="1.8*"/>
+                                <ColumnDefinition Width="1.3*"/>
+                                <ColumnDefinition Width="1.3*"/>
+                                <ColumnDefinition Width="1.3*"/>
+                                <ColumnDefinition Width="1.0*"/>
+                                <ColumnDefinition Width="1.3*"/>
+                                <ColumnDefinition Width="1.4*"/>
+                                <ColumnDefinition Width="1.3*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Margin="10,0,10,0" Text="Image" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="0" />
+                            <Label Margin="10,0,10,0" Text="Titel" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="1" />
+                            <Label Margin="10,0,10,0" Text="ISBN" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="2" />
+                            <Label Margin="10,0,10,0" Text="Verlag" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="3"/>
+                            <Label Margin="10,0,10,0" Text="Verfügbar" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="4" />
+                            <Label Margin="10,0,10,0" Text="Anzahl" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="5" />
+                            <Label Margin="10,0,10,0" Text="Autor" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="6" />
+                            <Label Margin="10,0,10,0" Text="ExemplarNr" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="7" />
+                            <Label Margin="10,0,10,0" Text="Kategorie" FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  Grid.Column="8" />
+
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            <BoxView BackgroundColor="White" WidthRequest="1" Grid.Column="7" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+
+                        </Grid>
+                    </RelativeLayout>
+
+                        <ListView x:Name="BookListView" ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}" Margin="0,0,0,10" SeparatorVisibility="None" >
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <RelativeLayout  Padding="0" >
+                                            <Grid Padding="20,10,20,10" HeightRequest="45" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="1.3*"/>
+                                                    <ColumnDefinition Width="1.8*"/>
+                                                    <ColumnDefinition Width="1.3*"/>
+                                                    <ColumnDefinition Width="1.3*"/>
+                                                    <ColumnDefinition Width="1.3*"/>
+                                                    <ColumnDefinition Width="1.0*"/>
+                                                    <ColumnDefinition Width="1.3*"/>
+                                                    <ColumnDefinition Width="1.4*"/>
+                                                    <ColumnDefinition Width="1.3*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Image Margin="10,0,10,0" Source="{Binding B_foto}" HorizontalOptions="Center"  Grid.Column="0" HeightRequest="70" WidthRequest="70" />
+                                                <Label Margin="10,0,10,0" Text="{Binding Titel}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" />
+                                                <Label Margin="10,0,10,0" Text="{Binding Isbn}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="2" />
+                                                <Label Margin="10,0,10,0" Text="{Binding Verlag}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15"  Grid.Column="3"/>
+                                                <Label Margin="10,0,10,0" Text="{Binding Verfuegbar}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="4" />
+                                                <Label Margin="10,0,10,0" Text="{Binding Anzahl}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="5" />
+                                                <Label Margin="10,0,10,0" Text="{Binding Autor}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="6" />
+                                                <Label Margin="10,0,10,0" Text="{Binding Exemplarnr}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="7" />
+                                                <Label Margin="10,0,10,0" Text="{Binding Kategorie}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="8" />
+                                            </Grid>
+                                        </RelativeLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="registrieren" Clicked="registrieren_Clicked" Text="Ausleihen" FontSize="20" BorderColor="Transparent" 
+                        BackgroundColor="Black" TextColor="White" Padding="50,20,50,20"
+                        HorizontalOptions="Center" VerticalOptions="Center" Margin="0,5,0,10" />
+                </StackLayout>
+    </StackLayout>
+
+</pages:PopupPage>

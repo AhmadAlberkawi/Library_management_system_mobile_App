@@ -58,7 +58,7 @@ namespace __Interop
 {
 	internal unsafe static partial class ForwardComStubs
 	{
-		// Signature, Windows.UI.Xaml.Data.IPropertyChangedEventArgsFactory.CreateInstance, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x0004157C] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Windows.UI.Xaml.Data.IPropertyChangedEventArgsFactory.CreateInstance, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static global::System.IntPtr Stub_1<TThis>(
 					global::System.__ComObject __this, 
@@ -97,7 +97,7 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Data.IPropertyChangedEventArgs.get_PropertyName, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, 
+		// Signature, Windows.UI.Xaml.Data.IPropertyChangedEventArgs.get_PropertyName, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static string Stub_2<TThis>(
 					global::System.__ComObject __this, 
@@ -130,7 +130,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgs.get_NewItems, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgs.get_NewItems, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static TResult Stub_3<TThis, TResult>(
 					global::System.__ComObject __this, 
@@ -166,7 +166,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgs.get_NewStartingIndex, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] int__int, 
+		// Signature, Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgs.get_NewStartingIndex, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_4<TThis>(
 					global::System.__ComObject __this, 
@@ -190,7 +190,7 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Data.IValueConverter.Convert, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x0003F75C] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+		// Signature, Windows.UI.Xaml.Data.IValueConverter.Convert, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static object Stub_5<TThis>(
 					global::System.__ComObject __this, 
@@ -254,7 +254,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IDependencyObjectFactory.CreateInstance, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Windows.UI.Xaml.IDependencyObjectFactory.CreateInstance, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static global::System.IntPtr Stub_6<TThis>(
 					global::System.__ComObject __this, 
@@ -285,7 +285,7 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IDependencyObject.GetValue, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+		// Signature, Windows.UI.Xaml.IDependencyObject.GetValue, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static object Stub_7<TThis, TArg0>(
 					global::System.__ComObject __this, 
@@ -327,7 +327,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IDependencyObject.SetValue, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+		// Signature, Windows.UI.Xaml.IDependencyObject.SetValue, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static void Stub_8<TThis, TArg0>(
 					global::System.__ComObject __this, 
@@ -367,7 +367,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IDependencyObject.ClearValue, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.IDependencyObject.ClearValue, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static void Stub_9<TThis, TArg0>(
 					global::System.__ComObject __this, 
@@ -402,7 +402,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IDependencyPropertyStatics.get_UnsetValue, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+		// Signature, Windows.UI.Xaml.IDependencyPropertyStatics.get_UnsetValue, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static object Stub_10<TThis>(
 					global::System.__ComObject __this, 
@@ -435,7 +435,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IDependencyPropertyStatics.Register, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x0003F75C] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [in] [EETypeRva:0x0003F75C] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.IDependencyPropertyStatics.Register, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static TResult Stub_11<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
@@ -514,9 +514,52 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.PropertyChangedCallback.Invoke, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.IPropertyMetadataFactory.CreateInstanceWithDefaultValue, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_12<TThis, TArg0, TArg1>(
+		internal static global::System.IntPtr Stub_12<TThis>(
+					global::System.__ComObject __this, 
+					object defaultValue, 
+					global::System.IntPtr baseInterface, 
+					out global::System.IntPtr innerInterface, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_defaultValue = default(void*);
+			global::System.IntPtr unsafe_value__retval;
+			global::System.IntPtr value__retval;
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_defaultValue = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(defaultValue);
+				fixed (global::System.IntPtr* pinned_innerInterface = &(innerInterface))
+				{
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(TThis).TypeHandle, 
+										__targetIndex, 
+										unsafe_defaultValue, 
+										baseInterface, 
+										pinned_innerInterface, 
+										&(unsafe_value__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					value__retval = unsafe_value__retval;
+				}
+				// Return
+				return value__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_defaultValue)));
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.PropertyChangedCallback.Invoke, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_13<TThis, TArg0, TArg1>(
 					global::System.__ComObject __this, 
 					TArg0 d, 
 					TArg1 e, 
@@ -558,9 +601,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Core.ICoreDispatcher.get_HasThreadAccess, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, Windows.UI.Core.ICoreDispatcher.get_HasThreadAccess, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_13<TThis>(
+		internal static bool Stub_14<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -582,9 +625,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Core.DispatchedHandler.Invoke, [fwd] [return] [EETypeRva:0x000406BC] void__int, 
+		// Signature, Windows.UI.Core.DispatchedHandler.Invoke, [fwd] [return] [EETypeRva:0x00042030] void__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_14<TThis>(
+		internal static void Stub_15<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -601,9 +644,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Media.IGeneralTransform.TransformBounds, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, 
+		// Signature, Windows.UI.Xaml.Media.IGeneralTransform.TransformBounds, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.Rect Stub_15<TThis>(
+		internal static global::Windows.Foundation.Rect Stub_16<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.Rect rect, 
 					int __targetIndex)
@@ -627,9 +670,9 @@ namespace __Interop
 			return result__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Media.IRectangleGeometry.get_Rect, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, 
+		// Signature, Windows.UI.Xaml.Media.IRectangleGeometry.get_Rect, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.Rect Stub_16<TThis>(
+		internal static global::Windows.Foundation.Rect Stub_17<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -651,9 +694,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Media.IRectangleGeometry.put_Rect, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, 
+		// Signature, Windows.UI.Xaml.Media.IRectangleGeometry.put_Rect, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_17<TThis>(
+		internal static void Stub_18<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.Rect value, 
 					int __targetIndex)
@@ -672,9 +715,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.get_DesiredSize, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_Foundation_Size__Windows_Foundation__Size, 
+		// Signature, Windows.UI.Xaml.IUIElement.get_DesiredSize, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Size__Windows_Foundation__Size, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.Size Stub_18<TThis>(
+		internal static global::Windows.Foundation.Size Stub_19<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -696,9 +739,32 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.get_Opacity, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] double__double, 
+		// Signature, Windows.UI.Xaml.IUIElement.put_AllowDrop, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static double Stub_19<TThis>(
+		internal static void Stub_20<TThis>(
+					global::System.__ComObject __this, 
+					bool value, 
+					int __targetIndex)
+		{
+			// Setup
+			sbyte unsafe_value;
+			int unsafe___hr;
+			// Marshalling
+			unsafe_value = (value ? ((sbyte)1) : ((sbyte)0));
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								unsafe_value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, Windows.UI.Xaml.IUIElement.get_Opacity, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] double__double, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static double Stub_21<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -720,9 +786,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.put_Opacity, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] double__double, 
+		// Signature, Windows.UI.Xaml.IUIElement.put_Opacity, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] double__double, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_20<TThis>(
+		internal static void Stub_22<TThis>(
 					global::System.__ComObject __this, 
 					double value, 
 					int __targetIndex)
@@ -741,9 +807,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.get_RenderTransformOrigin, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_Foundation_Point__Windows_Foundation__Point, 
+		// Signature, Windows.UI.Xaml.IUIElement.get_RenderTransformOrigin, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.Point Stub_21<TThis>(
+		internal static global::Windows.Foundation.Point Stub_23<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -765,32 +831,30 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.put_IsHitTestVisible, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, Windows.UI.Xaml.IUIElement.put_RenderTransformOrigin, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_22<TThis>(
+		internal static void Stub_24<TThis>(
 					global::System.__ComObject __this, 
-					bool value, 
+					global::Windows.Foundation.Point value, 
 					int __targetIndex)
 		{
 			// Setup
-			sbyte unsafe_value;
 			int unsafe___hr;
 			// Marshalling
-			unsafe_value = (value ? ((sbyte)1) : ((sbyte)0));
 			// Call to native method
 			unsafe___hr = global::__Interop.ComCallHelpers.Call(
 								__this, 
 								typeof(TThis).TypeHandle, 
 								__targetIndex, 
-								unsafe_value
+								value
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.get_Visibility, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_Visibility__Windows_UI_Xaml__Visibility, 
+		// Signature, Windows.UI.Xaml.IUIElement.get_Visibility, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Visibility__Windows_UI_Xaml__Visibility, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Visibility Stub_23<TThis>(
+		internal static global::Windows.UI.Xaml.Visibility Stub_25<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -812,9 +876,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.put_Visibility, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, 
+		// Signature, Windows.UI.Xaml.IUIElement.put_Visibility, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_24<TThis>(
+		internal static void Stub_26<TThis>(
 					global::System.__ComObject __this, 
 					int value, 
 					int __targetIndex)
@@ -833,9 +897,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.add_KeyUp, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_UI_Xaml_Input_KeyEventHandler__Windows_UI_Xaml_Input__KeyEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.IUIElement.add_KeyUp, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_KeyEventHandler__Windows_UI_Xaml_Input__KeyEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_25<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_27<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.Input.KeyEventHandler handler, 
 					int __targetIndex)
@@ -872,9 +936,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.remove_KeyUp, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.IUIElement.remove_KeyUp, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_26<TThis>(
+		internal static void Stub_28<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token, 
 					int __targetIndex)
@@ -893,9 +957,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.add_GotFocus, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_UI_Xaml_RoutedEventHandler__Windows_UI_Xaml__RoutedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.IUIElement.add_GotFocus, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_RoutedEventHandler__Windows_UI_Xaml__RoutedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_27<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_29<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.RoutedEventHandler handler, 
 					int __targetIndex)
@@ -932,9 +996,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.add_DragEnter, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_UI_Xaml_DragEventHandler__Windows_UI_Xaml__DragEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.IUIElement.add_DragEnter, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_DragEventHandler__Windows_UI_Xaml__DragEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_28<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_30<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.DragEventHandler handler, 
 					int __targetIndex)
@@ -971,9 +1035,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.add_PointerPressed, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_UI_Xaml_Input_PointerEventHandler__Windows_UI_Xaml_Input__PointerEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.IUIElement.add_PointerPressed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_PointerEventHandler__Windows_UI_Xaml_Input__PointerEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_29<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_31<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.Input.PointerEventHandler handler, 
 					int __targetIndex)
@@ -1010,9 +1074,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.Measure, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Size__Windows_Foundation__Size, 
+		// Signature, Windows.UI.Xaml.IUIElement.Measure, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Size__Windows_Foundation__Size, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_30<TThis>(
+		internal static void Stub_32<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.Size availableSize, 
 					int __targetIndex)
@@ -1031,9 +1095,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement.TransformToVisual, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.IUIElement.TransformToVisual, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_31<TThis, TArg0, TResult>(
+		internal static TResult Stub_33<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 visual, 
 					int __targetIndex)
@@ -1076,9 +1140,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Input.KeyEventHandler.Invoke, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.Input.KeyEventHandler.Invoke, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_32<TThis, TArg0>(
+		internal static void Stub_34<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					object sender, 
 					TArg0 e, 
@@ -1116,9 +1180,99 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Input.IPointer.get_PointerId, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] uint__unsigned int, 
+		// Signature, Windows.UI.Xaml.IDragEventArgs2.put_AcceptedOperation, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60] Windows_ApplicationModel_DataTransfer_DataPackageOperation__Windows_ApplicationModel_DataTransfer__DataPackageOperation, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static uint Stub_33<TThis>(
+		internal static void Stub_35<TThis>(
+					global::System.__ComObject __this, 
+					global::Windows.ApplicationModel.DataTransfer.DataPackageOperation value, 
+					int __targetIndex)
+		{
+			// Setup
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, Windows.ApplicationModel.DataTransfer.IDataPackageView.Contains, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static bool Stub_36<TThis>(
+					global::System.__ComObject __this, 
+					string formatId, 
+					int __targetIndex)
+		{
+			// Setup
+			global::System.Runtime.InteropServices.HSTRING unsafe_formatId = default(global::System.Runtime.InteropServices.HSTRING);
+			bool value__retval;
+			sbyte unsafe_value__retval;
+			int unsafe___hr;
+			// Marshalling
+			fixed (char* pBuffer_formatId = formatId)
+			{
+				global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_formatId;
+				global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_formatId, formatId, &(hstring_header_formatId), &(unsafe_formatId));
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_formatId, 
+									&(unsafe_value__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				value__retval = unsafe_value__retval != 0;
+			}
+			// Return
+			return value__retval;
+		}
+
+		// Signature, Windows.Foundation.AsyncOperationCompletedHandler<string>.Invoke, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00042D60]  -> int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_37<TThis, TArg0>(
+					global::System.__ComObject __this, 
+					TArg0 asyncInfo, 
+					int asyncStatus, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TArg0__arg = default(void*);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+									asyncInfo, 
+									typeof(TArg0).TypeHandle
+								);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_TArg0__arg, 
+									asyncStatus
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
+				global::System.GC.KeepAlive(asyncInfo);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Input.IPointer.get_PointerId, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static uint Stub_38<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1140,9 +1294,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Input.ITappedRoutedEventArgs.GetPosition, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_Foundation_Point__Windows_Foundation__Point, 
+		// Signature, Windows.UI.Xaml.Input.ITappedRoutedEventArgs.GetPosition, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.Point Stub_34<TThis, TArg0>(
+		internal static global::Windows.Foundation.Point Stub_39<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 relativeTo, 
 					int __targetIndex)
@@ -1180,9 +1334,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Input.IManipulationDeltaRoutedEventArgs.get_Delta, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Windows_UI_Input_ManipulationDelta__Windows_UI_Input__ManipulationDelta, 
+		// Signature, Windows.UI.Xaml.Input.IManipulationDeltaRoutedEventArgs.get_Delta, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Windows_UI_Input_ManipulationDelta__Windows_UI_Input__ManipulationDelta, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Input.ManipulationDelta Stub_35<TThis>(
+		internal static global::Windows.UI.Input.ManipulationDelta Stub_40<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1204,9 +1358,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElement4.put_AccessKey, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, 
+		// Signature, Windows.ApplicationModel.DataTransfer.IDataPackage.SetText, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_36<TThis>(
+		internal static void Stub_41<TThis>(
 					global::System.__ComObject __this, 
 					string value, 
 					int __targetIndex)
@@ -1231,9 +1385,750 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetPatternCore, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+		// Signature, Windows.Storage.Streams.IRandomAccessStreamReferenceStatics.CreateFromUri, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041760] System_Uri__Windows_Foundation__Uri, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static object Stub_37<TThis>(
+		internal static TResult Stub_42<TThis, TResult>(
+					global::System.__ComObject __this, 
+					global::System.Uri uri, 
+					int __targetIndex)
+		{
+			// Setup
+			global::System.Runtime.InteropServices.__vtable_IInspectable* unsafe_uri = default(global::System.Runtime.InteropServices.__vtable_IInspectable*);
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				if (uri != null)
+					unsafe_uri = (global::System.Runtime.InteropServices.__vtable_IInspectable*)global::__Interop.McgHelpers.SystemUri2WindowsFoundationUri(uri);
+				else
+					unsafe_uri = null;
+				unsafe_TResult__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_uri, 
+									&(unsafe_TResult__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_TResult__retval), 
+									typeof(TResult).TypeHandle
+								);
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_uri)));
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageFile.OpenAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static TResult Stub_43<TThis, TResult>(
+					global::System.__ComObject __this, 
+					int accessMode, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TResult__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									accessMode, 
+									&(unsafe_TResult__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_TResult__retval), 
+									typeof(TResult).TypeHandle
+								);
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageFile.CopyAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static TResult Stub_44<TThis, TArg0, TResult>(
+					global::System.__ComObject __this, 
+					TArg0 destinationFolder, 
+					string desiredNewName, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TArg0__arg = default(void*);
+			global::System.Runtime.InteropServices.HSTRING unsafe_desiredNewName = default(global::System.Runtime.InteropServices.HSTRING);
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+									destinationFolder, 
+									typeof(TArg0).TypeHandle
+								);
+				fixed (char* pBuffer_desiredNewName = desiredNewName)
+				{
+					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_desiredNewName;
+					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_desiredNewName, desiredNewName, &(hstring_header_desiredNewName), &(unsafe_desiredNewName));
+					unsafe_TResult__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(TThis).TypeHandle, 
+										__targetIndex, 
+										unsafe_TArg0__arg, 
+										unsafe_desiredNewName, 
+										&(unsafe_TResult__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+										((global::System.IntPtr)unsafe_TResult__retval), 
+										typeof(TResult).TypeHandle
+									);
+				}
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
+				global::System.GC.KeepAlive(destinationFolder);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageFile.CopyAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static TResult Stub_45<TThis, TArg0, TResult>(
+					global::System.__ComObject __this, 
+					TArg0 destinationFolder, 
+					string desiredNewName, 
+					int option, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TArg0__arg = default(void*);
+			global::System.Runtime.InteropServices.HSTRING unsafe_desiredNewName = default(global::System.Runtime.InteropServices.HSTRING);
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+									destinationFolder, 
+									typeof(TArg0).TypeHandle
+								);
+				fixed (char* pBuffer_desiredNewName = desiredNewName)
+				{
+					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_desiredNewName;
+					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_desiredNewName, desiredNewName, &(hstring_header_desiredNewName), &(unsafe_desiredNewName));
+					unsafe_TResult__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(TThis).TypeHandle, 
+										__targetIndex, 
+										unsafe_TArg0__arg, 
+										unsafe_desiredNewName, 
+										option, 
+										&(unsafe_TResult__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+										((global::System.IntPtr)unsafe_TResult__retval), 
+										typeof(TResult).TypeHandle
+									);
+				}
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
+				global::System.GC.KeepAlive(destinationFolder);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageItem.RenameAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static TResult Stub_46<TThis, TResult>(
+					global::System.__ComObject __this, 
+					string desiredName, 
+					int __targetIndex)
+		{
+			// Setup
+			global::System.Runtime.InteropServices.HSTRING unsafe_desiredName = default(global::System.Runtime.InteropServices.HSTRING);
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				fixed (char* pBuffer_desiredName = desiredName)
+				{
+					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_desiredName;
+					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_desiredName, desiredName, &(hstring_header_desiredName), &(unsafe_desiredName));
+					unsafe_TResult__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(TThis).TypeHandle, 
+										__targetIndex, 
+										unsafe_desiredName, 
+										&(unsafe_TResult__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+										((global::System.IntPtr)unsafe_TResult__retval), 
+										typeof(TResult).TypeHandle
+									);
+				}
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageItem.RenameAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static TResult Stub_47<TThis, TResult>(
+					global::System.__ComObject __this, 
+					string desiredName, 
+					int option, 
+					int __targetIndex)
+		{
+			// Setup
+			global::System.Runtime.InteropServices.HSTRING unsafe_desiredName = default(global::System.Runtime.InteropServices.HSTRING);
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				fixed (char* pBuffer_desiredName = desiredName)
+				{
+					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_desiredName;
+					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_desiredName, desiredName, &(hstring_header_desiredName), &(unsafe_desiredName));
+					unsafe_TResult__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(TThis).TypeHandle, 
+										__targetIndex, 
+										unsafe_desiredName, 
+										option, 
+										&(unsafe_TResult__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+										((global::System.IntPtr)unsafe_TResult__retval), 
+										typeof(TResult).TypeHandle
+									);
+				}
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageItem.get_DateCreated, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040C1C] System_DateTimeOffset__Windows_Foundation__DateTime, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::System.DateTimeOffset Stub_48<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			global::System.DateTimeOffset value__retval;
+			global::System.DateTimeOffset__Impl.UnsafeType unsafe_value__retval;
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								&(unsafe_value__retval)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			value__retval = new global::System.DateTimeOffset((unsafe_value__retval.UniversalTime + 504911232000000000), global::System.TimeSpan.Zero).ToLocalTime();
+			// Return
+			return value__retval;
+		}
+
+		// Signature, Windows.Storage.Streams.IRandomAccessStream.get_Size, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] ulong__unsigned __int64, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static ulong Stub_49<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			ulong unsafe_value__retval;
+			ulong value__retval;
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								&(unsafe_value__retval)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			value__retval = unsafe_value__retval;
+			// Return
+			return value__retval;
+		}
+
+		// Signature, Windows.Storage.Streams.IRandomAccessStream.put_Size, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] ulong__unsigned __int64, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_50<TThis>(
+					global::System.__ComObject __this, 
+					ulong value, 
+					int __targetIndex)
+		{
+			// Setup
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, Windows.Storage.Streams.IRandomAccessStream.GetInputStreamAt, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] ulong__unsigned __int64, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static TResult Stub_51<TThis, TResult>(
+					global::System.__ComObject __this, 
+					ulong position, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TResult__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									position, 
+									&(unsafe_TResult__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_TResult__retval), 
+									typeof(TResult).TypeHandle
+								);
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.Streams.IBuffer.put_Length, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_52<TThis>(
+					global::System.__ComObject __this, 
+					uint value, 
+					int __targetIndex)
+		{
+			// Setup
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Progress, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> Stub_53<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe___value__retval = default(void*);
+			global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe___value__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									&(unsafe___value__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				__value__retval = (global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
+									((global::System.IntPtr)unsafe___value__retval), 
+									typeof(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>).TypeHandle
+								);
+				// Return
+				return __value__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval)));
+			}
+		}
+
+		// Signature, Windows.Foundation.AsyncOperationProgressHandler<Windows.Storage.Streams.IBuffer,uint>.Invoke, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_54<TThis, TArg0>(
+					global::System.__ComObject __this, 
+					TArg0 asyncInfo, 
+					uint progressInfo, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TArg0__arg = default(void*);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+									asyncInfo, 
+									typeof(TArg0).TypeHandle
+								);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_TArg0__arg, 
+									progressInfo
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
+				global::System.GC.KeepAlive(asyncInfo);
+			}
+		}
+
+		// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Progress, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> Stub_55<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe___value__retval = default(void*);
+			global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe___value__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									&(unsafe___value__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				__value__retval = (global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
+									((global::System.IntPtr)unsafe___value__retval), 
+									typeof(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>).TypeHandle
+								);
+				// Return
+				return __value__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static TResult Stub_56<TThis, TResult>(
+					global::System.__ComObject __this, 
+					int mode, 
+					uint requestedSize, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TResult__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									mode, 
+									requestedSize, 
+									&(unsafe_TResult__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_TResult__retval), 
+									typeof(TResult).TypeHandle
+								);
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x00042D60] Windows_Storage_FileProperties_ThumbnailOptions__Windows_Storage_FileProperties__ThumbnailOptions, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static TResult Stub_57<TThis, TResult>(
+					global::System.__ComObject __this, 
+					int mode, 
+					uint requestedSize, 
+					global::Windows.Storage.FileProperties.ThumbnailOptions options, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TResult__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									mode, 
+									requestedSize, 
+									options, 
+									&(unsafe_TResult__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_TResult__retval), 
+									typeof(TResult).TypeHandle
+								);
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageItem2.IsEqual, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static bool Stub_58<TThis, TArg0>(
+					global::System.__ComObject __this, 
+					TArg0 item, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TArg0__arg = default(void*);
+			bool value__retval;
+			sbyte unsafe_value__retval;
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+									item, 
+									typeof(TArg0).TypeHandle
+								);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_TArg0__arg, 
+									&(unsafe_value__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				value__retval = unsafe_value__retval != 0;
+				// Return
+				return value__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
+				global::System.GC.KeepAlive(item);
+			}
+		}
+
+		// Signature, Windows.Storage.Search.IStorageFolderQueryOperations.GetFilesAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static TResult Stub_59<TThis, TResult>(
+					global::System.__ComObject __this, 
+					int query, 
+					uint startIndex, 
+					uint maxItemsToRetrieve, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TResult__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									query, 
+									startIndex, 
+									maxItemsToRetrieve, 
+									&(unsafe_TResult__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_TResult__retval), 
+									typeof(TResult).TypeHandle
+								);
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Windows.Storage.Search.IStorageFolderQueryOperations.IsCommonFolderQuerySupported, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static bool Stub_60<TThis>(
+					global::System.__ComObject __this, 
+					int query, 
+					int __targetIndex)
+		{
+			// Setup
+			bool value__retval;
+			sbyte unsafe_value__retval;
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								query, 
+								&(unsafe_value__retval)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			value__retval = unsafe_value__retval != 0;
+			// Return
+			return value__retval;
+		}
+
+		// Signature, Windows.ApplicationModel.DataTransfer.IDataPackage2.SetApplicationLink, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041760] System_Uri__Windows_Foundation__Uri, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_61<TThis>(
+					global::System.__ComObject __this, 
+					global::System.Uri value, 
+					int __targetIndex)
+		{
+			// Setup
+			global::System.Runtime.InteropServices.__vtable_IInspectable* unsafe_value = default(global::System.Runtime.InteropServices.__vtable_IInspectable*);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				if (value != null)
+					unsafe_value = (global::System.Runtime.InteropServices.__vtable_IInspectable*)global::__Interop.McgHelpers.SystemUri2WindowsFoundationUri(value);
+				else
+					unsafe_value = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_value
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value)));
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetPatternCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static object Stub_62<TThis>(
 					global::System.__ComObject __this, 
 					int patternInterface, 
 					int __targetIndex)
@@ -1266,9 +2161,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElementOverrides9.PopulatePropertyInfoOverride, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.IUIElementOverrides9.PopulatePropertyInfoOverride, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_38<TThis, TArg0>(
+		internal static void Stub_63<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					string propertyName, 
 					TArg0 animationPropertyInfo, 
@@ -1309,9 +2204,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElement.put_Tag, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+		// Signature, Windows.UI.Xaml.IFrameworkElement.put_Tag, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_39<TThis>(
+		internal static void Stub_64<TThis>(
 					global::System.__ComObject __this, 
 					object value, 
 					int __targetIndex)
@@ -1340,9 +2235,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElement.get_HorizontalAlignment, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_HorizontalAlignment__Windows_UI_Xaml__HorizontalAlignment, 
+		// Signature, Windows.UI.Xaml.IFrameworkElement.get_HorizontalAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_HorizontalAlignment__Windows_UI_Xaml__HorizontalAlignment, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.HorizontalAlignment Stub_40<TThis>(
+		internal static global::Windows.UI.Xaml.HorizontalAlignment Stub_65<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1364,9 +2259,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElement.get_VerticalAlignment, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_VerticalAlignment__Windows_UI_Xaml__VerticalAlignment, 
+		// Signature, Windows.UI.Xaml.IFrameworkElement.get_VerticalAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_VerticalAlignment__Windows_UI_Xaml__VerticalAlignment, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.VerticalAlignment Stub_41<TThis>(
+		internal static global::Windows.UI.Xaml.VerticalAlignment Stub_66<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1388,9 +2283,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElement.get_Margin, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_UI_Xaml_Thickness__Windows_UI_Xaml__Thickness, 
+		// Signature, Windows.UI.Xaml.IFrameworkElement.get_Margin, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Thickness__Windows_UI_Xaml__Thickness, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Thickness Stub_42<TThis>(
+		internal static global::Windows.UI.Xaml.Thickness Stub_67<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1412,9 +2307,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElement.put_Margin, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Xaml_Thickness__Windows_UI_Xaml__Thickness, 
+		// Signature, Windows.UI.Xaml.IFrameworkElement.put_Margin, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Xaml_Thickness__Windows_UI_Xaml__Thickness, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_43<TThis>(
+		internal static void Stub_68<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.Thickness value, 
 					int __targetIndex)
@@ -1433,9 +2328,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElement.get_FlowDirection, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_FlowDirection__Windows_UI_Xaml__FlowDirection, 
+		// Signature, Windows.UI.Xaml.IFrameworkElement.get_FlowDirection, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_FlowDirection__Windows_UI_Xaml__FlowDirection, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.FlowDirection Stub_44<TThis>(
+		internal static global::Windows.UI.Xaml.FlowDirection Stub_69<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1457,9 +2352,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElement.add_LayoutUpdated, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] System_EventHandler_1_object___Windows_Foundation__EventHandler_A_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.IFrameworkElement.add_LayoutUpdated, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] System_EventHandler_1_object___Windows_Foundation__EventHandler_A_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_45<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_70<TThis>(
 					global::System.__ComObject __this, 
 					global::System.EventHandler<object> handler, 
 					int __targetIndex)
@@ -1496,9 +2391,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElement.FindName, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+		// Signature, Windows.UI.Xaml.IFrameworkElement.FindName, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static object Stub_46<TThis>(
+		internal static object Stub_71<TThis>(
 					global::System.__ComObject __this, 
 					string name, 
 					int __targetIndex)
@@ -1537,9 +2432,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IResourceDictionary.get_Source, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FF84] System_Uri__Windows_Foundation__Uri, 
+		// Signature, Windows.UI.Xaml.IResourceDictionary.get_Source, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041760] System_Uri__Windows_Foundation__Uri, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Uri Stub_47<TThis>(
+		internal static global::System.Uri Stub_72<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1573,43 +2468,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IResourceDictionary.put_Source, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FF84] System_Uri__Windows_Foundation__Uri, 
+		// Signature, Windows.UI.Xaml.IPropertyPathFactory.CreateInstance, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_48<TThis>(
-					global::System.__ComObject __this, 
-					global::System.Uri value, 
-					int __targetIndex)
-		{
-			// Setup
-			global::System.Runtime.InteropServices.__vtable_IInspectable* unsafe_value = default(global::System.Runtime.InteropServices.__vtable_IInspectable*);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				if (value != null)
-					unsafe_value = (global::System.Runtime.InteropServices.__vtable_IInspectable*)global::__Interop.McgHelpers.SystemUri2WindowsFoundationUri(value);
-				else
-					unsafe_value = null;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_value
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value)));
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.IPropertyPathFactory.CreateInstance, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_49<TThis>(
+		internal static global::System.IntPtr Stub_73<TThis>(
 					global::System.__ComObject __this, 
 					string path, 
 					int __targetIndex)
@@ -1639,9 +2500,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElement3.add_Loading, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_FrameworkElement__object___Windows_Foundation__TypedEventHandler_A__wux__FrameworkElement_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.IFrameworkElement3.add_Loading, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_FrameworkElement__object___Windows_Foundation__TypedEventHandler_A__wux__FrameworkElement_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_50<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_74<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.FrameworkElement, object> handler, 
 					int __targetIndex)
@@ -1678,9 +2539,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IFrameworkElementOverrides.MeasureOverride, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Size__Windows_Foundation__Size, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_Foundation_Size__Windows_Foundation__Size, 
+		// Signature, Windows.UI.Xaml.IFrameworkElementOverrides.MeasureOverride, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Size__Windows_Foundation__Size, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Size__Windows_Foundation__Size, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.Size Stub_51<TThis>(
+		internal static global::Windows.Foundation.Size Stub_75<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.Size availableSize, 
 					int __targetIndex)
@@ -1704,49 +2565,9 @@ namespace __Interop
 			return result__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IControlStatics3.GetIsTemplateFocusTarget, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, Windows.UI.Xaml.Controls.IControlStatics3.SetIsTemplateFocusTarget, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_52<TThis, TArg0>(
-					global::System.__ComObject __this, 
-					TArg0 element, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TArg0__arg = default(void*);
-			bool result__retval;
-			sbyte unsafe_result__retval;
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-									element, 
-									typeof(TArg0).TypeHandle
-								);
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_TArg0__arg, 
-									&(unsafe_result__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				result__retval = unsafe_result__retval != 0;
-				// Return
-				return result__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
-				global::System.GC.KeepAlive(element);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IControlStatics3.SetIsTemplateFocusTarget, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0003EFA8] bool__bool, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_53<TThis, TArg0>(
+		internal static void Stub_76<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					bool value, 
@@ -1783,9 +2604,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IControl.get_FontWeight, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Windows_UI_Text_FontWeight__Windows_UI_Text__FontWeight, 
+		// Signature, Windows.UI.Xaml.Controls.IControl.get_FontWeight, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Windows_UI_Text_FontWeight__Windows_UI_Text__FontWeight, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Text.FontWeight Stub_54<TThis>(
+		internal static global::Windows.UI.Text.FontWeight Stub_77<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1807,9 +2628,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IControl.put_FontWeight, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004196C] Windows_UI_Text_FontWeight__Windows_UI_Text__FontWeight, 
+		// Signature, Windows.UI.Xaml.Controls.IControl.put_FontWeight, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004314C] Windows_UI_Text_FontWeight__Windows_UI_Text__FontWeight, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_55<TThis>(
+		internal static void Stub_78<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Text.FontWeight value, 
 					int __targetIndex)
@@ -1828,9 +2649,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IControl.get_FontStyle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Text_FontStyle__Windows_UI_Text__FontStyle, 
+		// Signature, Windows.UI.Xaml.Controls.IControl.get_FontStyle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Text_FontStyle__Windows_UI_Text__FontStyle, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Text.FontStyle Stub_56<TThis>(
+		internal static global::Windows.UI.Text.FontStyle Stub_79<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1852,9 +2673,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IControl.get_FontStretch, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Text_FontStretch__Windows_UI_Text__FontStretch, 
+		// Signature, Windows.UI.Xaml.Controls.IControl.get_FontStretch, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Text_FontStretch__Windows_UI_Text__FontStretch, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Text.FontStretch Stub_57<TThis>(
+		internal static global::Windows.UI.Text.FontStretch Stub_80<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1876,9 +2697,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IControl.put_CharacterSpacing, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, 
+		// Signature, Windows.UI.Xaml.Controls.IControl.put_CharacterSpacing, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_58<TThis>(
+		internal static void Stub_81<TThis>(
 					global::System.__ComObject __this, 
 					int value, 
 					int __targetIndex)
@@ -1897,35 +2718,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IControl.Focus, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, Windows.UI.Xaml.Controls.IControlTemplate.get_TargetType, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_59<TThis>(
-					global::System.__ComObject __this, 
-					int value, 
-					int __targetIndex)
-		{
-			// Setup
-			bool result__retval;
-			sbyte unsafe_result__retval;
-			int unsafe___hr;
-			// Marshalling
-			// Call to native method
-			unsafe___hr = global::__Interop.ComCallHelpers.Call(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								value, 
-								&(unsafe_result__retval)
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			result__retval = unsafe_result__retval != 0;
-			// Return
-			return result__retval;
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IControlTemplate.get_TargetType, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F75C] System_Type__Windows_UI_Xaml_Interop__TypeName, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Type Stub_60<TThis>(
+		internal static global::System.Type Stub_82<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -1959,92 +2754,33 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IControlTemplate.put_TargetType, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F75C] System_Type__Windows_UI_Xaml_Interop__TypeName, 
+		// Signature, Windows.UI.Xaml.Controls.IControl4.get_ElementSoundMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_ElementSoundMode__Windows_UI_Xaml__ElementSoundMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_61<TThis>(
+		internal static global::Windows.UI.Xaml.ElementSoundMode Stub_83<TThis>(
 					global::System.__ComObject __this, 
-					global::System.Type value, 
 					int __targetIndex)
 		{
 			// Setup
-			global::System.Type__Impl.UnsafeType unsafe_value = default(global::System.Type__Impl.UnsafeType);
+			global::Windows.UI.Xaml.ElementSoundMode unsafe_value__retval;
+			global::Windows.UI.Xaml.ElementSoundMode value__retval;
 			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				global::System.Runtime.InteropServices.HSTRING unsafe_value__HSTRING__Name;
-				int unsafe_value__int__Kind;
-				global::System.Runtime.InteropServices.McgMarshal.TypeToTypeName(
-									value, 
-									out unsafe_value__HSTRING__Name, 
-									out unsafe_value__int__Kind
-								);
-				unsafe_value.Name = unsafe_value__HSTRING__Name;
-				unsafe_value.Kind = (global::Windows.UI.Xaml.Interop.TypeKind)unsafe_value__int__Kind;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_value
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.FreeHString(unsafe_value.Name.handle);
-			}
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								&(unsafe_value__retval)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			value__retval = unsafe_value__retval;
+			// Return
+			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IControlProtected.GetTemplateChild, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_62<TThis, TResult>(
-					global::System.__ComObject __this, 
-					string childName, 
-					int __targetIndex)
-		{
-			// Setup
-			global::System.Runtime.InteropServices.HSTRING unsafe_childName = default(global::System.Runtime.InteropServices.HSTRING);
-			void* unsafe_TResult__retval = default(void*);
-			TResult TResult__retval = default(TResult);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				fixed (char* pBuffer_childName = childName)
-				{
-					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_childName;
-					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_childName, childName, &(hstring_header_childName), &(unsafe_childName));
-					unsafe_TResult__retval = null;
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(TThis).TypeHandle, 
-										__targetIndex, 
-										unsafe_childName, 
-										&(unsafe_TResult__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-										((global::System.IntPtr)unsafe_TResult__retval), 
-										typeof(TResult).TypeHandle
-									);
-				}
-				// Return
-				return TResult__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentChanged, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_63<TThis>(
+		internal static void Stub_84<TThis>(
 					global::System.__ComObject __this, 
 					object oldContent, 
 					object newContent, 
@@ -2078,9 +2814,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_64<TThis, TArg0, TResult>(
+		internal static TResult Stub_85<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					object item, 
 					TArg0 container, 
@@ -2128,9 +2864,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_65<TThis, TResult>(
+		internal static TResult Stub_86<TThis, TResult>(
 					global::System.__ComObject __this, 
 					object item, 
 					int __targetIndex)
@@ -2169,9 +2905,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_DisplayMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_UI_Xaml_Controls_NavigationViewDisplayMode__Microsoft_UI_Xaml_Controls__NavigationViewDisplayMode, 
+		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_DisplayMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_UI_Xaml_Controls_NavigationViewDisplayMode__Microsoft_UI_Xaml_Controls__NavigationViewDisplayMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode Stub_66<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode Stub_87<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2193,9 +2929,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_IsBackButtonVisible, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_UI_Xaml_Controls_NavigationViewBackButtonVisible__Microsoft_UI_Xaml_Controls__NavigationViewBackButtonVisible, 
+		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_IsBackButtonVisible, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_UI_Xaml_Controls_NavigationViewBackButtonVisible__Microsoft_UI_Xaml_Controls__NavigationViewBackButtonVisible, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible Stub_67<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible Stub_88<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2217,9 +2953,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_PaneDisplayMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_UI_Xaml_Controls_NavigationViewPaneDisplayMode__Microsoft_UI_Xaml_Controls__NavigationViewPaneDisplayMode, 
+		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_PaneDisplayMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_UI_Xaml_Controls_NavigationViewPaneDisplayMode__Microsoft_UI_Xaml_Controls__NavigationViewPaneDisplayMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode Stub_68<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode Stub_89<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2241,9 +2977,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_SelectionFollowsFocus, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_UI_Xaml_Controls_NavigationViewSelectionFollowsFocus__Microsoft_UI_Xaml_Controls__NavigationViewSelectionFollowsFocus, 
+		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_SelectionFollowsFocus, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_UI_Xaml_Controls_NavigationViewSelectionFollowsFocus__Microsoft_UI_Xaml_Controls__NavigationViewSelectionFollowsFocus, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus Stub_69<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus Stub_90<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2265,9 +3001,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_ShoulderNavigationEnabled, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_UI_Xaml_Controls_NavigationViewShoulderNavigationEnabled__Microsoft_UI_Xaml_Controls__NavigationViewShoulderNavigationEnabled, 
+		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_ShoulderNavigationEnabled, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_UI_Xaml_Controls_NavigationViewShoulderNavigationEnabled__Microsoft_UI_Xaml_Controls__NavigationViewShoulderNavigationEnabled, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled Stub_70<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled Stub_91<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2289,9 +3025,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_OverflowLabelMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_UI_Xaml_Controls_NavigationViewOverflowLabelMode__Microsoft_UI_Xaml_Controls__NavigationViewOverflowLabelMode, 
+		// Signature, Microsoft.UI.Xaml.Controls.INavigationView.get_OverflowLabelMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_UI_Xaml_Controls_NavigationViewOverflowLabelMode__Microsoft_UI_Xaml_Controls__NavigationViewOverflowLabelMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode Stub_71<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode Stub_92<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2313,9 +3049,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IItemsControlOverrides.IsItemItsOwnContainerOverride, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, Windows.UI.Xaml.Controls.IItemsControlOverrides.IsItemItsOwnContainerOverride, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_72<TThis>(
+		internal static bool Stub_93<TThis>(
 					global::System.__ComObject __this, 
 					object item, 
 					int __targetIndex)
@@ -2349,9 +3085,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.Primitives.ISelector.put_IsSynchronizedWithCurrentItem, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FEBC] System_Nullable_1_bool___Windows_Foundation__IReference_A_bool_V_ *, 
+		// Signature, Windows.UI.Xaml.Controls.Primitives.ISelector.put_IsSynchronizedWithCurrentItem, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041698] System_Nullable_1_bool___Windows_Foundation__IReference_A_bool_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_73<TThis>(
+		internal static void Stub_94<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Nullable<bool> value, 
 					int __targetIndex)
@@ -2389,9 +3125,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.Primitives.ISelector.add_SelectionChanged, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_UI_Xaml_Controls_SelectionChangedEventHandler__Windows_UI_Xaml_Controls__SelectionChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.Primitives.ISelector.add_SelectionChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Controls_SelectionChangedEventHandler__Windows_UI_Xaml_Controls__SelectionChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_74<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_95<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.Controls.SelectionChangedEventHandler handler, 
 					int __targetIndex)
@@ -2428,9 +3164,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IGridStatics.GetRow, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] int__int, 
+		// Signature, Windows.UI.Xaml.Controls.IGridStatics.GetRow, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_75<TThis, TArg0>(
+		internal static int Stub_96<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int __targetIndex)
@@ -2468,9 +3204,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IGridStatics.SetRow, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] int__int, 
+		// Signature, Windows.UI.Xaml.Controls.IGridStatics.SetRow, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_76<TThis, TArg0>(
+		internal static void Stub_97<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int value, 
@@ -2505,9 +3241,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IRowDefinition.get_Height, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_UI_Xaml_GridLength__Windows_UI_Xaml__GridLength, 
+		// Signature, Windows.UI.Xaml.Controls.IRowDefinition.get_Height, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_GridLength__Windows_UI_Xaml__GridLength, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.GridLength Stub_77<TThis>(
+		internal static global::Windows.UI.Xaml.GridLength Stub_98<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2529,9 +3265,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IRowDefinition.put_Height, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Xaml_GridLength__Windows_UI_Xaml__GridLength, 
+		// Signature, Windows.UI.Xaml.Controls.IRowDefinition.put_Height, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Xaml_GridLength__Windows_UI_Xaml__GridLength, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_78<TThis>(
+		internal static void Stub_99<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.GridLength value, 
 					int __targetIndex)
@@ -2550,9 +3286,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IGrid2.put_CornerRadius, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Xaml_CornerRadius__Windows_UI_Xaml__CornerRadius, 
+		// Signature, Windows.UI.Xaml.Controls.IGrid2.put_CornerRadius, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Xaml_CornerRadius__Windows_UI_Xaml__CornerRadius, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_79<TThis>(
+		internal static void Stub_100<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.CornerRadius value, 
 					int __targetIndex)
@@ -2571,9 +3307,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.ITextBox.get_TextAlignment, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_TextAlignment__Windows_UI_Xaml__TextAlignment, 
+		// Signature, Windows.UI.Xaml.Controls.ITextBox.get_TextAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_TextAlignment__Windows_UI_Xaml__TextAlignment, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.TextAlignment Stub_80<TThis>(
+		internal static global::Windows.UI.Xaml.TextAlignment Stub_101<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2595,9 +3331,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.ITextBox.get_TextWrapping, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_TextWrapping__Windows_UI_Xaml__TextWrapping, 
+		// Signature, Windows.UI.Xaml.Controls.ITextBox.get_TextWrapping, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_TextWrapping__Windows_UI_Xaml__TextWrapping, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.TextWrapping Stub_81<TThis>(
+		internal static global::Windows.UI.Xaml.TextWrapping Stub_102<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2619,9 +3355,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.ITextBox.add_ContextMenuOpening, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_UI_Xaml_Controls_ContextMenuOpeningEventHandler__Windows_UI_Xaml_Controls__ContextMenuOpeningEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.ITextBox.add_ContextMenuOpening, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Controls_ContextMenuOpeningEventHandler__Windows_UI_Xaml_Controls__ContextMenuOpeningEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_82<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_103<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.Controls.ContextMenuOpeningEventHandler handler, 
 					int __targetIndex)
@@ -2658,9 +3394,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Media.ISolidColorBrush.get_Color, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Windows.UI.Xaml.Media.ISolidColorBrush.get_Color, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Color Stub_83<TThis>(
+		internal static global::Windows.UI.Color Stub_104<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2682,9 +3418,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Media.ISolidColorBrush.put_Color, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Windows.UI.Xaml.Media.ISolidColorBrush.put_Color, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_84<TThis>(
+		internal static void Stub_105<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Color value, 
 					int __targetIndex)
@@ -2703,9 +3439,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IScrollViewerStatics.GetHorizontalScrollBarVisibility, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_Controls_ScrollBarVisibility__Windows_UI_Xaml_Controls__ScrollBarVisibility, 
+		// Signature, Windows.UI.Xaml.Controls.IScrollViewerStatics.GetHorizontalScrollBarVisibility, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_ScrollBarVisibility__Windows_UI_Xaml_Controls__ScrollBarVisibility, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Controls.ScrollBarVisibility Stub_85<TThis, TArg0>(
+		internal static global::Windows.UI.Xaml.Controls.ScrollBarVisibility Stub_106<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int __targetIndex)
@@ -2743,46 +3479,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IScrollViewerStatics.SetHorizontalScrollBarVisibility, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000414B4]  -> int, 
+		// Signature, Windows.UI.Xaml.Controls.IScrollViewerStatics.GetHorizontalScrollMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_ScrollMode__Windows_UI_Xaml_Controls__ScrollMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_86<TThis, TArg0>(
-					global::System.__ComObject __this, 
-					TArg0 element, 
-					int horizontalScrollBarVisibility, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TArg0__arg = default(void*);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-									element, 
-									typeof(TArg0).TypeHandle
-								);
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_TArg0__arg, 
-									horizontalScrollBarVisibility
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
-				global::System.GC.KeepAlive(element);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IScrollViewerStatics.GetHorizontalScrollMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_Controls_ScrollMode__Windows_UI_Xaml_Controls__ScrollMode, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Controls.ScrollMode Stub_87<TThis, TArg0>(
+		internal static global::Windows.UI.Xaml.Controls.ScrollMode Stub_107<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int __targetIndex)
@@ -2820,9 +3519,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalScrollBarVisibility, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_Controls_ScrollBarVisibility__Windows_UI_Xaml_Controls__ScrollBarVisibility, 
+		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalScrollBarVisibility, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_ScrollBarVisibility__Windows_UI_Xaml_Controls__ScrollBarVisibility, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Controls.ScrollBarVisibility Stub_88<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.ScrollBarVisibility Stub_108<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2844,9 +3543,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalScrollMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_Controls_ScrollMode__Windows_UI_Xaml_Controls__ScrollMode, 
+		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalScrollMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_ScrollMode__Windows_UI_Xaml_Controls__ScrollMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Controls.ScrollMode Stub_89<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.ScrollMode Stub_109<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2868,9 +3567,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalSnapPointsAlignment, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_Controls_Primitives_SnapPointsAlignment__Windows_UI_Xaml_Controls_Primitives__SnapPointsAlignment, 
+		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalSnapPointsAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_Primitives_SnapPointsAlignment__Windows_UI_Xaml_Controls_Primitives__SnapPointsAlignment, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Controls.Primitives.SnapPointsAlignment Stub_90<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.Primitives.SnapPointsAlignment Stub_110<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2892,9 +3591,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalSnapPointsType, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_Controls_SnapPointsType__Windows_UI_Xaml_Controls__SnapPointsType, 
+		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalSnapPointsType, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_SnapPointsType__Windows_UI_Xaml_Controls__SnapPointsType, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Controls.SnapPointsType Stub_91<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.SnapPointsType Stub_111<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2916,9 +3615,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IVisualStateGroup.add_CurrentStateChanged, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_UI_Xaml_VisualStateChangedEventHandler__Windows_UI_Xaml__VisualStateChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.IVisualStateGroup.add_CurrentStateChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_VisualStateChangedEventHandler__Windows_UI_Xaml__VisualStateChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_92<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_112<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.VisualStateChangedEventHandler handler, 
 					int __targetIndex)
@@ -2955,9 +3654,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IVisualTransition.get_GeneratedDuration, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_UI_Xaml_Duration__Windows_UI_Xaml__Duration, 
+		// Signature, Windows.UI.Xaml.IVisualTransition.get_GeneratedDuration, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Duration__Windows_UI_Xaml__Duration, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Duration Stub_93<TThis>(
+		internal static global::Windows.UI.Xaml.Duration Stub_113<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -2979,9 +3678,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.IVisualTransition.put_GeneratedDuration, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Xaml_Duration__Windows_UI_Xaml__Duration, 
+		// Signature, Windows.UI.Xaml.IVisualTransition.put_GeneratedDuration, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Xaml_Duration__Windows_UI_Xaml__Duration, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_94<TThis>(
+		internal static void Stub_114<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.Duration value, 
 					int __targetIndex)
@@ -3000,9 +3699,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Media.Animation.ITimeline.get_RepeatBehavior, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_UI_Xaml_Media_Animation_RepeatBehavior__Windows_UI_Xaml_Media_Animation__RepeatBehavior, 
+		// Signature, Windows.UI.Xaml.Media.Animation.ITimeline.get_RepeatBehavior, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Media_Animation_RepeatBehavior__Windows_UI_Xaml_Media_Animation__RepeatBehavior, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Media.Animation.RepeatBehavior Stub_95<TThis>(
+		internal static global::Windows.UI.Xaml.Media.Animation.RepeatBehavior Stub_115<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3024,9 +3723,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Media.Animation.IStoryboardStatics.GetTargetProperty, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, 
+		// Signature, Windows.UI.Xaml.Media.Animation.IStoryboardStatics.GetTargetProperty, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static string Stub_96<TThis, TArg0>(
+		internal static string Stub_116<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int __targetIndex)
@@ -3066,9 +3765,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Media.Animation.IStoryboardStatics.SetTargetProperty, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, 
+		// Signature, Windows.UI.Xaml.Media.Animation.IStoryboardStatics.SetTargetProperty, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_97<TThis, TArg0>(
+		internal static void Stub_117<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					string path, 
@@ -3109,9 +3808,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IVisualStateManagerProtected.RaiseCurrentStateChanging, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.IVisualStateManagerProtected.RaiseCurrentStateChanging, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_98<TThis, TArg0, TArg1, TArg2, TArg3>(
+		internal static void Stub_118<TThis, TArg0, TArg1, TArg2, TArg3>(
 					global::System.__ComObject __this, 
 					TArg0 stateGroup, 
 					TArg1 oldState, 
@@ -3171,9 +3870,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Media.Animation.IDoubleAnimation.get_From, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FEBC] System_Nullable_1_double___Windows_Foundation__IReference_A_double_V_ *, 
+		// Signature, Windows.UI.Xaml.Media.Animation.IDoubleAnimation.get_From, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041698] System_Nullable_1_double___Windows_Foundation__IReference_A_double_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Nullable<double> Stub_99<TThis>(
+		internal static global::System.Nullable<double> Stub_119<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3213,9 +3912,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Media.Animation.IDoubleAnimation.put_From, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FEBC] System_Nullable_1_double___Windows_Foundation__IReference_A_double_V_ *, 
+		// Signature, Windows.UI.Xaml.Media.Animation.IDoubleAnimation.put_From, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041698] System_Nullable_1_double___Windows_Foundation__IReference_A_double_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_100<TThis>(
+		internal static void Stub_120<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Nullable<double> value, 
 					int __targetIndex)
@@ -3253,9 +3952,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Media.Animation.IObjectKeyFrame.get_KeyTime, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_UI_Xaml_Media_Animation_KeyTime__Windows_UI_Xaml_Media_Animation__KeyTime, 
+		// Signature, Windows.UI.Xaml.Media.Animation.IObjectKeyFrame.get_KeyTime, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Media_Animation_KeyTime__Windows_UI_Xaml_Media_Animation__KeyTime, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Media.Animation.KeyTime Stub_101<TThis>(
+		internal static global::Windows.UI.Xaml.Media.Animation.KeyTime Stub_121<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3277,9 +3976,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Media.Animation.IObjectKeyFrame.put_KeyTime, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Xaml_Media_Animation_KeyTime__Windows_UI_Xaml_Media_Animation__KeyTime, 
+		// Signature, Windows.UI.Xaml.Media.Animation.IObjectKeyFrame.put_KeyTime, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Xaml_Media_Animation_KeyTime__Windows_UI_Xaml_Media_Animation__KeyTime, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_102<TThis>(
+		internal static void Stub_122<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.Media.Animation.KeyTime value, 
 					int __targetIndex)
@@ -3298,9 +3997,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IBorder.get_CornerRadius, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_UI_Xaml_CornerRadius__Windows_UI_Xaml__CornerRadius, 
+		// Signature, Windows.UI.Xaml.Controls.IBorder.get_CornerRadius, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_CornerRadius__Windows_UI_Xaml__CornerRadius, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.CornerRadius Stub_103<TThis>(
+		internal static global::Windows.UI.Xaml.CornerRadius Stub_123<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3322,9 +4021,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Documents.ITextElement4.put_TextDecorations, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4] Windows_UI_Text_TextDecorations__Windows_UI_Text__TextDecorations, 
+		// Signature, Windows.UI.Xaml.Documents.ITextElement4.put_TextDecorations, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60] Windows_UI_Text_TextDecorations__Windows_UI_Text__TextDecorations, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_104<TThis>(
+		internal static void Stub_124<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Text.TextDecorations value, 
 					int __targetIndex)
@@ -3343,9 +4042,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IListViewBase.get_SelectionMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_Controls_ListViewSelectionMode__Windows_UI_Xaml_Controls__ListViewSelectionMode, 
+		// Signature, Windows.UI.Xaml.Controls.IListViewBase.get_SelectionMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_ListViewSelectionMode__Windows_UI_Xaml_Controls__ListViewSelectionMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Controls.ListViewSelectionMode Stub_105<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.ListViewSelectionMode Stub_125<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3367,9 +4066,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.ISemanticZoom.add_ViewChangeStarted, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_UI_Xaml_Controls_SemanticZoomViewChangedEventHandler__Windows_UI_Xaml_Controls__SemanticZoomViewChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.ISemanticZoom.add_ViewChangeStarted, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Controls_SemanticZoomViewChangedEventHandler__Windows_UI_Xaml_Controls__SemanticZoomViewChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_106<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_126<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventHandler handler, 
 					int __targetIndex)
@@ -3406,9 +4105,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IStackPanel.get_Orientation, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_Controls_Orientation__Windows_UI_Xaml_Controls__Orientation, 
+		// Signature, Windows.UI.Xaml.Controls.IStackPanel.get_Orientation, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_Orientation__Windows_UI_Xaml_Controls__Orientation, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Controls.Orientation Stub_107<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.Orientation Stub_127<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3430,9 +4129,33 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.Primitives.IRangeBaseOverrides.OnMinimumChanged, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] double__double, [fwd] [in] [EETypeRva:0x0004157C] double__double, 
+		// Signature, Windows.UI.Xaml.Controls.ICommandBar3.get_OverflowButtonVisibility, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_CommandBarOverflowButtonVisibility__Windows_UI_Xaml_Controls__CommandBarOverflowButtonVisibility, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_108<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.CommandBarOverflowButtonVisibility Stub_128<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			global::Windows.UI.Xaml.Controls.CommandBarOverflowButtonVisibility unsafe_value__retval;
+			global::Windows.UI.Xaml.Controls.CommandBarOverflowButtonVisibility value__retval;
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								&(unsafe_value__retval)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			value__retval = unsafe_value__retval;
+			// Return
+			return value__retval;
+		}
+
+		// Signature, Windows.UI.Xaml.Controls.Primitives.IRangeBaseOverrides.OnMinimumChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] double__double, [fwd] [in] [EETypeRva:0x000419B0] double__double, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_129<TThis>(
 					global::System.__ComObject __this, 
 					double oldMinimum, 
 					double newMinimum, 
@@ -3453,9 +4176,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.ISplitView.add_PaneClosed, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_SplitView__object___Windows_Foundation__TypedEventHandler_A__wux__Controls_SplitView_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.ISplitView.add_PaneClosed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_SplitView__object___Windows_Foundation__TypedEventHandler_A__wux__Controls_SplitView_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_109<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_130<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.SplitView, object> handler, 
 					int __targetIndex)
@@ -3492,9 +4215,33 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IImage.add_ImageFailed, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_UI_Xaml_ExceptionRoutedEventHandler__Windows_UI_Xaml__ExceptionRoutedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.ISplitView2.get_LightDismissOverlayMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_LightDismissOverlayMode__Windows_UI_Xaml_Controls__LightDismissOverlayMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_110<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.LightDismissOverlayMode Stub_131<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			global::Windows.UI.Xaml.Controls.LightDismissOverlayMode unsafe_value__retval;
+			global::Windows.UI.Xaml.Controls.LightDismissOverlayMode value__retval;
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								&(unsafe_value__retval)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			value__retval = unsafe_value__retval;
+			// Return
+			return value__retval;
+		}
+
+		// Signature, Windows.UI.Xaml.Controls.IImage.add_ImageFailed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_ExceptionRoutedEventHandler__Windows_UI_Xaml__ExceptionRoutedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_132<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.ExceptionRoutedEventHandler handler, 
 					int __targetIndex)
@@ -3531,72 +4278,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IPivot.add_PivotItemLoading, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_Pivot__Windows_UI_Xaml_Controls_PivotItemEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_Pivot_j__wux__Controls_PivotItemEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.IContentDialog.add_PrimaryButtonClick, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_ContentDialog__Windows_UI_Xaml_Controls_ContentDialogButtonClickEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_ContentDialog_j__wux__Controls_ContentDialogButtonClickEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_111<TThis>(
-					global::System.__ComObject __this, 
-					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.Pivot, global::Windows.UI.Xaml.Controls.PivotItemEventArgs> handler, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_handler = default(void*);
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken unsafe_token__retval;
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token__retval;
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_handler = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
-									handler, 
-									typeof(global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.Pivot, global::Windows.UI.Xaml.Controls.PivotItemEventArgs>).TypeHandle
-								);
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_handler, 
-									&(unsafe_token__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				token__retval = unsafe_token__retval;
-				// Return
-				return token__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Media.ITransformGroup.get_Value, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_UI_Xaml_Media_Matrix__Windows_UI_Xaml_Media__Matrix, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Media.Matrix Stub_112<TThis>(
-					global::System.__ComObject __this, 
-					int __targetIndex)
-		{
-			// Setup
-			global::Windows.UI.Xaml.Media.Matrix unsafe_value__retval;
-			global::Windows.UI.Xaml.Media.Matrix value__retval;
-			int unsafe___hr;
-			// Marshalling
-			// Call to native method
-			unsafe___hr = global::__Interop.ComCallHelpers.Call(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								&(unsafe_value__retval)
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			value__retval = unsafe_value__retval;
-			// Return
-			return value__retval;
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IContentDialog.add_PrimaryButtonClick, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_ContentDialog__Windows_UI_Xaml_Controls_ContentDialogButtonClickEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_ContentDialog_j__wux__Controls_ContentDialogButtonClickEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_113<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_133<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.ContentDialog, global::Windows.UI.Xaml.Controls.ContentDialogButtonClickEventArgs> handler, 
 					int __targetIndex)
@@ -3633,15 +4317,54 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDevice.get_MaximumCacheSize, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] ulong__unsigned __int64, 
+		// Signature, Windows.UI.Xaml.Controls.IPivot.add_PivotItemLoading, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_Pivot__Windows_UI_Xaml_Controls_PivotItemEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_Pivot_j__wux__Controls_PivotItemEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static ulong Stub_114<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_134<TThis>(
+					global::System.__ComObject __this, 
+					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.Pivot, global::Windows.UI.Xaml.Controls.PivotItemEventArgs> handler, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_handler = default(void*);
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken unsafe_token__retval;
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token__retval;
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_handler = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+									handler, 
+									typeof(global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.Pivot, global::Windows.UI.Xaml.Controls.PivotItemEventArgs>).TypeHandle
+								);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_handler, 
+									&(unsafe_token__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				token__retval = unsafe_token__retval;
+				// Return
+				return token__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Media.ITransformGroup.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Media_Matrix__Windows_UI_Xaml_Media__Matrix, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::Windows.UI.Xaml.Media.Matrix Stub_135<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
 			// Setup
-			ulong unsafe_value__retval;
-			ulong value__retval;
+			global::Windows.UI.Xaml.Media.Matrix unsafe_value__retval;
+			global::Windows.UI.Xaml.Media.Matrix value__retval;
 			int unsafe___hr;
 			// Marshalling
 			// Call to native method
@@ -3657,30 +4380,86 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDevice.put_MaximumCacheSize, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] ulong__unsigned __int64, 
+		// Signature, Microsoft.UI.Xaml.Controls.IVirtualizingLayoutOverrides.MeasureOverride, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Size__Windows_Foundation__Size, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Size__Windows_Foundation__Size, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_115<TThis>(
+		internal static global::Windows.Foundation.Size Stub_136<TThis, TArg0>(
 					global::System.__ComObject __this, 
-					ulong value, 
+					TArg0 context, 
+					global::Windows.Foundation.Size availableSize, 
 					int __targetIndex)
 		{
 			// Setup
+			void* unsafe_TArg0__arg = default(void*);
+			global::Windows.Foundation.Size unsafe_result__retval;
+			global::Windows.Foundation.Size result__retval;
 			int unsafe___hr;
-			// Marshalling
-			// Call to native method
-			unsafe___hr = global::__Interop.ComCallHelpers.Call(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								value
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			// Return
+			try
+			{
+				// Marshalling
+				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+									context, 
+									typeof(TArg0).TypeHandle
+								);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_TArg0__arg, 
+									availableSize, 
+									&(unsafe_result__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				result__retval = unsafe_result__retval;
+				// Return
+				return result__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
+				global::System.GC.KeepAlive(context);
+			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDevice.IsDeviceLost, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, Microsoft.UI.Xaml.Controls.IVirtualizingLayoutContextOverrides.GetItemAtCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_116<TThis>(
+		internal static object Stub_137<TThis>(
+					global::System.__ComObject __this, 
+					int index, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_result__retval = default(void*);
+			object result__retval = default(object);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_result__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									index, 
+									&(unsafe_result__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				result__retval = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_result__retval));
+				// Return
+				return result__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_result__retval)));
+			}
+		}
+
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDevice.IsDeviceLost, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static bool Stub_138<TThis>(
 					global::System.__ComObject __this, 
 					int hresult, 
 					int __targetIndex)
@@ -3704,9 +4483,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasImage.GetBounds, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasImage.GetBounds, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.Rect Stub_117<TThis, TArg0>(
+		internal static global::Windows.Foundation.Rect Stub_139<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					int __targetIndex)
@@ -3744,9 +4523,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasImage.GetBounds, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasImage.GetBounds, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.Rect Stub_118<TThis, TArg0>(
+		internal static global::Windows.Foundation.Rect Stub_140<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::System.Numerics.Matrix3x2 transform, 
@@ -3786,177 +4565,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.Streams.IRandomAccessStream.GetInputStreamAt, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] ulong__unsigned __int64, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush.get_ColorHdr, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_119<TThis, TResult>(
-					global::System.__ComObject __this, 
-					ulong position, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TResult__retval = default(void*);
-			TResult TResult__retval = default(TResult);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TResult__retval = null;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									position, 
-									&(unsafe_TResult__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-									((global::System.IntPtr)unsafe_TResult__retval), 
-									typeof(TResult).TypeHandle
-								);
-				// Return
-				return TResult__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
-			}
-		}
-
-		// Signature, Windows.Storage.Streams.IBuffer.put_Length, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_120<TThis>(
-					global::System.__ComObject __this, 
-					uint value, 
-					int __targetIndex)
-		{
-			// Setup
-			int unsafe___hr;
-			// Marshalling
-			// Call to native method
-			unsafe___hr = global::__Interop.ComCallHelpers.Call(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								value
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			// Return
-		}
-
-		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Progress, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F504] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> Stub_121<TThis>(
-					global::System.__ComObject __this, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe___value__retval = default(void*);
-			global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe___value__retval = null;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									&(unsafe___value__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				__value__retval = (global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
-									((global::System.IntPtr)unsafe___value__retval), 
-									typeof(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>).TypeHandle
-								);
-				// Return
-				return __value__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval)));
-			}
-		}
-
-		// Signature, Windows.Foundation.AsyncOperationProgressHandler<Windows.Storage.Streams.IBuffer,uint>.Invoke, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_122<TThis, TArg0>(
-					global::System.__ComObject __this, 
-					TArg0 asyncInfo, 
-					uint progressInfo, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TArg0__arg = default(void*);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-									asyncInfo, 
-									typeof(TArg0).TypeHandle
-								);
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_TArg0__arg, 
-									progressInfo
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
-				global::System.GC.KeepAlive(asyncInfo);
-			}
-		}
-
-		// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Progress, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F504] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> Stub_123<TThis>(
-					global::System.__ComObject __this, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe___value__retval = default(void*);
-			global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe___value__retval = null;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									&(unsafe___value__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				__value__retval = (global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
-									((global::System.IntPtr)unsafe___value__retval), 
-									typeof(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>).TypeHandle
-								);
-				// Return
-				return __value__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval)));
-			}
-		}
-
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush.get_ColorHdr, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Numerics.Vector4 Stub_124<TThis>(
+		internal static global::System.Numerics.Vector4 Stub_141<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3978,9 +4589,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush.put_ColorHdr, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush.put_ColorHdr, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_125<TThis>(
+		internal static void Stub_142<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Vector4 value, 
 					int __targetIndex)
@@ -3999,9 +4610,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasBrush.get_Opacity, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] float__float, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasBrush.get_Opacity, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] float__float, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static float Stub_126<TThis>(
+		internal static float Stub_143<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4023,9 +4634,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasBrush.put_Opacity, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasBrush.put_Opacity, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_127<TThis>(
+		internal static void Stub_144<TThis>(
 					global::System.__ComObject __this, 
 					float value, 
 					int __targetIndex)
@@ -4044,9 +4655,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasBrush.get_Transform, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasBrush.get_Transform, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Numerics.Matrix3x2 Stub_128<TThis>(
+		internal static global::System.Numerics.Matrix3x2 Stub_145<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4068,9 +4679,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasBrush.put_Transform, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasBrush.put_Transform, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_129<TThis>(
+		internal static void Stub_146<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Matrix3x2 value, 
 					int __targetIndex)
@@ -4089,9 +4700,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrushFactory.Create, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrushFactory.Create, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_130<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_147<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					int __targetIndex)
@@ -4129,9 +4740,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush.get_ExtendX, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_CanvasEdgeBehavior__Microsoft_Graphics_Canvas__CanvasEdgeBehavior, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush.get_ExtendX, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_CanvasEdgeBehavior__Microsoft_Graphics_Canvas__CanvasEdgeBehavior, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior Stub_131<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior Stub_148<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4153,9 +4764,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush.get_Interpolation, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_CanvasImageInterpolation__Microsoft_Graphics_Canvas__CanvasImageInterpolation, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush.get_Interpolation, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_CanvasImageInterpolation__Microsoft_Graphics_Canvas__CanvasImageInterpolation, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation Stub_132<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation Stub_149<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4177,9 +4788,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory.CreateSimple, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory.CreateSimple, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_133<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_150<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::Windows.UI.Color startColor, 
@@ -4221,9 +4832,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory.CreateWithStops, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040B74] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory.CreateWithStops, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000424E8] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_134<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_151<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] gradientStops, 
@@ -4250,11 +4861,11 @@ namespace __Interop
 					if (gradientStops != null)
 						unsafe_gradientStops_mcgLength = (uint)gradientStops.Length;
 					if (gradientStops != null)
-						unsafe_gradientStops = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStops_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop))));
+						unsafe_gradientStops = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStops_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop))));
 					if (gradientStops != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_gradientStops_mcgLength); mcgIdx++)
 						{
-							// [fwd] [in] [optional] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop gradientStops
+							// [fwd] [in] [optional] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop gradientStops
 							unsafe_gradientStops[mcgIdx] = gradientStops[mcgIdx];
 						}
 				}
@@ -4278,13 +4889,13 @@ namespace __Interop
 				// Cleanup
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
 				global::System.GC.KeepAlive(resourceCreator);
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_gradientStops);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_gradientStops);
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory.CreateWithEdgeBehaviorAndAlphaMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040B74] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop *, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory.CreateWithEdgeBehaviorAndAlphaMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000424E8] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop *, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_135<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_152<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] gradientStops, 
@@ -4313,11 +4924,11 @@ namespace __Interop
 					if (gradientStops != null)
 						unsafe_gradientStops_mcgLength = (uint)gradientStops.Length;
 					if (gradientStops != null)
-						unsafe_gradientStops = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStops_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop))));
+						unsafe_gradientStops = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStops_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop))));
 					if (gradientStops != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_gradientStops_mcgLength); mcgIdx++)
 						{
-							// [fwd] [in] [optional] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop gradientStops
+							// [fwd] [in] [optional] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop gradientStops
 							unsafe_gradientStops[mcgIdx] = gradientStops[mcgIdx];
 						}
 				}
@@ -4343,13 +4954,13 @@ namespace __Interop
 				// Cleanup
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
 				global::System.GC.KeepAlive(resourceCreator);
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_gradientStops);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_gradientStops);
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory.CreateWithEdgeBehaviorAndInterpolationOptions, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040B74] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop *, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory.CreateWithEdgeBehaviorAndInterpolationOptions, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000424E8] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop *, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_136<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_153<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] gradientStops, 
@@ -4381,11 +4992,11 @@ namespace __Interop
 					if (gradientStops != null)
 						unsafe_gradientStops_mcgLength = (uint)gradientStops.Length;
 					if (gradientStops != null)
-						unsafe_gradientStops = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStops_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop))));
+						unsafe_gradientStops = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStops_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop))));
 					if (gradientStops != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_gradientStops_mcgLength); mcgIdx++)
 						{
-							// [fwd] [in] [optional] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop gradientStops
+							// [fwd] [in] [optional] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop gradientStops
 							unsafe_gradientStops[mcgIdx] = gradientStops[mcgIdx];
 						}
 				}
@@ -4414,13 +5025,13 @@ namespace __Interop
 				// Cleanup
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
 				global::System.GC.KeepAlive(resourceCreator);
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_gradientStops);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_gradientStops);
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateHdr, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateHdr, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_137<TThis, TArg0, TResult>(
+		internal static TResult Stub_154<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::System.Numerics.Vector4 startColorHdr, 
@@ -4467,9 +5078,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateHdr, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040B74] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr *, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateHdr, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000424E8] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr *, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_138<TThis, TArg0, TResult>(
+		internal static TResult Stub_155<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] gradientStopsHdr, 
@@ -4496,11 +5107,11 @@ namespace __Interop
 					if (gradientStopsHdr != null)
 						unsafe_gradientStopsHdr_mcgLength = (uint)gradientStopsHdr.Length;
 					if (gradientStopsHdr != null)
-						unsafe_gradientStopsHdr = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStopsHdr_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr))));
+						unsafe_gradientStopsHdr = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStopsHdr_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr))));
 					if (gradientStopsHdr != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_gradientStopsHdr_mcgLength); mcgIdx++)
 						{
-							// [fwd] [in] [optional] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr gradientStopsHdr
+							// [fwd] [in] [optional] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr gradientStopsHdr
 							unsafe_gradientStopsHdr[mcgIdx] = gradientStopsHdr[mcgIdx];
 						}
 				}
@@ -4528,14 +5139,14 @@ namespace __Interop
 				// Cleanup
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
 				global::System.GC.KeepAlive(resourceCreator);
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_gradientStopsHdr);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_gradientStopsHdr);
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateHdr, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040B74] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr *, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateHdr, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000424E8] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr *, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_139<TThis, TArg0, TResult>(
+		internal static TResult Stub_156<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] gradientStopsHdr, 
@@ -4564,11 +5175,11 @@ namespace __Interop
 					if (gradientStopsHdr != null)
 						unsafe_gradientStopsHdr_mcgLength = (uint)gradientStopsHdr.Length;
 					if (gradientStopsHdr != null)
-						unsafe_gradientStopsHdr = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStopsHdr_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr))));
+						unsafe_gradientStopsHdr = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStopsHdr_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr))));
 					if (gradientStopsHdr != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_gradientStopsHdr_mcgLength); mcgIdx++)
 						{
-							// [fwd] [in] [optional] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr gradientStopsHdr
+							// [fwd] [in] [optional] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr gradientStopsHdr
 							unsafe_gradientStopsHdr[mcgIdx] = gradientStopsHdr[mcgIdx];
 						}
 				}
@@ -4598,14 +5209,14 @@ namespace __Interop
 				// Cleanup
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
 				global::System.GC.KeepAlive(resourceCreator);
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_gradientStopsHdr);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_gradientStopsHdr);
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateHdr, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040B74] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr *, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateHdr, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000424E8] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr *, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_140<TThis, TArg0, TResult>(
+		internal static TResult Stub_157<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] gradientStopsHdr, 
@@ -4637,11 +5248,11 @@ namespace __Interop
 					if (gradientStopsHdr != null)
 						unsafe_gradientStopsHdr_mcgLength = (uint)gradientStopsHdr.Length;
 					if (gradientStopsHdr != null)
-						unsafe_gradientStopsHdr = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStopsHdr_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr))));
+						unsafe_gradientStopsHdr = (global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_gradientStopsHdr_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr))));
 					if (gradientStopsHdr != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_gradientStopsHdr_mcgLength); mcgIdx++)
 						{
-							// [fwd] [in] [optional] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr gradientStopsHdr
+							// [fwd] [in] [optional] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr gradientStopsHdr
 							unsafe_gradientStopsHdr[mcgIdx] = gradientStopsHdr[mcgIdx];
 						}
 				}
@@ -4674,14 +5285,14 @@ namespace __Interop
 				// Cleanup
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
 				global::System.GC.KeepAlive(resourceCreator);
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_gradientStopsHdr);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_gradientStopsHdr);
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateRainbow, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics.CreateRainbow, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_141<TThis, TArg0, TResult>(
+		internal static TResult Stub_158<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					float eldritchness, 
@@ -4726,9 +5337,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_StartPoint, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_StartPoint, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Numerics.Vector2 Stub_142<TThis>(
+		internal static global::System.Numerics.Vector2 Stub_159<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4750,9 +5361,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.put_StartPoint, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.put_StartPoint, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_143<TThis>(
+		internal static void Stub_160<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Vector2 value, 
 					int __targetIndex)
@@ -4771,9 +5382,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_Stops, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040B74] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop *, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_Stops, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424E8] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] Stub_144<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] Stub_161<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4803,7 +5414,7 @@ namespace __Interop
 					if (valueElements__retval != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_valueElements__retval_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop valueElements__retval
+							// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStop__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStop valueElements__retval
 							valueElements__retval[mcgIdx] = unsafe_valueElements__retval[mcgIdx];
 						}
 				}
@@ -4813,13 +5424,13 @@ namespace __Interop
 			finally
 			{
 				// Cleanup
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_valueElements__retval);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_valueElements__retval);
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_StopsHdr, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040B74] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr *, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_StopsHdr, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424E8] rg_Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] Stub_145<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] Stub_162<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4849,7 +5460,7 @@ namespace __Interop
 					if (valueElements__retval != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_valueElements__retval_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr valueElements__retval
+							// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Brushes_CanvasGradientStopHdr__Microsoft_Graphics_Canvas_Brushes__CanvasGradientStopHdr valueElements__retval
 							valueElements__retval[mcgIdx] = unsafe_valueElements__retval[mcgIdx];
 						}
 				}
@@ -4859,13 +5470,13 @@ namespace __Interop
 			finally
 			{
 				// Cleanup
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_valueElements__retval);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_valueElements__retval);
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_PreInterpolationSpace, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_CanvasColorSpace__Microsoft_Graphics_Canvas__CanvasColorSpace, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_PreInterpolationSpace, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_CanvasColorSpace__Microsoft_Graphics_Canvas__CanvasColorSpace, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.CanvasColorSpace Stub_146<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.CanvasColorSpace Stub_163<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4887,9 +5498,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_BufferPrecision, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_CanvasBufferPrecision__Microsoft_Graphics_Canvas__CanvasBufferPrecision, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_BufferPrecision, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_CanvasBufferPrecision__Microsoft_Graphics_Canvas__CanvasBufferPrecision, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.CanvasBufferPrecision Stub_147<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.CanvasBufferPrecision Stub_164<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4911,9 +5522,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_AlphaMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_CanvasAlphaMode__Microsoft_Graphics_Canvas__CanvasAlphaMode, 
+		// Signature, Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush.get_AlphaMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_CanvasAlphaMode__Microsoft_Graphics_Canvas__CanvasAlphaMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.CanvasAlphaMode Stub_148<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.CanvasAlphaMode Stub_165<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4935,9 +5546,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmapStatics.CreateFromDirect3D11Surface, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmapStatics.CreateFromDirect3D11Surface, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_149<TThis, TArg0, TArg1, TResult>(
+		internal static TResult Stub_166<TThis, TArg0, TArg1, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					TArg1 surface, 
@@ -4989,9 +5600,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmapStatics.CreateFromDirect3D11Surface, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmapStatics.CreateFromDirect3D11Surface, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_150<TThis, TArg0, TArg1, TResult>(
+		internal static TResult Stub_167<TThis, TArg0, TArg1, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					TArg1 surface, 
@@ -5045,9 +5656,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmapStatics.CreateFromDirect3D11Surface, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmapStatics.CreateFromDirect3D11Surface, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_151<TThis, TArg0, TArg1, TResult>(
+		internal static TResult Stub_168<TThis, TArg0, TArg1, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					TArg1 surface, 
@@ -5103,62 +5714,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmapStatics.LoadAsync, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmapStatics.LoadAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00041760] System_Uri__Windows_Foundation__Uri, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_152<TThis, TArg0, TResult>(
-					global::System.__ComObject __this, 
-					TArg0 resourceCreator, 
-					string fileName, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TArg0__arg = default(void*);
-			global::System.Runtime.InteropServices.HSTRING unsafe_fileName = default(global::System.Runtime.InteropServices.HSTRING);
-			void* unsafe_TResult__retval = default(void*);
-			TResult TResult__retval = default(TResult);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-									resourceCreator, 
-									typeof(TArg0).TypeHandle
-								);
-				fixed (char* pBuffer_fileName = fileName)
-				{
-					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_fileName;
-					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_fileName, fileName, &(hstring_header_fileName), &(unsafe_fileName));
-					unsafe_TResult__retval = null;
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(TThis).TypeHandle, 
-										__targetIndex, 
-										unsafe_TArg0__arg, 
-										unsafe_fileName, 
-										&(unsafe_TResult__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-										((global::System.IntPtr)unsafe_TResult__retval), 
-										typeof(TResult).TypeHandle
-									);
-				}
-				// Return
-				return TResult__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
-				global::System.GC.KeepAlive(resourceCreator);
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
-			}
-		}
-
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmapStatics.LoadAsync, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0003FF84] System_Uri__Windows_Foundation__Uri, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_153<TThis, TArg0, TResult>(
+		internal static TResult Stub_169<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::System.Uri uri, 
@@ -5209,9 +5767,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.get_SizeInPixels, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Windows_Graphics_Imaging_BitmapSize__Windows_Graphics_Imaging__BitmapSize, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.get_SizeInPixels, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Windows_Graphics_Imaging_BitmapSize__Windows_Graphics_Imaging__BitmapSize, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Graphics.Imaging.BitmapSize Stub_154<TThis>(
+		internal static global::Windows.Graphics.Imaging.BitmapSize Stub_170<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -5233,9 +5791,9 @@ namespace __Interop
 			return size__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.get_Format, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_Graphics_DirectX_DirectXPixelFormat__Windows_Graphics_DirectX__DirectXPixelFormat, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.get_Format, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_Graphics_DirectX_DirectXPixelFormat__Windows_Graphics_DirectX__DirectXPixelFormat, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Graphics.DirectX.DirectXPixelFormat Stub_155<TThis>(
+		internal static global::Windows.Graphics.DirectX.DirectXPixelFormat Stub_171<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -5257,55 +5815,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.SaveAsync, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.GetPixelBytes, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042A40] rg_byte__unsigned char *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_156<TThis, TResult>(
-					global::System.__ComObject __this, 
-					string fileName, 
-					int fileFormat, 
-					int __targetIndex)
-		{
-			// Setup
-			global::System.Runtime.InteropServices.HSTRING unsafe_fileName = default(global::System.Runtime.InteropServices.HSTRING);
-			void* unsafe_TResult__retval = default(void*);
-			TResult TResult__retval = default(TResult);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				fixed (char* pBuffer_fileName = fileName)
-				{
-					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_fileName;
-					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_fileName, fileName, &(hstring_header_fileName), &(unsafe_fileName));
-					unsafe_TResult__retval = null;
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(TThis).TypeHandle, 
-										__targetIndex, 
-										unsafe_fileName, 
-										fileFormat, 
-										&(unsafe_TResult__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-										((global::System.IntPtr)unsafe_TResult__retval), 
-										typeof(TResult).TypeHandle
-									);
-				}
-				// Return
-				return TResult__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
-			}
-		}
-
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.GetPixelBytes, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000410CC] rg_byte__unsigned char *, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static byte[] Stub_157<TThis>(
+		internal static byte[] Stub_172<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -5335,7 +5847,7 @@ namespace __Interop
 					if (valueElements__retval != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_valueElements__retval_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x0004157C] byte__unsigned char valueElements__retval
+							// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x000419B0] byte__unsigned char valueElements__retval
 							valueElements__retval[mcgIdx] = unsafe_valueElements__retval[mcgIdx];
 						}
 				}
@@ -5345,13 +5857,13 @@ namespace __Interop
 			finally
 			{
 				// Cleanup
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_valueElements__retval);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_valueElements__retval);
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.GetPixelBytes, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.GetPixelBytes, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_158<TThis, TArg0>(
+		internal static void Stub_173<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 buffer, 
 					int left, 
@@ -5392,9 +5904,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.SetPixelBytes, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000410CC] rg_byte__unsigned char *, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasBitmap.SetPixelBytes, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_159<TThis>(
+		internal static void Stub_174<TThis>(
 					global::System.__ComObject __this, 
 					byte[] valueElements, 
 					int __targetIndex)
@@ -5423,9 +5935,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi.ConvertPixelsToDips, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] float__float, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi.ConvertPixelsToDips, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] float__float, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static float Stub_160<TThis>(
+		internal static float Stub_175<TThis>(
 					global::System.__ComObject __this, 
 					int pixels, 
 					int __targetIndex)
@@ -5449,9 +5961,9 @@ namespace __Interop
 			return dips__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory.CreateWithSize, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Size__Windows_Foundation__Size, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory.CreateWithSize, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Size__Windows_Foundation__Size, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_161<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_176<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					global::Windows.Foundation.Size size, 
@@ -5491,9 +6003,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory.CreateWithWidthAndHeight, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory.CreateWithWidthAndHeight, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_162<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_177<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					float width, 
@@ -5535,9 +6047,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory.CreateWithWidthAndHeightAndDpi, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory.CreateWithWidthAndHeightAndDpi, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_163<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_178<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					float width, 
@@ -5581,9 +6093,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_164<TThis, TArg0>(
+		internal static void Stub_179<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 image, 
 					global::System.Numerics.Vector2 offset, 
@@ -5618,9 +6130,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_165<TThis, TArg0>(
+		internal static void Stub_180<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 image, 
 					float x, 
@@ -5657,9 +6169,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_166<TThis, TArg0>(
+		internal static void Stub_181<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 bitmap, 
 					global::Windows.Foundation.Rect destinationRectangle, 
@@ -5694,9 +6206,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_167<TThis, TArg0>(
+		internal static void Stub_182<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 image, 
 					global::System.Numerics.Vector2 offset, 
@@ -5733,9 +6245,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawImage, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_168<TThis, TArg0>(
+		internal static void Stub_183<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 image, 
 					global::Windows.Foundation.Rect destinationRectangle, 
@@ -5772,9 +6284,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_169<TThis, TArg0>(
+		internal static void Stub_184<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					float x0, 
 					float y0, 
@@ -5815,9 +6327,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_170<TThis>(
+		internal static void Stub_185<TThis>(
 					global::System.__ComObject __this, 
 					float x0, 
 					float y0, 
@@ -5844,9 +6356,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_171<TThis, TArg0>(
+		internal static void Stub_186<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					float x0, 
 					float y0, 
@@ -5889,9 +6401,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, [fwd] [in] [EETypeRva:0x0004157C] float__float, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, [fwd] [in] [EETypeRva:0x000419B0] float__float, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_172<TThis>(
+		internal static void Stub_187<TThis>(
 					global::System.__ComObject __this, 
 					float x0, 
 					float y0, 
@@ -5920,9 +6432,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_173<TThis, TArg0, TArg1>(
+		internal static void Stub_188<TThis, TArg0, TArg1>(
 					global::System.__ComObject __this, 
 					float x0, 
 					float y0, 
@@ -5974,9 +6486,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawLine, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_174<TThis, TArg0>(
+		internal static void Stub_189<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					float x0, 
 					float y0, 
@@ -6021,9 +6533,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRectangle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRectangle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_175<TThis, TArg0>(
+		internal static void Stub_190<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.Rect rect, 
 					TArg0 brush, 
@@ -6058,9 +6570,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRectangle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRectangle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_176<TThis>(
+		internal static void Stub_191<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.Rect rect, 
 					global::Windows.UI.Color color, 
@@ -6081,9 +6593,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRoundedRectangle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRoundedRectangle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_177<TThis, TArg0>(
+		internal static void Stub_192<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.Rect rect, 
 					float radiusX, 
@@ -6122,9 +6634,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRoundedRectangle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRoundedRectangle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_178<TThis, TArg0>(
+		internal static void Stub_193<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					float x, 
 					float y, 
@@ -6169,9 +6681,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRoundedRectangle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRoundedRectangle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_179<TThis>(
+		internal static void Stub_194<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.Rect rect, 
 					float radiusX, 
@@ -6196,9 +6708,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRoundedRectangle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawRoundedRectangle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_180<TThis>(
+		internal static void Stub_195<TThis>(
 					global::System.__ComObject __this, 
 					float x, 
 					float y, 
@@ -6229,9 +6741,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawEllipse, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawEllipse, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_181<TThis, TArg0>(
+		internal static void Stub_196<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Vector2 centerPoint, 
 					float radiusX, 
@@ -6270,9 +6782,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawEllipse, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawEllipse, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_182<TThis>(
+		internal static void Stub_197<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Vector2 centerPoint, 
 					float radiusX, 
@@ -6297,9 +6809,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawCircle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawCircle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_183<TThis, TArg0>(
+		internal static void Stub_198<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Vector2 centerPoint, 
 					float radius, 
@@ -6336,9 +6848,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawCircle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawCircle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_184<TThis, TArg0>(
+		internal static void Stub_199<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					float x, 
 					float y, 
@@ -6377,9 +6889,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawCircle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawCircle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_185<TThis>(
+		internal static void Stub_200<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Vector2 centerPoint, 
 					float radius, 
@@ -6402,9 +6914,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawCircle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawCircle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_186<TThis>(
+		internal static void Stub_201<TThis>(
 					global::System.__ComObject __this, 
 					float x, 
 					float y, 
@@ -6429,9 +6941,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_187<TThis, TArg0, TArg1>(
+		internal static void Stub_202<TThis, TArg0, TArg1>(
 					global::System.__ComObject __this, 
 					TArg0 geometry, 
 					global::System.Numerics.Vector2 offset, 
@@ -6475,9 +6987,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_188<TThis, TArg0>(
+		internal static void Stub_203<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 geometry, 
 					global::System.Numerics.Vector2 offset, 
@@ -6514,9 +7026,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_189<TThis, TArg0, TArg1>(
+		internal static void Stub_204<TThis, TArg0, TArg1>(
 					global::System.__ComObject __this, 
 					TArg0 geometry, 
 					float x, 
@@ -6562,9 +7074,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_190<TThis, TArg0>(
+		internal static void Stub_205<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 geometry, 
 					float x, 
@@ -6603,9 +7115,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.DrawGeometry, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_191<TThis, TArg0>(
+		internal static void Stub_206<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 geometry, 
 					global::Windows.UI.Color color, 
@@ -6640,9 +7152,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.FillGeometry, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.FillGeometry, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_192<TThis, TArg0, TArg1, TArg2>(
+		internal static void Stub_207<TThis, TArg0, TArg1, TArg2>(
 					global::System.__ComObject __this, 
 					TArg0 geometry, 
 					TArg1 brush, 
@@ -6693,9 +7205,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.get_EffectBufferPrecision, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FEBC] System_Nullable_1_Microsoft_Graphics_Canvas_CanvasBufferPrecision___Windows_Foundation__IReference_A_Microsoft_Graphics_Canvas_CanvasBufferPrecision_V_ *, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.get_EffectBufferPrecision, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041698] System_Nullable_1_Microsoft_Graphics_Canvas_CanvasBufferPrecision___Windows_Foundation__IReference_A_Microsoft_Graphics_Canvas_CanvasBufferPrecision_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> Stub_193<TThis>(
+		internal static global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> Stub_208<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -6735,9 +7247,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.put_EffectBufferPrecision, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FEBC] System_Nullable_1_Microsoft_Graphics_Canvas_CanvasBufferPrecision___Windows_Foundation__IReference_A_Microsoft_Graphics_Canvas_CanvasBufferPrecision_V_ *, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.put_EffectBufferPrecision, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041698] System_Nullable_1_Microsoft_Graphics_Canvas_CanvasBufferPrecision___Windows_Foundation__IReference_A_Microsoft_Graphics_Canvas_CanvasBufferPrecision_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_194<TThis>(
+		internal static void Stub_209<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> value, 
 					int __targetIndex)
@@ -6775,9 +7287,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.CreateLayer, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.CreateLayer, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_195<TThis, TResult>(
+		internal static TResult Stub_210<TThis, TResult>(
 					global::System.__ComObject __this, 
 					float opacity, 
 					int __targetIndex)
@@ -6813,9 +7325,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.CreateLayer, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.CreateLayer, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_196<TThis, TArg0, TResult>(
+		internal static TResult Stub_211<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 opacityBrush, 
 					global::Windows.Foundation.Rect clipRectangle, 
@@ -6860,9 +7372,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.CreateLayer, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.CreateLayer, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_197<TThis, TArg0, TResult>(
+		internal static TResult Stub_212<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					float opacity, 
 					TArg0 clipGeometry, 
@@ -6907,47 +7419,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasDrawingSession.CreateSpriteBatch, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle.get_StartCap, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Geometry_CanvasCapStyle__Microsoft_Graphics_Canvas_Geometry__CanvasCapStyle, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_198<TThis, TResult>(
-					global::System.__ComObject __this, 
-					int sortMode, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TResult__retval = default(void*);
-			TResult TResult__retval = default(TResult);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TResult__retval = null;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									sortMode, 
-									&(unsafe_TResult__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-									((global::System.IntPtr)unsafe_TResult__retval), 
-									typeof(TResult).TypeHandle
-								);
-				// Return
-				return TResult__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
-			}
-		}
-
-		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle.get_StartCap, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Geometry_CanvasCapStyle__Microsoft_Graphics_Canvas_Geometry__CanvasCapStyle, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle Stub_199<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle Stub_213<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -6969,9 +7443,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle.get_CustomDashStyle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000410CC] rg_float__float *, 
+		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle.get_CustomDashStyle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042A40] rg_float__float *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static float[] Stub_200<TThis>(
+		internal static float[] Stub_214<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7001,7 +7475,7 @@ namespace __Interop
 					if (valueElements__retval != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_valueElements__retval_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x0004157C] float__float valueElements__retval
+							// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x000419B0] float__float valueElements__retval
 							valueElements__retval[mcgIdx] = unsafe_valueElements__retval[mcgIdx];
 						}
 				}
@@ -7011,13 +7485,13 @@ namespace __Interop
 			finally
 			{
 				// Cleanup
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_valueElements__retval);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_valueElements__retval);
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle.put_CustomDashStyle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000410CC] rg_float__float *, 
+		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle.put_CustomDashStyle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042A40] rg_float__float *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_201<TThis>(
+		internal static void Stub_215<TThis>(
 					global::System.__ComObject __this, 
 					float[] valueElements, 
 					int __targetIndex)
@@ -7046,9 +7520,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_Direction, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasTextDirection__Microsoft_Graphics_Canvas_Text__CanvasTextDirection, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_Direction, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasTextDirection__Microsoft_Graphics_Canvas_Text__CanvasTextDirection, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasTextDirection Stub_202<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasTextDirection Stub_216<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7070,9 +7544,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_VerticalAlignment, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasVerticalAlignment__Microsoft_Graphics_Canvas_Text__CanvasVerticalAlignment, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_VerticalAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasVerticalAlignment__Microsoft_Graphics_Canvas_Text__CanvasVerticalAlignment, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasVerticalAlignment Stub_203<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasVerticalAlignment Stub_217<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7094,9 +7568,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_HorizontalAlignment, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasHorizontalAlignment__Microsoft_Graphics_Canvas_Text__CanvasHorizontalAlignment, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_HorizontalAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasHorizontalAlignment__Microsoft_Graphics_Canvas_Text__CanvasHorizontalAlignment, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasHorizontalAlignment Stub_204<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasHorizontalAlignment Stub_218<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7118,9 +7592,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_TrimmingGranularity, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasTextTrimmingGranularity__Microsoft_Graphics_Canvas_Text__CanvasTextTrimmingGranularity, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_TrimmingGranularity, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasTextTrimmingGranularity__Microsoft_Graphics_Canvas_Text__CanvasTextTrimmingGranularity, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasTextTrimmingGranularity Stub_205<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasTextTrimmingGranularity Stub_219<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7142,9 +7616,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_WordWrapping, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasWordWrapping__Microsoft_Graphics_Canvas_Text__CanvasWordWrapping, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_WordWrapping, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasWordWrapping__Microsoft_Graphics_Canvas_Text__CanvasWordWrapping, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasWordWrapping Stub_206<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasWordWrapping Stub_220<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7166,9 +7640,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_Options, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasDrawTextOptions__Microsoft_Graphics_Canvas_Text__CanvasDrawTextOptions, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_Options, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasDrawTextOptions__Microsoft_Graphics_Canvas_Text__CanvasDrawTextOptions, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions Stub_207<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions Stub_221<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7190,9 +7664,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.put_Options, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasDrawTextOptions__Microsoft_Graphics_Canvas_Text__CanvasDrawTextOptions, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.put_Options, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasDrawTextOptions__Microsoft_Graphics_Canvas_Text__CanvasDrawTextOptions, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_208<TThis>(
+		internal static void Stub_222<TThis>(
 					global::System.__ComObject __this, 
 					global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions value, 
 					int __targetIndex)
@@ -7211,9 +7685,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_VerticalGlyphOrientation, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasVerticalGlyphOrientation__Microsoft_Graphics_Canvas_Text__CanvasVerticalGlyphOrientation, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_VerticalGlyphOrientation, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasVerticalGlyphOrientation__Microsoft_Graphics_Canvas_Text__CanvasVerticalGlyphOrientation, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasVerticalGlyphOrientation Stub_209<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasVerticalGlyphOrientation Stub_223<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7235,9 +7709,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_OpticalAlignment, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasOpticalAlignment__Microsoft_Graphics_Canvas_Text__CanvasOpticalAlignment, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_OpticalAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasOpticalAlignment__Microsoft_Graphics_Canvas_Text__CanvasOpticalAlignment, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasOpticalAlignment Stub_210<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasOpticalAlignment Stub_224<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7259,9 +7733,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_LineSpacingMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasLineSpacingMode__Microsoft_Graphics_Canvas_Text__CanvasLineSpacingMode, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_LineSpacingMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasLineSpacingMode__Microsoft_Graphics_Canvas_Text__CanvasLineSpacingMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasLineSpacingMode Stub_211<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasLineSpacingMode Stub_225<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7283,9 +7757,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_TrimmingSign, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasTrimmingSign__Microsoft_Graphics_Canvas_Text__CanvasTrimmingSign, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextFormat.get_TrimmingSign, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasTrimmingSign__Microsoft_Graphics_Canvas_Text__CanvasTrimmingSign, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasTrimmingSign Stub_212<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasTrimmingSign Stub_226<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7307,9 +7781,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject.get_BreakBefore, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Text_CanvasLineBreakCondition__Microsoft_Graphics_Canvas_Text__CanvasLineBreakCondition, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject.get_BreakBefore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Text_CanvasLineBreakCondition__Microsoft_Graphics_Canvas_Text__CanvasLineBreakCondition, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasLineBreakCondition Stub_213<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasLineBreakCondition Stub_227<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7331,9 +7805,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics.CreateRectangle, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics.CreateRectangle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_214<TThis, TArg0, TResult>(
+		internal static TResult Stub_228<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					float x, 
@@ -7384,9 +7858,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder.BeginFigure, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, 
+		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder.BeginFigure, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_215<TThis>(
+		internal static void Stub_229<TThis>(
 					global::System.__ComObject __this, 
 					float startX, 
 					float startY, 
@@ -7407,9 +7881,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.GetBrush, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.GetBrush, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_216<TThis, TResult>(
+		internal static TResult Stub_230<TThis, TResult>(
 					global::System.__ComObject __this, 
 					int characterIndex, 
 					int __targetIndex)
@@ -7445,9 +7919,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.GetFontFamily, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.GetFontFamily, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static string Stub_217<TThis>(
+		internal static string Stub_231<TThis>(
 					global::System.__ComObject __this, 
 					int characterIndex, 
 					int __targetIndex)
@@ -7480,9 +7954,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.SetBrush, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.SetBrush, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_218<TThis, TArg0>(
+		internal static void Stub_232<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					int characterIndex, 
 					int characterCount, 
@@ -7519,9 +7993,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.SetFontFamily, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.SetFontFamily, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_219<TThis>(
+		internal static void Stub_233<TThis>(
 					global::System.__ComObject __this, 
 					int characterIndex, 
 					int characterCount, 
@@ -7550,9 +8024,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.SetFontStretch, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.SetFontStretch, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_220<TThis>(
+		internal static void Stub_234<TThis>(
 					global::System.__ComObject __this, 
 					int characterIndex, 
 					int characterCount, 
@@ -7575,9 +8049,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.SetStrikethrough, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [in] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.SetStrikethrough, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_221<TThis>(
+		internal static void Stub_235<TThis>(
 					global::System.__ComObject __this, 
 					int characterIndex, 
 					int characterCount, 
@@ -7602,9 +8076,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.HitTest, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasTextLayout.HitTest, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_222<TThis>(
+		internal static bool Stub_236<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Vector2 point, 
 					int __targetIndex)
@@ -7628,9 +8102,9 @@ namespace __Interop
 			return isHit__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry.ComputeArea, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] float__float, 
+		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry.ComputeArea, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] float__float, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static float Stub_223<TThis>(
+		internal static float Stub_237<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Matrix3x2 transform, 
 					float flatteningTolerance, 
@@ -7656,9 +8130,9 @@ namespace __Interop
 			return area__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMeshStatics.CreateCoonsPatch, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000410CC] rg_System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2 *, [fwd] [in] [EETypeRva:0x000410CC] rg_System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4 *, [fwd] [in] [EETypeRva:0x00040B74] rg_Microsoft_Graphics_Canvas_Geometry_CanvasGradientMeshPatchEdge__Microsoft_Graphics_Canvas_Geometry__CanvasGradientMeshPatchEdge *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Geometry_CanvasGradientMeshPatch__Microsoft_Graphics_Canvas_Geometry__CanvasGradientMeshPatch, 
+		// Signature, Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMeshStatics.CreateCoonsPatch, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2 *, [fwd] [in] [EETypeRva:0x00042A40] rg_System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4 *, [fwd] [in] [EETypeRva:0x000424E8] rg_Microsoft_Graphics_Canvas_Geometry_CanvasGradientMeshPatchEdge__Microsoft_Graphics_Canvas_Geometry__CanvasGradientMeshPatchEdge *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Geometry_CanvasGradientMeshPatch__Microsoft_Graphics_Canvas_Geometry__CanvasGradientMeshPatch, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatch Stub_224<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatch Stub_238<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Vector2[] points, 
 					global::System.Numerics.Vector4[] colors, 
@@ -7697,11 +8171,11 @@ namespace __Interop
 							if (edges != null)
 								unsafe_edges_mcgLength = (uint)edges.Length;
 							if (edges != null)
-								unsafe_edges = (global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatchEdge*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_edges_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatchEdge))));
+								unsafe_edges = (global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatchEdge*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_edges_mcgLength * sizeof(global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatchEdge))));
 							if (edges != null)
 								for (uint mcgIdx = 0; (mcgIdx < unsafe_edges_mcgLength); mcgIdx++)
 								{
-									// [fwd] [in] [optional] [EETypeRva:0x000414B4]  -> int
+									// [fwd] [in] [optional] [EETypeRva:0x00042D60]  -> int
 									unsafe_edges[mcgIdx] = edges[mcgIdx];
 								}
 						}
@@ -7728,68 +8202,13 @@ namespace __Interop
 			finally
 			{
 				// Cleanup
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_edges);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_edges);
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasVirtualBitmapStatics.LoadAsync, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasFontSetFactory.Create, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041760] System_Uri__Windows_Foundation__Uri, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_225<TThis, TArg0, TResult>(
-					global::System.__ComObject __this, 
-					TArg0 resourceCreator, 
-					string fileName, 
-					int options, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TArg0__arg = default(void*);
-			global::System.Runtime.InteropServices.HSTRING unsafe_fileName = default(global::System.Runtime.InteropServices.HSTRING);
-			void* unsafe_TResult__retval = default(void*);
-			TResult TResult__retval = default(TResult);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-									resourceCreator, 
-									typeof(TArg0).TypeHandle
-								);
-				fixed (char* pBuffer_fileName = fileName)
-				{
-					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_fileName;
-					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_fileName, fileName, &(hstring_header_fileName), &(unsafe_fileName));
-					unsafe_TResult__retval = null;
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(TThis).TypeHandle, 
-										__targetIndex, 
-										unsafe_TArg0__arg, 
-										unsafe_fileName, 
-										options, 
-										&(unsafe_TResult__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-										((global::System.IntPtr)unsafe_TResult__retval), 
-										typeof(TResult).TypeHandle
-									);
-				}
-				// Return
-				return TResult__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
-				global::System.GC.KeepAlive(resourceCreator);
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
-			}
-		}
-
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasFontSetFactory.Create, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FF84] System_Uri__Windows_Foundation__Uri, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_226<TThis>(
+		internal static global::System.IntPtr Stub_239<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Uri uri, 
 					int __targetIndex)
@@ -7826,9 +8245,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasNumberSubstitutionFactory.Create, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.Text.ICanvasNumberSubstitutionFactory.Create, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_227<TThis>(
+		internal static global::System.IntPtr Stub_240<TThis>(
 					global::System.__ComObject __this, 
 					int method, 
 					int __targetIndex)
@@ -7852,9 +8271,9 @@ namespace __Interop
 			return canvasNumberSubstitution__retval;
 		}
 
-		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasScaledFont>.get_Key, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Text_CanvasCharacterRange__Microsoft_Graphics_Canvas_Text__CanvasCharacterRange, 
+		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasScaledFont>.get_Key, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Text_CanvasCharacterRange__Microsoft_Graphics_Canvas_Text__CanvasCharacterRange, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange Stub_228<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange Stub_241<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7876,9 +8295,9 @@ namespace __Interop
 			return __value__retval;
 		}
 
-		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>.get_Value, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedBidi__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedBidi, 
+		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedBidi__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedBidi, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi Stub_229<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi Stub_242<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7900,9 +8319,9 @@ namespace __Interop
 			return __value__retval;
 		}
 
-		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>.get_Value, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedScript__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedScript, 
+		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedScript__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedScript, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript Stub_230<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript Stub_243<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7924,9 +8343,9 @@ namespace __Interop
 			return __value__retval;
 		}
 
-		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>.get_Value, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004084C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedGlyphOrientation__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedGlyphOrientation, 
+		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000421C0] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedGlyphOrientation__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedGlyphOrientation, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation Stub_231<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation Stub_244<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -7952,9 +8371,9 @@ namespace __Interop
 			return __value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory.CreateWithWidthAndHeightAndDpiAndAlphaMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory.CreateWithWidthAndHeightAndDpiAndAlphaMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_232<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_245<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 resourceCreator, 
 					float width, 
@@ -8000,9 +8419,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource.CreateDrawingSession, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource.CreateDrawingSession, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_233<TThis, TResult>(
+		internal static TResult Stub_246<TThis, TResult>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Color clearColor, 
 					int __targetIndex)
@@ -8038,9 +8457,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource.CreateDrawingSession, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, [fwd] [in] [EETypeRva:0x0004157C] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource.CreateDrawingSession, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_234<TThis, TResult>(
+		internal static TResult Stub_247<TThis, TResult>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Color clearColor, 
 					global::Windows.Foundation.Rect updateRectangle, 
@@ -8078,9 +8497,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Core.ICoreWindow.get_FlowDirection, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Core_CoreWindowFlowDirection__Windows_UI_Core__CoreWindowFlowDirection, 
+		// Signature, Windows.UI.Core.ICoreWindow.get_FlowDirection, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Core_CoreWindowFlowDirection__Windows_UI_Core__CoreWindowFlowDirection, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Core.CoreWindowFlowDirection Stub_235<TThis>(
+		internal static global::Windows.UI.Core.CoreWindowFlowDirection Stub_248<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8102,9 +8521,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.ICanvasSwapChain.ResizeBuffers, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, [fwd] [in] [EETypeRva:0x0004157C] float__float, 
+		// Signature, Microsoft.Graphics.Canvas.ICanvasSwapChain.ResizeBuffers, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, [fwd] [in] [EETypeRva:0x000419B0] float__float, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_236<TThis>(
+		internal static void Stub_249<TThis>(
 					global::System.__ComObject __this, 
 					float newWidth, 
 					float newHeight, 
@@ -8127,9 +8546,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedUpdateEventArgs.get_Timing, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004084C] Microsoft_Graphics_Canvas_UI_CanvasTimingInformation__Microsoft_Graphics_Canvas_UI__CanvasTimingInformation, 
+		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedUpdateEventArgs.get_Timing, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000421C0] Microsoft_Graphics_Canvas_UI_CanvasTimingInformation__Microsoft_Graphics_Canvas_UI__CanvasTimingInformation, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation Stub_237<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation Stub_250<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8155,9 +8574,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl.add_GameLoopStarting, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Microsoft_Graphics_Canvas_UI_Xaml_ICanvasAnimatedControl__object___Windows_Foundation__TypedEventHandler_A_Microsoft_Graphics_Canvas_UI_Xaml_ICanvasAnimatedControl_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl.add_GameLoopStarting, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Microsoft_Graphics_Canvas_UI_Xaml_ICanvasAnimatedControl__object___Windows_Foundation__TypedEventHandler_A_Microsoft_Graphics_Canvas_UI_Xaml_ICanvasAnimatedControl_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_238<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_251<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl, object> value, 
 					int __targetIndex)
@@ -8194,9 +8613,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl.put_TargetElapsedTime, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_TimeSpan__Windows_Foundation__TimeSpan, 
+		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl.put_TargetElapsedTime, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_TimeSpan__Windows_Foundation__TimeSpan, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_239<TThis>(
+		internal static void Stub_252<TThis>(
 					global::System.__ComObject __this, 
 					global::System.TimeSpan value, 
 					int __targetIndex)
@@ -8215,9 +8634,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl.get_TargetElapsedTime, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_TimeSpan__Windows_Foundation__TimeSpan, 
+		// Signature, Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl.get_TargetElapsedTime, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_TimeSpan__Windows_Foundation__TimeSpan, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.TimeSpan Stub_240<TThis>(
+		internal static global::System.TimeSpan Stub_253<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8239,9 +8658,47 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect.get_Source1Mapping, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Effects_SamplerCoordinateMapping__Microsoft_Graphics_Canvas_Effects__SamplerCoordinateMapping, 
+		// Signature, Windows.UI.Composition.ICompositor.CreateScopedBatch, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60] Windows_UI_Composition_CompositionBatchTypes__Windows_UI_Composition__CompositionBatchTypes, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping Stub_241<TThis>(
+		internal static TResult Stub_254<TThis, TResult>(
+					global::System.__ComObject __this, 
+					global::Windows.UI.Composition.CompositionBatchTypes batchType, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TResult__retval = default(void*);
+			TResult TResult__retval = default(TResult);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TResult__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									batchType, 
+									&(unsafe_TResult__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_TResult__retval), 
+									typeof(TResult).TypeHandle
+								);
+				// Return
+				return TResult__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
+			}
+		}
+
+		// Signature, Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect.get_Source1Mapping, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Effects_SamplerCoordinateMapping__Microsoft_Graphics_Canvas_Effects__SamplerCoordinateMapping, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping Stub_255<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8263,9 +8720,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect.get_Source1BorderMode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Effects_EffectBorderMode__Microsoft_Graphics_Canvas_Effects__EffectBorderMode, 
+		// Signature, Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect.get_Source1BorderMode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Effects_EffectBorderMode__Microsoft_Graphics_Canvas_Effects__EffectBorderMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode Stub_242<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode Stub_256<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8287,9 +8744,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Effects.IColorManagementEffect.get_SourceRenderingIntent, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Effects_ColorManagementRenderingIntent__Microsoft_Graphics_Canvas_Effects__ColorManagementRenderingIntent, 
+		// Signature, Microsoft.Graphics.Canvas.Effects.IColorManagementEffect.get_SourceRenderingIntent, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Effects_ColorManagementRenderingIntent__Microsoft_Graphics_Canvas_Effects__ColorManagementRenderingIntent, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Effects.ColorManagementRenderingIntent Stub_243<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Effects.ColorManagementRenderingIntent Stub_257<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8311,9 +8768,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect.get_Optimization, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Effects_EffectOptimization__Microsoft_Graphics_Canvas_Effects__EffectOptimization, 
+		// Signature, Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect.get_Optimization, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Effects_EffectOptimization__Microsoft_Graphics_Canvas_Effects__EffectOptimization, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Effects.EffectOptimization Stub_244<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Effects.EffectOptimization Stub_258<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8335,9 +8792,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect.get_XChannelSelect, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Effects_EffectChannelSelect__Microsoft_Graphics_Canvas_Effects__EffectChannelSelect, 
+		// Signature, Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect.get_XChannelSelect, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Effects_EffectChannelSelect__Microsoft_Graphics_Canvas_Effects__EffectChannelSelect, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Effects.EffectChannelSelect Stub_245<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Effects.EffectChannelSelect Stub_259<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8359,9 +8816,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Effects.IHueToRgbEffect.get_SourceColorSpace, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Microsoft_Graphics_Canvas_Effects_EffectHueColorSpace__Microsoft_Graphics_Canvas_Effects__EffectHueColorSpace, 
+		// Signature, Microsoft.Graphics.Canvas.Effects.IHueToRgbEffect.get_SourceColorSpace, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_Graphics_Canvas_Effects_EffectHueColorSpace__Microsoft_Graphics_Canvas_Effects__EffectHueColorSpace, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.Graphics.Canvas.Effects.EffectHueColorSpace Stub_246<TThis>(
+		internal static global::Microsoft.Graphics.Canvas.Effects.EffectHueColorSpace Stub_260<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8383,9 +8840,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect.get_LightPosition, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Numerics_Vector3__Windows_Foundation_Numerics__Vector3, 
+		// Signature, Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect.get_LightPosition, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Vector3__Windows_Foundation_Numerics__Vector3, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Numerics.Vector3 Stub_247<TThis>(
+		internal static global::System.Numerics.Vector3 Stub_261<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8407,9 +8864,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect.put_LightPosition, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] System_Numerics_Vector3__Windows_Foundation_Numerics__Vector3, 
+		// Signature, Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect.put_LightPosition, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_Numerics_Vector3__Windows_Foundation_Numerics__Vector3, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_248<TThis>(
+		internal static void Stub_262<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Numerics.Vector3 value, 
 					int __targetIndex)
@@ -8428,9 +8885,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Microsoft.Graphics.Canvas.Effects.ITransform3DEffect.get_TransformMatrix, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Numerics_Matrix4x4__Windows_Foundation_Numerics__Matrix4x4, 
+		// Signature, Microsoft.Graphics.Canvas.Effects.ITransform3DEffect.get_TransformMatrix, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Matrix4x4__Windows_Foundation_Numerics__Matrix4x4, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Numerics.Matrix4x4 Stub_249<TThis>(
+		internal static global::System.Numerics.Matrix4x4 Stub_263<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8452,50 +8909,150 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, System.Collections.Generic.IList<System.Type>.SetAt, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, [fwd] [in] [EETypeRva:0x0003F75C] System_Type__Windows_UI_Xaml_Interop__TypeName, 
+		// Signature, Windows.Devices.Enumeration.IDeviceWatcher.add_Updated, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_Devices_Enumeration_DeviceWatcher__Windows_Devices_Enumeration_DeviceInformationUpdate___Windows_Foundation__TypedEventHandler_A__w_Devices_Enumeration_DeviceWatcher_j__w_Devices_Enumeration_DeviceInformationUpdate_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_250<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_264<TThis>(
 					global::System.__ComObject __this, 
-					uint index, 
-					global::System.Type value, 
+					global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Enumeration.DeviceWatcher, global::Windows.Devices.Enumeration.DeviceInformationUpdate> handler, 
 					int __targetIndex)
 		{
 			// Setup
-			global::System.Type__Impl.UnsafeType unsafe_value = default(global::System.Type__Impl.UnsafeType);
+			void* unsafe_handler = default(void*);
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken unsafe_token__retval;
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token__retval;
 			int unsafe___hr;
 			try
 			{
 				// Marshalling
-				global::System.Runtime.InteropServices.HSTRING unsafe_value__HSTRING__Name;
-				int unsafe_value__int__Kind;
-				global::System.Runtime.InteropServices.McgMarshal.TypeToTypeName(
-									value, 
-									out unsafe_value__HSTRING__Name, 
-									out unsafe_value__int__Kind
+				unsafe_handler = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+									handler, 
+									typeof(global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Enumeration.DeviceWatcher, global::Windows.Devices.Enumeration.DeviceInformationUpdate>).TypeHandle
 								);
-				unsafe_value.Name = unsafe_value__HSTRING__Name;
-				unsafe_value.Kind = (global::Windows.UI.Xaml.Interop.TypeKind)unsafe_value__int__Kind;
 				// Call to native method
 				unsafe___hr = global::__Interop.ComCallHelpers.Call(
 									__this, 
 									typeof(TThis).TypeHandle, 
 									__targetIndex, 
-									index, 
-									unsafe_value
+									unsafe_handler, 
+									&(unsafe_token__retval)
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				token__retval = unsafe_token__retval;
 				// Return
+				return token__retval;
 			}
 			finally
 			{
 				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.FreeHString(unsafe_value.Name.handle);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
 			}
 		}
 
-		// Signature, Windows.Devices.Power.IBatteryReport.get_FullChargeCapacityInMilliwattHours, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FEBC] System_Nullable_1_int___Windows_Foundation__IReference_A_int_V_ *, 
+		// Signature, Windows.UI.ViewManagement.IInputPane.add_Showing, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_ViewManagement_InputPane__Windows_UI_ViewManagement_InputPaneVisibilityEventArgs___Windows_Foundation__TypedEventHandler_A__w_UI_ViewManagement_InputPane_j__w_UI_ViewManagement_InputPaneVisibilityEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Nullable<int> Stub_251<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_265<TThis>(
+					global::System.__ComObject __this, 
+					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.ViewManagement.InputPane, global::Windows.UI.ViewManagement.InputPaneVisibilityEventArgs> handler, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_handler = default(void*);
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken unsafe_token__retval;
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token__retval;
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_handler = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+									handler, 
+									typeof(global::Windows.Foundation.TypedEventHandler<global::Windows.UI.ViewManagement.InputPane, global::Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>).TypeHandle
+								);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_handler, 
+									&(unsafe_token__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				token__retval = unsafe_token__retval;
+				// Return
+				return token__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
+			}
+		}
+
+		// Signature, Windows.Graphics.Display.IDisplayInformation.get_CurrentOrientation, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_Graphics_Display_DisplayOrientations__Windows_Graphics_Display__DisplayOrientations, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::Windows.Graphics.Display.DisplayOrientations Stub_266<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			global::Windows.Graphics.Display.DisplayOrientations unsafe_value__retval;
+			global::Windows.Graphics.Display.DisplayOrientations value__retval;
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								&(unsafe_value__retval)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			value__retval = unsafe_value__retval;
+			// Return
+			return value__retval;
+		}
+
+		// Signature, Windows.Graphics.Display.IDisplayInformation.add_OrientationChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_Graphics_Display_DisplayInformation__object___Windows_Foundation__TypedEventHandler_A__w_Graphics_Display_DisplayInformation_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_267<TThis>(
+					global::System.__ComObject __this, 
+					global::Windows.Foundation.TypedEventHandler<global::Windows.Graphics.Display.DisplayInformation, object> handler, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_handler = default(void*);
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken unsafe_token__retval;
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token__retval;
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_handler = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+									handler, 
+									typeof(global::Windows.Foundation.TypedEventHandler<global::Windows.Graphics.Display.DisplayInformation, object>).TypeHandle
+								);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_handler, 
+									&(unsafe_token__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				token__retval = unsafe_token__retval;
+				// Return
+				return token__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
+			}
+		}
+
+		// Signature, Windows.Devices.Power.IBatteryReport.get_FullChargeCapacityInMilliwattHours, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041698] System_Nullable_1_int___Windows_Foundation__IReference_A_int_V_ *, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::System.Nullable<int> Stub_268<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8535,220 +9092,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Graphics.Display.IDisplayInformation.get_CurrentOrientation, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_Graphics_Display_DisplayOrientations__Windows_Graphics_Display__DisplayOrientations, 
+		// Signature, Windows.UI.Xaml.Controls.IDatePickerFlyout.put_Date, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040C1C] System_DateTimeOffset__Windows_Foundation__DateTime, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Graphics.Display.DisplayOrientations Stub_252<TThis>(
-					global::System.__ComObject __this, 
-					int __targetIndex)
-		{
-			// Setup
-			global::Windows.Graphics.Display.DisplayOrientations unsafe_value__retval;
-			global::Windows.Graphics.Display.DisplayOrientations value__retval;
-			int unsafe___hr;
-			// Marshalling
-			// Call to native method
-			unsafe___hr = global::__Interop.ComCallHelpers.Call(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								&(unsafe_value__retval)
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			value__retval = unsafe_value__retval;
-			// Return
-			return value__retval;
-		}
-
-		// Signature, Windows.Graphics.Display.IDisplayInformation.add_OrientationChanged, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_Graphics_Display_DisplayInformation__object___Windows_Foundation__TypedEventHandler_A__w_Graphics_Display_DisplayInformation_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_253<TThis>(
-					global::System.__ComObject __this, 
-					global::Windows.Foundation.TypedEventHandler<global::Windows.Graphics.Display.DisplayInformation, object> handler, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_handler = default(void*);
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken unsafe_token__retval;
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token__retval;
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_handler = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
-									handler, 
-									typeof(global::Windows.Foundation.TypedEventHandler<global::Windows.Graphics.Display.DisplayInformation, object>).TypeHandle
-								);
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_handler, 
-									&(unsafe_token__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				token__retval = unsafe_token__retval;
-				// Return
-				return token__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
-			}
-		}
-
-		// Signature, Windows.Storage.IStorageItem.get_DateCreated, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F440] System_DateTimeOffset__Windows_Foundation__DateTime, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.DateTimeOffset Stub_254<TThis>(
-					global::System.__ComObject __this, 
-					int __targetIndex)
-		{
-			// Setup
-			global::System.DateTimeOffset value__retval;
-			global::System.DateTimeOffset__Impl.UnsafeType unsafe_value__retval;
-			int unsafe___hr;
-			// Marshalling
-			// Call to native method
-			unsafe___hr = global::__Interop.ComCallHelpers.Call(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								&(unsafe_value__retval)
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			value__retval = new global::System.DateTimeOffset((unsafe_value__retval.UniversalTime + 504911232000000000), global::System.TimeSpan.Zero).ToLocalTime();
-			// Return
-			return value__retval;
-		}
-
-		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_255<TThis, TResult>(
-					global::System.__ComObject __this, 
-					int mode, 
-					uint requestedSize, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TResult__retval = default(void*);
-			TResult TResult__retval = default(TResult);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TResult__retval = null;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									mode, 
-									requestedSize, 
-									&(unsafe_TResult__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-									((global::System.IntPtr)unsafe_TResult__retval), 
-									typeof(TResult).TypeHandle
-								);
-				// Return
-				return TResult__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
-			}
-		}
-
-		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, [fwd] [in] [EETypeRva:0x000414B4] Windows_Storage_FileProperties_ThumbnailOptions__Windows_Storage_FileProperties__ThumbnailOptions, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_256<TThis, TResult>(
-					global::System.__ComObject __this, 
-					int mode, 
-					uint requestedSize, 
-					global::Windows.Storage.FileProperties.ThumbnailOptions options, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TResult__retval = default(void*);
-			TResult TResult__retval = default(TResult);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TResult__retval = null;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									mode, 
-									requestedSize, 
-									options, 
-									&(unsafe_TResult__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-									((global::System.IntPtr)unsafe_TResult__retval), 
-									typeof(TResult).TypeHandle
-								);
-				// Return
-				return TResult__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
-			}
-		}
-
-		// Signature, Windows.Storage.Search.IStorageFolderQueryOperations.GetFilesAsync, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_257<TThis, TResult>(
-					global::System.__ComObject __this, 
-					int query, 
-					uint startIndex, 
-					uint maxItemsToRetrieve, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TResult__retval = default(void*);
-			TResult TResult__retval = default(TResult);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TResult__retval = null;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									query, 
-									startIndex, 
-									maxItemsToRetrieve, 
-									&(unsafe_TResult__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				TResult__retval = (TResult)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-									((global::System.IntPtr)unsafe_TResult__retval), 
-									typeof(TResult).TypeHandle
-								);
-				// Return
-				return TResult__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TResult__retval)));
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IDatePickerFlyout.put_Date, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F440] System_DateTimeOffset__Windows_Foundation__DateTime, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_258<TThis>(
+		internal static void Stub_269<TThis>(
 					global::System.__ComObject __this, 
 					global::System.DateTimeOffset value, 
 					int __targetIndex)
@@ -8769,9 +9115,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, Windows.UI.ViewManagement.IStatusBar.get_ForegroundColor, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FEBC] System_Nullable_1_Windows_UI_Color___Windows_Foundation__IReference_A__w_UI_Color_V_ *, 
+		// Signature, Windows.UI.ViewManagement.IStatusBar.get_ForegroundColor, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041698] System_Nullable_1_Windows_UI_Color___Windows_Foundation__IReference_A__w_UI_Color_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Nullable<global::Windows.UI.Color> Stub_259<TThis>(
+		internal static global::System.Nullable<global::Windows.UI.Color> Stub_270<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -8811,9 +9157,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.ViewManagement.IStatusBar.put_ForegroundColor, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003FEBC] System_Nullable_1_Windows_UI_Color___Windows_Foundation__IReference_A__w_UI_Color_V_ *, 
+		// Signature, Windows.UI.ViewManagement.IStatusBar.put_ForegroundColor, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041698] System_Nullable_1_Windows_UI_Color___Windows_Foundation__IReference_A__w_UI_Color_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_260<TThis>(
+		internal static void Stub_271<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Nullable<global::Windows.UI.Color> value, 
 					int __targetIndex)
@@ -8851,9 +9197,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.ViewManagement.IStatusBar.add_Showing, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_ViewManagement_StatusBar__object___Windows_Foundation__TypedEventHandler_A__w_UI_ViewManagement_StatusBar_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.ViewManagement.IStatusBar.add_Showing, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_ViewManagement_StatusBar__object___Windows_Foundation__TypedEventHandler_A__w_UI_ViewManagement_StatusBar_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_261<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_272<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.ViewManagement.StatusBar, object> eventHandler, 
 					int __targetIndex)
@@ -8890,9 +9236,32 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_NavigationStarting, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewNavigationStartingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewNavigationStartingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, System.Collections.Generic.IList<Windows.Foundation.Point>.SetAt, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_262<TThis>(
+		internal static void Stub_273<TThis>(
+					global::System.__ComObject __this, 
+					uint index, 
+					global::Windows.Foundation.Point value, 
+					int __targetIndex)
+		{
+			// Setup
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								index, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_NavigationStarting, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewNavigationStartingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewNavigationStartingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_274<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, global::Windows.UI.Xaml.Controls.WebViewNavigationStartingEventArgs> handler, 
 					int __targetIndex)
@@ -8929,9 +9298,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_ContentLoading, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewContentLoadingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewContentLoadingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_ContentLoading, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewContentLoadingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewContentLoadingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_263<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_275<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, global::Windows.UI.Xaml.Controls.WebViewContentLoadingEventArgs> handler, 
 					int __targetIndex)
@@ -8968,9 +9337,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_DOMContentLoaded, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewDOMContentLoadedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewDOMContentLoadedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_DOMContentLoaded, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewDOMContentLoadedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewDOMContentLoadedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_264<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_276<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, global::Windows.UI.Xaml.Controls.WebViewDOMContentLoadedEventArgs> handler, 
 					int __targetIndex)
@@ -9007,9 +9376,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IWebView2.InvokeScriptAsync, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.Controls.IWebView2.InvokeScriptAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_265<TThis, TArg0, TResult>(
+		internal static TResult Stub_277<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					string scriptName, 
 					TArg0 arguments, 
@@ -9060,9 +9429,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_NavigationCompleted, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewNavigationCompletedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewNavigationCompletedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_NavigationCompleted, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewNavigationCompletedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewNavigationCompletedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_266<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_278<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, global::Windows.UI.Xaml.Controls.WebViewNavigationCompletedEventArgs> handler, 
 					int __targetIndex)
@@ -9099,9 +9468,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_UnsafeContentWarningDisplaying, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F504] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__object___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_UnsafeContentWarningDisplaying, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__object___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_267<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_279<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, object> handler, 
 					int __targetIndex)
@@ -9138,9 +9507,122 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Automation.Peers.IFrameworkElementAutomationPeerFactory.CreateInstanceWithOwner, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Windows.Web.Http.Headers.IHttpContentHeaderCollection.TryAppendWithoutValidation, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_268<TThis, TArg0>(
+		internal static bool Stub_280<TThis>(
+					global::System.__ComObject __this, 
+					string name, 
+					string value, 
+					int __targetIndex)
+		{
+			// Setup
+			global::System.Runtime.InteropServices.HSTRING unsafe_name = default(global::System.Runtime.InteropServices.HSTRING);
+			global::System.Runtime.InteropServices.HSTRING unsafe_value = default(global::System.Runtime.InteropServices.HSTRING);
+			bool result__retval;
+			sbyte unsafe_result__retval;
+			int unsafe___hr;
+			// Marshalling
+			fixed (char* pBuffer_name = name)
+			{
+				global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_name;
+				global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_name, name, &(hstring_header_name), &(unsafe_name));
+				fixed (char* pBuffer_value = value)
+				{
+					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_value;
+					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_value, value, &(hstring_header_value), &(unsafe_value));
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(TThis).TypeHandle, 
+										__targetIndex, 
+										unsafe_name, 
+										unsafe_value, 
+										&(unsafe_result__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					result__retval = unsafe_result__retval != 0;
+				}
+			}
+			// Return
+			return result__retval;
+		}
+
+		// Signature, Windows.Foundation.AsyncOperationProgressHandler<ulong,ulong>.Invoke, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] ulong__unsigned __int64, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_281<TThis, TArg0>(
+					global::System.__ComObject __this, 
+					TArg0 asyncInfo, 
+					ulong progressInfo, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe_TArg0__arg = default(void*);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+									asyncInfo, 
+									typeof(TArg0).TypeHandle
+								);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_TArg0__arg, 
+									progressInfo
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
+				global::System.GC.KeepAlive(asyncInfo);
+			}
+		}
+
+		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IInputStream,ulong>.get_Progress, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IInputStream__ulong___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IInputStream_j_ulong_V_ *, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong> Stub_282<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			void* unsafe___value__retval = default(void*);
+			global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong>);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe___value__retval = null;
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									&(unsafe___value__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				__value__retval = (global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
+									((global::System.IntPtr)unsafe___value__retval), 
+									typeof(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong>).TypeHandle
+								);
+				// Return
+				return __value__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval)));
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Automation.Peers.IFrameworkElementAutomationPeerFactory.CreateInstanceWithOwner, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::System.IntPtr Stub_283<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 owner, 
 					global::System.IntPtr baseInterface, 
@@ -9185,134 +9667,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Foundation.Metadata.IApiInformationStatics.IsTypePresent, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.GetAt, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_269<TThis>(
-					global::System.__ComObject __this, 
-					string typeName, 
-					int __targetIndex)
-		{
-			// Setup
-			global::System.Runtime.InteropServices.HSTRING unsafe_typeName = default(global::System.Runtime.InteropServices.HSTRING);
-			bool result__retval;
-			sbyte unsafe_result__retval;
-			int unsafe___hr;
-			// Marshalling
-			fixed (char* pBuffer_typeName = typeName)
-			{
-				global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_typeName;
-				global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_typeName, typeName, &(hstring_header_typeName), &(unsafe_typeName));
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_typeName, 
-									&(unsafe_result__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				result__retval = unsafe_result__retval != 0;
-			}
-			// Return
-			return result__retval;
-		}
-
-		// Signature, Windows.Foundation.Metadata.IApiInformationStatics.IsMethodPresent, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_270<TThis>(
-					global::System.__ComObject __this, 
-					string typeName, 
-					string methodName, 
-					int __targetIndex)
-		{
-			// Setup
-			global::System.Runtime.InteropServices.HSTRING unsafe_typeName = default(global::System.Runtime.InteropServices.HSTRING);
-			global::System.Runtime.InteropServices.HSTRING unsafe_methodName = default(global::System.Runtime.InteropServices.HSTRING);
-			bool result__retval;
-			sbyte unsafe_result__retval;
-			int unsafe___hr;
-			// Marshalling
-			fixed (char* pBuffer_typeName = typeName)
-			{
-				global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_typeName;
-				global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_typeName, typeName, &(hstring_header_typeName), &(unsafe_typeName));
-				fixed (char* pBuffer_methodName = methodName)
-				{
-					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_methodName;
-					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_methodName, methodName, &(hstring_header_methodName), &(unsafe_methodName));
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(TThis).TypeHandle, 
-										__targetIndex, 
-										unsafe_typeName, 
-										unsafe_methodName, 
-										&(unsafe_result__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					result__retval = unsafe_result__retval != 0;
-				}
-			}
-			// Return
-			return result__retval;
-		}
-
-		// Signature, Windows.UI.ViewManagement.IApplicationViewStatics.get_Value, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_ViewManagement_ApplicationViewState__Windows_UI_ViewManagement__ApplicationViewState, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.ViewManagement.ApplicationViewState Stub_271<TThis>(
-					global::System.__ComObject __this, 
-					int __targetIndex)
-		{
-			// Setup
-			global::Windows.UI.ViewManagement.ApplicationViewState unsafe_value__retval;
-			global::Windows.UI.ViewManagement.ApplicationViewState value__retval;
-			int unsafe___hr;
-			// Marshalling
-			// Call to native method
-			unsafe___hr = global::__Interop.ComCallHelpers.Call(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								&(unsafe_value__retval)
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			value__retval = unsafe_value__retval;
-			// Return
-			return value__retval;
-		}
-
-		// Signature, Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics.TraceOperationCompletion, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [in] [EETypeRva:0x0004157C] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x0004157C] ulong__unsigned __int64, [fwd] [in] [EETypeRva:0x000414B4]  -> int, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_272<TThis>(
-					global::System.__ComObject __this, 
-					int traceLevel, 
-					int source, 
-					global::System.Guid platformId, 
-					ulong operationId, 
-					int status, 
-					int __targetIndex)
-		{
-			// Setup
-			int unsafe___hr;
-			// Marshalling
-			// Call to native method
-			unsafe___hr = global::__Interop.ComCallHelpers.Call(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								traceLevel, 
-								source, 
-								platformId, 
-								operationId, 
-								status
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			// Return
-		}
-
-		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.GetAt, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Security.Cryptography.Certificates.ChainValidationResult Stub_273<TThis>(
+		internal static global::Windows.Security.Cryptography.Certificates.ChainValidationResult Stub_284<TThis>(
 					global::System.__ComObject __this, 
 					uint index, 
 					int __targetIndex)
@@ -9336,9 +9693,9 @@ namespace __Interop
 			return __value__retval;
 		}
 
-		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.IndexOf, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004157C] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.IndexOf, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_274<TThis>(
+		internal static bool Stub_285<TThis>(
 					global::System.__ComObject __this, 
 					int value, 
 					out uint index, 
@@ -9367,9 +9724,9 @@ namespace __Interop
 			return __value__retval;
 		}
 
-		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.SetAt, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, [fwd] [in] [EETypeRva:0x000414B4]  -> int, 
+		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.SetAt, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_275<TThis>(
+		internal static void Stub_286<TThis>(
 					global::System.__ComObject __this, 
 					uint index, 
 					int value, 
@@ -9390,9 +9747,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.GetMany, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] uint__unsigned int, [fwd] [out] [EETypeRva:0x00040B74] rg_Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] uint__unsigned int, 
+		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static uint Stub_276<TThis>(
+		internal static uint Stub_287<TThis>(
 					global::System.__ComObject __this, 
 					uint startIndex, 
 					global::Windows.Security.Cryptography.Certificates.ChainValidationResult[] items, 
@@ -9410,7 +9767,7 @@ namespace __Interop
 				if (items != null)
 					unsafe_items_mcgLength = (uint)items.Length;
 				if (items != null)
-					unsafe_items = (global::Windows.Security.Cryptography.Certificates.ChainValidationResult*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_items_mcgLength * sizeof(global::Windows.Security.Cryptography.Certificates.ChainValidationResult))));
+					unsafe_items = (global::Windows.Security.Cryptography.Certificates.ChainValidationResult*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_items_mcgLength * sizeof(global::Windows.Security.Cryptography.Certificates.ChainValidationResult))));
 				// Call to native method
 				unsafe___hr = global::__Interop.ComCallHelpers.Call(
 									__this, 
@@ -9426,7 +9783,7 @@ namespace __Interop
 				if (items != null)
 					for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 					{
-						// [fwd] [out] [optional] [EETypeRva:0x000414B4] Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult items
+						// [fwd] [out] [optional] [EETypeRva:0x00042D60] Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult items
 						items[mcgIdx] = unsafe_items[mcgIdx];
 					}
 				// Return
@@ -9435,13 +9792,13 @@ namespace __Interop
 			finally
 			{
 				// Cleanup
-				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_items);
+				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
 			}
 		}
 
-		// Signature, Windows.Foundation.Collections.IIterator<Windows.Security.Cryptography.Certificates.ChainValidationResult>.get_Current, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult, 
+		// Signature, Windows.Foundation.Collections.IIterator<Windows.Security.Cryptography.Certificates.ChainValidationResult>.get_Current, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Security.Cryptography.Certificates.ChainValidationResult Stub_277<TThis>(
+		internal static global::Windows.Security.Cryptography.Certificates.ChainValidationResult Stub_288<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -9463,9 +9820,9 @@ namespace __Interop
 			return __value__retval;
 		}
 
-		// Signature, Windows.Web.Http.Filters.IHttpBaseProtocolFilter2.get_MaxVersion, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_Web_Http_HttpVersion__Windows_Web_Http__HttpVersion, 
+		// Signature, Windows.Web.Http.Filters.IHttpBaseProtocolFilter2.get_MaxVersion, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_Web_Http_HttpVersion__Windows_Web_Http__HttpVersion, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Web.Http.HttpVersion Stub_278<TThis>(
+		internal static global::Windows.Web.Http.HttpVersion Stub_289<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -9487,82 +9844,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.Foundation.AsyncOperationProgressHandler<ulong,ulong>.Invoke, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x0004157C] ulong__unsigned __int64, 
+		// Signature, Windows.Web.Http.IHttpResponseMessage.get_StatusCode, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_Web_Http_HttpStatusCode__Windows_Web_Http__HttpStatusCode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_279<TThis, TArg0>(
-					global::System.__ComObject __this, 
-					TArg0 asyncInfo, 
-					ulong progressInfo, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe_TArg0__arg = default(void*);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_TArg0__arg = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-									asyncInfo, 
-									typeof(TArg0).TypeHandle
-								);
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_TArg0__arg, 
-									progressInfo
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
-				global::System.GC.KeepAlive(asyncInfo);
-			}
-		}
-
-		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IInputStream,ulong>.get_Progress, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F504] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IInputStream__ulong___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IInputStream_j_ulong_V_ *, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong> Stub_280<TThis>(
-					global::System.__ComObject __this, 
-					int __targetIndex)
-		{
-			// Setup
-			void* unsafe___value__retval = default(void*);
-			global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong>);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe___value__retval = null;
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									&(unsafe___value__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				__value__retval = (global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
-									((global::System.IntPtr)unsafe___value__retval), 
-									typeof(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong>).TypeHandle
-								);
-				// Return
-				return __value__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval)));
-			}
-		}
-
-		// Signature, Windows.Web.Http.IHttpResponseMessage.get_StatusCode, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_Web_Http_HttpStatusCode__Windows_Web_Http__HttpStatusCode, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Web.Http.HttpStatusCode Stub_281<TThis>(
+		internal static global::Windows.Web.Http.HttpStatusCode Stub_290<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -9584,9 +9868,9 @@ namespace __Interop
 			return value__retval;
 		}
 
-		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpResponseMessage,Windows.Web.Http.HttpProgress>.get_Progress, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F504] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Web_Http_HttpResponseMessage__Windows_Web_Http_HttpProgress___Windows_Foundation__AsyncOperationProgressHandler_A__w_Web_Http_HttpResponseMessage_j__w_Web_Http_HttpProgress_V_ *, 
+		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpResponseMessage,Windows.Web.Http.HttpProgress>.get_Progress, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Web_Http_HttpResponseMessage__Windows_Web_Http_HttpProgress___Windows_Foundation__AsyncOperationProgressHandler_A__w_Web_Http_HttpResponseMessage_j__w_Web_Http_HttpProgress_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Web.Http.HttpResponseMessage, global::Windows.Web.Http.HttpProgress> Stub_282<TThis>(
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Web.Http.HttpResponseMessage, global::Windows.Web.Http.HttpProgress> Stub_291<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -9620,9 +9904,62 @@ namespace __Interop
 			}
 		}
 
-		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetTypeAttr, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, Windows.UI.ViewManagement.IApplicationViewStatics.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_ViewManagement_ApplicationViewState__Windows_UI_ViewManagement__ApplicationViewState, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_283<TThis>(
+		internal static global::Windows.UI.ViewManagement.ApplicationViewState Stub_292<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			global::Windows.UI.ViewManagement.ApplicationViewState unsafe_value__retval;
+			global::Windows.UI.ViewManagement.ApplicationViewState value__retval;
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								&(unsafe_value__retval)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			value__retval = unsafe_value__retval;
+			// Return
+			return value__retval;
+		}
+
+		// Signature, Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics.TraceOperationCompletion, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x000419B0] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x000419B0] ulong__unsigned __int64, [fwd] [in] [EETypeRva:0x00042D60]  -> int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_293<TThis>(
+					global::System.__ComObject __this, 
+					int traceLevel, 
+					int source, 
+					global::System.Guid platformId, 
+					ulong operationId, 
+					int status, 
+					int __targetIndex)
+		{
+			// Setup
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								traceLevel, 
+								source, 
+								platformId, 
+								operationId, 
+								status
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetTypeAttr, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static void Stub_294<TThis>(
 					global::System.__ComObject __this, 
 					out global::System.IntPtr ppTypeAttr, 
 					int __targetIndex)
@@ -9644,9 +9981,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetTypeComp, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041E80] System_Runtime_InteropServices_ComTypes_ITypeComp__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeComp__System_Private_Interop *, 
+		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetTypeComp, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043660] System_Runtime_InteropServices_ComTypes_ITypeComp__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeComp__System_Private_Interop *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_284<TThis>(
+		internal static void Stub_295<TThis>(
 					global::System.__ComObject __this, 
 					out global::System_Runtime_InteropServices_ComTypes.ITypeComp__System_Private_Interop ppTComp, 
 					int __targetIndex)
@@ -9680,9 +10017,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetFuncDesc, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetFuncDesc, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_285<TThis>(
+		internal static void Stub_296<TThis>(
 					global::System.__ComObject __this, 
 					int index, 
 					out global::System.IntPtr ppFuncDesc, 
@@ -9706,9 +10043,9 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetDocumentation, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0003F1F4] string__wchar_t *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0003F1F4] string__wchar_t *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004157C] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0003F1F4] string__wchar_t *, 
+		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetDocumentation, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000409D0] string__wchar_t *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000409D0] string__wchar_t *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000409D0] string__wchar_t *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_286<TThis>(
+		internal static void Stub_297<TThis>(
 					global::System.__ComObject __this, 
 					int index, 
 					out string strName, 
@@ -9742,24 +10079,24 @@ namespace __Interop
 										&(unsafe_strHelpFile)
 									);
 					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					strHelpFile = global::__Interop.McgHelpers.ConvertBSTRToString(unsafe_strHelpFile);
+					strHelpFile = global::System.Runtime.InteropServices.McgMarshal.ConvertBSTRToString(unsafe_strHelpFile);
 				}
-				strDocString = global::__Interop.McgHelpers.ConvertBSTRToString(unsafe_strDocString);
-				strName = global::__Interop.McgHelpers.ConvertBSTRToString(unsafe_strName);
+				strDocString = global::System.Runtime.InteropServices.McgMarshal.ConvertBSTRToString(unsafe_strDocString);
+				strName = global::System.Runtime.InteropServices.McgMarshal.ConvertBSTRToString(unsafe_strName);
 				// Return
 			}
 			finally
 			{
 				// Cleanup
-				global::System.Runtime.InteropServices.ExternalInterop.SysFreeString(unsafe_strName);
-				global::System.Runtime.InteropServices.ExternalInterop.SysFreeString(unsafe_strDocString);
-				global::System.Runtime.InteropServices.ExternalInterop.SysFreeString(unsafe_strHelpFile);
+				global::System.Runtime.InteropServices.McgMarshal.SysFreeString(unsafe_strName);
+				global::System.Runtime.InteropServices.McgMarshal.SysFreeString(unsafe_strDocString);
+				global::System.Runtime.InteropServices.McgMarshal.SysFreeString(unsafe_strHelpFile);
 			}
 		}
 
-		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetRefTypeInfo, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041E80] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop *, 
+		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetRefTypeInfo, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043660] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_287<TThis>(
+		internal static void Stub_298<TThis>(
 					global::System.__ComObject __this, 
 					int hRef, 
 					out global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop ppTI, 
@@ -9795,9 +10132,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.ReleaseTypeAttr, [fwd] [return] [EETypeRva:0x000405F8] void__void, [fwd] [in] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.ReleaseTypeAttr, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_288<TThis>(
+		internal static void Stub_299<TThis>(
 					global::System.__ComObject __this, 
 					global::System.IntPtr pTypeAttr, 
 					int __targetIndex)
@@ -10353,7 +10690,7 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					double arg0)
+					sbyte arg0)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
@@ -10380,7 +10717,7 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					global::Windows.Foundation.Point arg0)
+					double arg0)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
@@ -10407,7 +10744,7 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					sbyte arg0)
+					global::Windows.Foundation.Point arg0)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
@@ -10573,7 +10910,7 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					global::System.Runtime.InteropServices.HSTRING arg0)
+					global::Windows.ApplicationModel.DataTransfer.DataPackageOperation arg0)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
@@ -10600,38 +10937,7 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					global::Windows.Foundation.Point arg0, 
-					global::Windows.Foundation.Rect arg1, 
-					void* arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__33(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					int arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
 					void* arg1)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
@@ -10639,7 +10945,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__35(
+			int __result = global::__Interop.Intrinsics.StdCall__33(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -10669,7 +10975,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__36(
+			int __result = global::__Interop.Intrinsics.StdCall__34(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -10691,8 +10997,36 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					global::System.Runtime.InteropServices.HSTRING arg0, 
-					void* arg1)
+					void* arg0, 
+					int arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__36(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Runtime.InteropServices.HSTRING arg0)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
@@ -10702,8 +11036,524 @@ namespace __Interop
 			int __result = global::__Interop.Intrinsics.StdCall__37(
 								__pTarget, 
 								__pThis, 
+								arg0
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					int arg0, 
+					void* arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__38(
+								__pTarget, 
+								__pThis, 
 								arg0, 
 								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__39(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__40(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__45(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::Windows.Storage.StorageItemTypes arg0, 
+					void* arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__46(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					ulong arg0)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__49(
+								__pTarget, 
+								__pThis, 
+								arg0
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					ulong arg0, 
+					void* arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__50(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					void* arg0, 
+					uint arg1, 
+					global::Windows.Storage.Streams.InputStreamOptions arg2, 
+					void* arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__54(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					uint arg0)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__55(
+								__pTarget, 
+								__pThis, 
+								arg0
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					void* arg0, 
+					uint arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__59(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					int arg0, 
+					uint arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__64(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					int arg0, 
+					uint arg1, 
+					global::Windows.Storage.FileProperties.ThumbnailOptions arg2, 
+					void* arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__65(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					int arg0, 
+					uint arg1, 
+					uint arg2, 
+					void* arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__70(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					uint arg0, 
+					uint arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__71(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					int arg0, 
+					global::Windows.Storage.StorageOpenOptions arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__74(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::Windows.Storage.StorageOpenOptions arg0, 
+					void* arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__75(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::Windows.Foundation.Point arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__76(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -10727,7 +11577,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__38(
+			int __result = global::__Interop.Intrinsics.StdCall__77(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -10755,7 +11605,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__39(
+			int __result = global::__Interop.Intrinsics.StdCall__78(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -10784,7 +11634,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__41(
+			int __result = global::__Interop.Intrinsics.StdCall__80(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -10814,7 +11664,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__43(
+			int __result = global::__Interop.Intrinsics.StdCall__82(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -10844,7 +11694,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__44(
+			int __result = global::__Interop.Intrinsics.StdCall__83(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -10872,7 +11722,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__45(
+			int __result = global::__Interop.Intrinsics.StdCall__84(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -10899,7 +11749,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__46(
+			int __result = global::__Interop.Intrinsics.StdCall__85(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -10928,7 +11778,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__49(
+			int __result = global::__Interop.Intrinsics.StdCall__88(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -10959,41 +11809,12 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__52(
+			int __result = global::__Interop.Intrinsics.StdCall__91(
 								__pTarget, 
 								__pThis, 
 								arg0, 
 								arg1, 
 								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					void* arg0, 
-					int arg1)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__53(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -11017,7 +11838,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__54(
+			int __result = global::__Interop.Intrinsics.StdCall__92(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11044,7 +11865,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__55(
+			int __result = global::__Interop.Intrinsics.StdCall__93(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11072,7 +11893,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__56(
+			int __result = global::__Interop.Intrinsics.StdCall__94(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11100,7 +11921,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__57(
+			int __result = global::__Interop.Intrinsics.StdCall__95(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11130,7 +11951,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__58(
+			int __result = global::__Interop.Intrinsics.StdCall__96(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11164,7 +11985,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__59(
+			int __result = global::__Interop.Intrinsics.StdCall__97(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11195,7 +12016,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__60(
+			int __result = global::__Interop.Intrinsics.StdCall__98(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11222,7 +12043,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__61(
+			int __result = global::__Interop.Intrinsics.StdCall__99(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11250,7 +12071,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__62(
+			int __result = global::__Interop.Intrinsics.StdCall__100(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11281,7 +12102,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__63(
+			int __result = global::__Interop.Intrinsics.StdCall__101(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11317,7 +12138,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__64(
+			int __result = global::__Interop.Intrinsics.StdCall__102(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11350,7 +12171,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__65(
+			int __result = global::__Interop.Intrinsics.StdCall__103(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11377,7 +12198,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__66(
+			int __result = global::__Interop.Intrinsics.StdCall__104(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11405,11 +12226,73 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__69(
+			int __result = global::__Interop.Intrinsics.StdCall__106(
 								__pTarget, 
 								__pThis, 
 								arg0, 
 								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					void* arg0, 
+					global::Windows.Foundation.Size arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__107(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					int arg0, 
+					global::Microsoft.UI.Xaml.Controls.ElementRealizationOptions arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__108(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -11434,38 +12317,11 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__75(
+			int __result = global::__Interop.Intrinsics.StdCall__113(
 								__pTarget, 
 								__pThis, 
 								arg0, 
 								arg1
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					ulong arg0)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__76(
-								__pTarget, 
-								__pThis, 
-								arg0
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -11495,7 +12351,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__77(
+			int __result = global::__Interop.Intrinsics.StdCall__114(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11535,7 +12391,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__78(
+			int __result = global::__Interop.Intrinsics.StdCall__115(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11577,7 +12433,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__79(
+			int __result = global::__Interop.Intrinsics.StdCall__116(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11618,7 +12474,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__80(
+			int __result = global::__Interop.Intrinsics.StdCall__117(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11653,130 +12509,12 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__81(
+			int __result = global::__Interop.Intrinsics.StdCall__118(
 								__pTarget, 
 								__pThis, 
 								arg0, 
 								arg1, 
 								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					ulong arg0, 
-					void* arg1)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__82(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					void* arg0, 
-					uint arg1, 
-					global::Windows.Storage.Streams.InputStreamOptions arg2, 
-					void* arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__86(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					uint arg0)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__87(
-								__pTarget, 
-								__pThis, 
-								arg0
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					void* arg0, 
-					uint arg1)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__91(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -11802,7 +12540,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__96(
+			int __result = global::__Interop.Intrinsics.StdCall__119(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11833,7 +12571,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__97(
+			int __result = global::__Interop.Intrinsics.StdCall__120(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11862,7 +12600,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__98(
+			int __result = global::__Interop.Intrinsics.StdCall__121(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11889,7 +12627,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__99(
+			int __result = global::__Interop.Intrinsics.StdCall__122(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11916,7 +12654,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__100(
+			int __result = global::__Interop.Intrinsics.StdCall__123(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -11946,7 +12684,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__101(
+			int __result = global::__Interop.Intrinsics.StdCall__124(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -11979,7 +12717,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__102(
+			int __result = global::__Interop.Intrinsics.StdCall__125(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12014,7 +12752,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__103(
+			int __result = global::__Interop.Intrinsics.StdCall__126(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12054,7 +12792,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__104(
+			int __result = global::__Interop.Intrinsics.StdCall__127(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12092,7 +12830,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__105(
+			int __result = global::__Interop.Intrinsics.StdCall__128(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12124,7 +12862,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__106(
+			int __result = global::__Interop.Intrinsics.StdCall__129(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12153,7 +12891,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__107(
+			int __result = global::__Interop.Intrinsics.StdCall__130(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -12183,7 +12921,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__108(
+			int __result = global::__Interop.Intrinsics.StdCall__131(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12217,7 +12955,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__109(
+			int __result = global::__Interop.Intrinsics.StdCall__132(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12254,7 +12992,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__110(
+			int __result = global::__Interop.Intrinsics.StdCall__133(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12294,7 +13032,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__111(
+			int __result = global::__Interop.Intrinsics.StdCall__134(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12336,7 +13074,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__112(
+			int __result = global::__Interop.Intrinsics.StdCall__135(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12376,7 +13114,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__113(
+			int __result = global::__Interop.Intrinsics.StdCall__136(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12414,7 +13152,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__114(
+			int __result = global::__Interop.Intrinsics.StdCall__137(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12454,7 +13192,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__115(
+			int __result = global::__Interop.Intrinsics.StdCall__138(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12494,7 +13232,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__116(
+			int __result = global::__Interop.Intrinsics.StdCall__139(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12534,7 +13272,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__117(
+			int __result = global::__Interop.Intrinsics.StdCall__140(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12563,37 +13301,6 @@ namespace __Interop
 					int __targetIndex, 
 					void* arg0, 
 					global::System.Runtime.InteropServices.HSTRING arg1, 
-					void* arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__118(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					void* arg0, 
-					global::System.Runtime.InteropServices.HSTRING arg1, 
 					float arg2, 
 					void* arg3)
 		{
@@ -12602,7 +13309,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__119(
+			int __result = global::__Interop.Intrinsics.StdCall__141(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12636,7 +13343,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__120(
+			int __result = global::__Interop.Intrinsics.StdCall__142(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12644,37 +13351,6 @@ namespace __Interop
 								arg2, 
 								arg3, 
 								arg4
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Runtime.InteropServices.HSTRING arg0, 
-					int arg1, 
-					void* arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__121(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -12701,7 +13377,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__122(
+			int __result = global::__Interop.Intrinsics.StdCall__143(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12733,7 +13409,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__123(
+			int __result = global::__Interop.Intrinsics.StdCall__144(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12765,7 +13441,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__124(
+			int __result = global::__Interop.Intrinsics.StdCall__145(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12800,7 +13476,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__125(
+			int __result = global::__Interop.Intrinsics.StdCall__146(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12836,7 +13512,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__126(
+			int __result = global::__Interop.Intrinsics.StdCall__147(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12868,7 +13544,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__127(
+			int __result = global::__Interop.Intrinsics.StdCall__148(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12901,7 +13577,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__128(
+			int __result = global::__Interop.Intrinsics.StdCall__149(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12935,7 +13611,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__129(
+			int __result = global::__Interop.Intrinsics.StdCall__150(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -12970,7 +13646,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__130(
+			int __result = global::__Interop.Intrinsics.StdCall__151(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13005,38 +13681,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__131(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					void* arg0, 
-					global::Windows.Foundation.Size arg1, 
-					void* arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__132(
+			int __result = global::__Interop.Intrinsics.StdCall__152(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13068,7 +13713,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__133(
+			int __result = global::__Interop.Intrinsics.StdCall__153(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13102,7 +13747,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__134(
+			int __result = global::__Interop.Intrinsics.StdCall__154(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13139,7 +13784,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__135(
+			int __result = global::__Interop.Intrinsics.StdCall__155(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13173,7 +13818,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__136(
+			int __result = global::__Interop.Intrinsics.StdCall__156(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13203,7 +13848,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__137(
+			int __result = global::__Interop.Intrinsics.StdCall__157(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13233,7 +13878,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__138(
+			int __result = global::__Interop.Intrinsics.StdCall__158(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13263,7 +13908,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__139(
+			int __result = global::__Interop.Intrinsics.StdCall__159(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13295,7 +13940,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__140(
+			int __result = global::__Interop.Intrinsics.StdCall__160(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13327,7 +13972,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__141(
+			int __result = global::__Interop.Intrinsics.StdCall__161(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13359,7 +14004,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__142(
+			int __result = global::__Interop.Intrinsics.StdCall__162(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13393,7 +14038,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__143(
+			int __result = global::__Interop.Intrinsics.StdCall__163(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13427,7 +14072,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__144(
+			int __result = global::__Interop.Intrinsics.StdCall__164(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13461,7 +14106,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__145(
+			int __result = global::__Interop.Intrinsics.StdCall__165(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13497,7 +14142,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__146(
+			int __result = global::__Interop.Intrinsics.StdCall__166(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13533,7 +14178,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__147(
+			int __result = global::__Interop.Intrinsics.StdCall__167(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13569,7 +14214,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__148(
+			int __result = global::__Interop.Intrinsics.StdCall__168(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13607,7 +14252,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__149(
+			int __result = global::__Interop.Intrinsics.StdCall__169(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13645,7 +14290,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__150(
+			int __result = global::__Interop.Intrinsics.StdCall__170(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13682,7 +14327,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__151(
+			int __result = global::__Interop.Intrinsics.StdCall__171(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13720,7 +14365,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__152(
+			int __result = global::__Interop.Intrinsics.StdCall__172(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13758,7 +14403,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__153(
+			int __result = global::__Interop.Intrinsics.StdCall__173(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13792,7 +14437,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__154(
+			int __result = global::__Interop.Intrinsics.StdCall__174(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13825,7 +14470,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__155(
+			int __result = global::__Interop.Intrinsics.StdCall__175(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13858,7 +14503,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__156(
+			int __result = global::__Interop.Intrinsics.StdCall__176(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13891,7 +14536,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__157(
+			int __result = global::__Interop.Intrinsics.StdCall__177(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13925,7 +14570,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__158(
+			int __result = global::__Interop.Intrinsics.StdCall__178(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13960,7 +14605,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__159(
+			int __result = global::__Interop.Intrinsics.StdCall__179(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -13995,7 +14640,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__160(
+			int __result = global::__Interop.Intrinsics.StdCall__180(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14030,7 +14675,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__161(
+			int __result = global::__Interop.Intrinsics.StdCall__181(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14066,7 +14711,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__162(
+			int __result = global::__Interop.Intrinsics.StdCall__182(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14103,7 +14748,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__163(
+			int __result = global::__Interop.Intrinsics.StdCall__183(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14140,7 +14785,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__164(
+			int __result = global::__Interop.Intrinsics.StdCall__184(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14177,7 +14822,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__165(
+			int __result = global::__Interop.Intrinsics.StdCall__185(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14211,7 +14856,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__166(
+			int __result = global::__Interop.Intrinsics.StdCall__186(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14241,7 +14886,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__167(
+			int __result = global::__Interop.Intrinsics.StdCall__187(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14272,7 +14917,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__168(
+			int __result = global::__Interop.Intrinsics.StdCall__188(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14304,7 +14949,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__169(
+			int __result = global::__Interop.Intrinsics.StdCall__189(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14337,7 +14982,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__170(
+			int __result = global::__Interop.Intrinsics.StdCall__190(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14369,7 +15014,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__171(
+			int __result = global::__Interop.Intrinsics.StdCall__191(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14403,7 +15048,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__172(
+			int __result = global::__Interop.Intrinsics.StdCall__192(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14438,7 +15083,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__173(
+			int __result = global::__Interop.Intrinsics.StdCall__193(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14474,7 +15119,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__174(
+			int __result = global::__Interop.Intrinsics.StdCall__194(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14510,7 +15155,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__175(
+			int __result = global::__Interop.Intrinsics.StdCall__195(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14546,7 +15191,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__176(
+			int __result = global::__Interop.Intrinsics.StdCall__196(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -14583,730 +15228,14 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__177(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					float arg0, 
-					float arg1, 
-					float arg2, 
-					float arg3, 
-					float arg4, 
-					float arg5, 
-					void* arg6, 
-					float arg7)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__178(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4, 
-								arg5, 
-								arg6, 
-								arg7
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::Windows.Foundation.Rect arg0, 
-					float arg1, 
-					float arg2, 
-					global::Windows.UI.Color arg3, 
-					float arg4)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__179(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					float arg0, 
-					float arg1, 
-					float arg2, 
-					float arg3, 
-					float arg4, 
-					float arg5, 
-					global::Windows.UI.Color arg6, 
-					float arg7)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__180(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4, 
-								arg5, 
-								arg6, 
-								arg7
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::Windows.Foundation.Rect arg0, 
-					float arg1, 
-					float arg2, 
-					void* arg3, 
-					float arg4, 
-					void* arg5)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__181(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4, 
-								arg5
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					float arg0, 
-					float arg1, 
-					float arg2, 
-					float arg3, 
-					float arg4, 
-					float arg5, 
-					void* arg6, 
-					float arg7, 
-					void* arg8)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__182(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4, 
-								arg5, 
-								arg6, 
-								arg7, 
-								arg8
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::Windows.Foundation.Rect arg0, 
-					float arg1, 
-					float arg2, 
-					global::Windows.UI.Color arg3, 
-					float arg4, 
-					void* arg5)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__183(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4, 
-								arg5
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					float arg0, 
-					float arg1, 
-					float arg2, 
-					float arg3, 
-					float arg4, 
-					float arg5, 
-					global::Windows.UI.Color arg6, 
-					float arg7, 
-					void* arg8)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__184(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4, 
-								arg5, 
-								arg6, 
-								arg7, 
-								arg8
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					float arg2, 
-					void* arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__185(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					float arg2, 
-					global::Windows.UI.Color arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__186(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					float arg2, 
-					void* arg3, 
-					float arg4)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__187(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					float arg2, 
-					global::Windows.UI.Color arg3, 
-					float arg4)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__188(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					float arg2, 
-					void* arg3, 
-					float arg4, 
-					void* arg5)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__189(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4, 
-								arg5
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					float arg2, 
-					global::Windows.UI.Color arg3, 
-					float arg4, 
-					void* arg5)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__190(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4, 
-								arg5
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					void* arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__191(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					float arg0, 
-					float arg1, 
-					float arg2, 
-					void* arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__192(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					global::Windows.UI.Color arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__193(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					float arg0, 
-					float arg1, 
-					float arg2, 
-					global::Windows.UI.Color arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__194(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					void* arg2, 
-					float arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__195(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					float arg0, 
-					float arg1, 
-					float arg2, 
-					void* arg3, 
-					float arg4)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__196(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3, 
-								arg4
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
-					float arg1, 
-					global::Windows.UI.Color arg2, 
-					float arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
 			int __result = global::__Interop.Intrinsics.StdCall__197(
 								__pTarget, 
 								__pThis, 
 								arg0, 
 								arg1, 
 								arg2, 
-								arg3
+								arg3, 
+								arg4
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -15326,8 +15255,11 @@ namespace __Interop
 					float arg0, 
 					float arg1, 
 					float arg2, 
-					global::Windows.UI.Color arg3, 
-					float arg4)
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					void* arg6, 
+					float arg7)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
@@ -15341,7 +15273,10 @@ namespace __Interop
 								arg1, 
 								arg2, 
 								arg3, 
-								arg4
+								arg4, 
+								arg5, 
+								arg6, 
+								arg7
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -15358,11 +15293,11 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					global::System.Numerics.Vector2 arg0, 
+					global::Windows.Foundation.Rect arg0, 
 					float arg1, 
-					void* arg2, 
-					float arg3, 
-					void* arg4)
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
@@ -15396,6 +15331,47 @@ namespace __Interop
 					float arg0, 
 					float arg1, 
 					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					global::Windows.UI.Color arg6, 
+					float arg7)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__200(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4, 
+								arg5, 
+								arg6, 
+								arg7
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::Windows.Foundation.Rect arg0, 
+					float arg1, 
+					float arg2, 
 					void* arg3, 
 					float arg4, 
 					void* arg5)
@@ -15405,7 +15381,676 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__200(
+			int __result = global::__Interop.Intrinsics.StdCall__201(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4, 
+								arg5
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					void* arg6, 
+					float arg7, 
+					void* arg8)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__202(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4, 
+								arg5, 
+								arg6, 
+								arg7, 
+								arg8
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::Windows.Foundation.Rect arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__203(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4, 
+								arg5
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					global::Windows.UI.Color arg6, 
+					float arg7, 
+					void* arg8)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__204(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4, 
+								arg5, 
+								arg6, 
+								arg7, 
+								arg8
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__205(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__206(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__207(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__208(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__209(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4, 
+								arg5
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__210(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4, 
+								arg5
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__211(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__212(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					global::Windows.UI.Color arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__213(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__214(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					void* arg2, 
+					float arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__215(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__216(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					global::Windows.UI.Color arg2, 
+					float arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__217(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__218(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					void* arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__219(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								arg4
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__220(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15441,7 +16086,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__201(
+			int __result = global::__Interop.Intrinsics.StdCall__221(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15477,7 +16122,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__202(
+			int __result = global::__Interop.Intrinsics.StdCall__222(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15511,7 +16156,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__203(
+			int __result = global::__Interop.Intrinsics.StdCall__223(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15543,7 +16188,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__204(
+			int __result = global::__Interop.Intrinsics.StdCall__224(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15576,7 +16221,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__205(
+			int __result = global::__Interop.Intrinsics.StdCall__225(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15609,7 +16254,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__206(
+			int __result = global::__Interop.Intrinsics.StdCall__226(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15643,7 +16288,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__207(
+			int __result = global::__Interop.Intrinsics.StdCall__227(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15680,7 +16325,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__208(
+			int __result = global::__Interop.Intrinsics.StdCall__228(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15716,7 +16361,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__209(
+			int __result = global::__Interop.Intrinsics.StdCall__229(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15749,7 +16394,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__210(
+			int __result = global::__Interop.Intrinsics.StdCall__230(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15783,7 +16428,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__211(
+			int __result = global::__Interop.Intrinsics.StdCall__231(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15820,7 +16465,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__212(
+			int __result = global::__Interop.Intrinsics.StdCall__232(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15855,7 +16500,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__213(
+			int __result = global::__Interop.Intrinsics.StdCall__233(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15886,7 +16531,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__214(
+			int __result = global::__Interop.Intrinsics.StdCall__234(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15918,7 +16563,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__215(
+			int __result = global::__Interop.Intrinsics.StdCall__235(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15949,7 +16594,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__216(
+			int __result = global::__Interop.Intrinsics.StdCall__236(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -15980,7 +16625,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__217(
+			int __result = global::__Interop.Intrinsics.StdCall__237(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16013,7 +16658,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__218(
+			int __result = global::__Interop.Intrinsics.StdCall__238(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16047,7 +16692,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__219(
+			int __result = global::__Interop.Intrinsics.StdCall__239(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16082,7 +16727,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__220(
+			int __result = global::__Interop.Intrinsics.StdCall__240(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16115,7 +16760,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__221(
+			int __result = global::__Interop.Intrinsics.StdCall__241(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16146,7 +16791,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__222(
+			int __result = global::__Interop.Intrinsics.StdCall__242(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16179,7 +16824,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__223(
+			int __result = global::__Interop.Intrinsics.StdCall__243(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16214,7 +16859,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__224(
+			int __result = global::__Interop.Intrinsics.StdCall__244(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16250,7 +16895,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__225(
+			int __result = global::__Interop.Intrinsics.StdCall__245(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16287,7 +16932,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__226(
+			int __result = global::__Interop.Intrinsics.StdCall__246(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16322,7 +16967,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__227(
+			int __result = global::__Interop.Intrinsics.StdCall__247(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16355,7 +17000,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__228(
+			int __result = global::__Interop.Intrinsics.StdCall__248(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16389,7 +17034,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__229(
+			int __result = global::__Interop.Intrinsics.StdCall__249(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16420,7 +17065,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__230(
+			int __result = global::__Interop.Intrinsics.StdCall__250(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -16448,7 +17093,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__231(
+			int __result = global::__Interop.Intrinsics.StdCall__251(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16478,7 +17123,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__232(
+			int __result = global::__Interop.Intrinsics.StdCall__252(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16509,7 +17154,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__233(
+			int __result = global::__Interop.Intrinsics.StdCall__253(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16540,7 +17185,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__234(
+			int __result = global::__Interop.Intrinsics.StdCall__254(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16572,7 +17217,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__235(
+			int __result = global::__Interop.Intrinsics.StdCall__255(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16605,7 +17250,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__236(
+			int __result = global::__Interop.Intrinsics.StdCall__256(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16641,7 +17286,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__237(
+			int __result = global::__Interop.Intrinsics.StdCall__257(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16681,7 +17326,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__238(
+			int __result = global::__Interop.Intrinsics.StdCall__258(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16723,7 +17368,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__239(
+			int __result = global::__Interop.Intrinsics.StdCall__259(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16771,7 +17416,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__240(
+			int __result = global::__Interop.Intrinsics.StdCall__260(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16813,7 +17458,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__241(
+			int __result = global::__Interop.Intrinsics.StdCall__261(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16845,7 +17490,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__242(
+			int __result = global::__Interop.Intrinsics.StdCall__262(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16875,7 +17520,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__243(
+			int __result = global::__Interop.Intrinsics.StdCall__263(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -16906,7 +17551,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__244(
+			int __result = global::__Interop.Intrinsics.StdCall__264(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16941,7 +17586,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__245(
+			int __result = global::__Interop.Intrinsics.StdCall__265(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -16979,7 +17624,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__246(
+			int __result = global::__Interop.Intrinsics.StdCall__266(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17016,7 +17661,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__247(
+			int __result = global::__Interop.Intrinsics.StdCall__267(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17050,7 +17695,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__248(
+			int __result = global::__Interop.Intrinsics.StdCall__268(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17089,7 +17734,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__249(
+			int __result = global::__Interop.Intrinsics.StdCall__269(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17131,7 +17776,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__250(
+			int __result = global::__Interop.Intrinsics.StdCall__270(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17173,7 +17818,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__251(
+			int __result = global::__Interop.Intrinsics.StdCall__271(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17210,7 +17855,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__252(
+			int __result = global::__Interop.Intrinsics.StdCall__272(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17242,7 +17887,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__253(
+			int __result = global::__Interop.Intrinsics.StdCall__273(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17277,7 +17922,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__254(
+			int __result = global::__Interop.Intrinsics.StdCall__274(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17315,7 +17960,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__255(
+			int __result = global::__Interop.Intrinsics.StdCall__275(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17353,7 +17998,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__256(
+			int __result = global::__Interop.Intrinsics.StdCall__276(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17389,7 +18034,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__257(
+			int __result = global::__Interop.Intrinsics.StdCall__277(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17427,7 +18072,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__258(
+			int __result = global::__Interop.Intrinsics.StdCall__278(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17465,7 +18110,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__259(
+			int __result = global::__Interop.Intrinsics.StdCall__279(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17499,7 +18144,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__260(
+			int __result = global::__Interop.Intrinsics.StdCall__280(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17533,7 +18178,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__261(
+			int __result = global::__Interop.Intrinsics.StdCall__281(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17574,7 +18219,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__262(
+			int __result = global::__Interop.Intrinsics.StdCall__282(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17615,7 +18260,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__263(
+			int __result = global::__Interop.Intrinsics.StdCall__283(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17648,7 +18293,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__264(
+			int __result = global::__Interop.Intrinsics.StdCall__284(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17680,7 +18325,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__265(
+			int __result = global::__Interop.Intrinsics.StdCall__285(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17711,7 +18356,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__266(
+			int __result = global::__Interop.Intrinsics.StdCall__286(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17741,7 +18386,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__267(
+			int __result = global::__Interop.Intrinsics.StdCall__287(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17771,7 +18416,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__268(
+			int __result = global::__Interop.Intrinsics.StdCall__288(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17804,7 +18449,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__269(
+			int __result = global::__Interop.Intrinsics.StdCall__289(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17840,7 +18485,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__270(
+			int __result = global::__Interop.Intrinsics.StdCall__290(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17873,7 +18518,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__271(
+			int __result = global::__Interop.Intrinsics.StdCall__291(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17903,7 +18548,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__272(
+			int __result = global::__Interop.Intrinsics.StdCall__292(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17931,7 +18576,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__273(
+			int __result = global::__Interop.Intrinsics.StdCall__293(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -17963,7 +18608,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__274(
+			int __result = global::__Interop.Intrinsics.StdCall__294(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -17998,7 +18643,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__275(
+			int __result = global::__Interop.Intrinsics.StdCall__295(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18030,7 +18675,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__276(
+			int __result = global::__Interop.Intrinsics.StdCall__296(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18061,7 +18706,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__277(
+			int __result = global::__Interop.Intrinsics.StdCall__297(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18092,7 +18737,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__278(
+			int __result = global::__Interop.Intrinsics.StdCall__298(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18123,7 +18768,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__279(
+			int __result = global::__Interop.Intrinsics.StdCall__299(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18154,7 +18799,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__280(
+			int __result = global::__Interop.Intrinsics.StdCall__300(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18185,7 +18830,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__281(
+			int __result = global::__Interop.Intrinsics.StdCall__301(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18215,7 +18860,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__282(
+			int __result = global::__Interop.Intrinsics.StdCall__302(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18245,7 +18890,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__283(
+			int __result = global::__Interop.Intrinsics.StdCall__303(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18277,7 +18922,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__284(
+			int __result = global::__Interop.Intrinsics.StdCall__304(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18310,7 +18955,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__285(
+			int __result = global::__Interop.Intrinsics.StdCall__305(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18344,7 +18989,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__286(
+			int __result = global::__Interop.Intrinsics.StdCall__306(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18377,7 +19022,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__287(
+			int __result = global::__Interop.Intrinsics.StdCall__307(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18409,7 +19054,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__288(
+			int __result = global::__Interop.Intrinsics.StdCall__308(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18442,7 +19087,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__289(
+			int __result = global::__Interop.Intrinsics.StdCall__309(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18476,7 +19121,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__290(
+			int __result = global::__Interop.Intrinsics.StdCall__310(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18507,7 +19152,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__291(
+			int __result = global::__Interop.Intrinsics.StdCall__311(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -18535,7 +19180,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__292(
+			int __result = global::__Interop.Intrinsics.StdCall__312(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18566,7 +19211,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__293(
+			int __result = global::__Interop.Intrinsics.StdCall__313(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18600,7 +19245,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__294(
+			int __result = global::__Interop.Intrinsics.StdCall__314(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18635,7 +19280,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__295(
+			int __result = global::__Interop.Intrinsics.StdCall__315(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18668,7 +19313,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__296(
+			int __result = global::__Interop.Intrinsics.StdCall__316(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18700,7 +19345,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__297(
+			int __result = global::__Interop.Intrinsics.StdCall__317(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18731,7 +19376,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__298(
+			int __result = global::__Interop.Intrinsics.StdCall__318(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18762,7 +19407,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__299(
+			int __result = global::__Interop.Intrinsics.StdCall__319(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18796,7 +19441,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__300(
+			int __result = global::__Interop.Intrinsics.StdCall__320(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18830,7 +19475,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__301(
+			int __result = global::__Interop.Intrinsics.StdCall__321(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18863,7 +19508,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__302(
+			int __result = global::__Interop.Intrinsics.StdCall__322(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18898,7 +19543,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__303(
+			int __result = global::__Interop.Intrinsics.StdCall__323(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18933,7 +19578,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__304(
+			int __result = global::__Interop.Intrinsics.StdCall__324(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -18966,7 +19611,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__305(
+			int __result = global::__Interop.Intrinsics.StdCall__325(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19000,7 +19645,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__306(
+			int __result = global::__Interop.Intrinsics.StdCall__326(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19037,7 +19682,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__307(
+			int __result = global::__Interop.Intrinsics.StdCall__327(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19071,7 +19716,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__308(
+			int __result = global::__Interop.Intrinsics.StdCall__328(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19101,7 +19746,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__309(
+			int __result = global::__Interop.Intrinsics.StdCall__329(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19132,7 +19777,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__310(
+			int __result = global::__Interop.Intrinsics.StdCall__330(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19163,7 +19808,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__311(
+			int __result = global::__Interop.Intrinsics.StdCall__331(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19195,7 +19840,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__312(
+			int __result = global::__Interop.Intrinsics.StdCall__332(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19228,7 +19873,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__313(
+			int __result = global::__Interop.Intrinsics.StdCall__333(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19264,7 +19909,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__314(
+			int __result = global::__Interop.Intrinsics.StdCall__334(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19299,7 +19944,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__315(
+			int __result = global::__Interop.Intrinsics.StdCall__335(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19331,7 +19976,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__316(
+			int __result = global::__Interop.Intrinsics.StdCall__336(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19364,7 +20009,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__317(
+			int __result = global::__Interop.Intrinsics.StdCall__337(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19397,7 +20042,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__318(
+			int __result = global::__Interop.Intrinsics.StdCall__338(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19431,7 +20076,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__319(
+			int __result = global::__Interop.Intrinsics.StdCall__339(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19466,7 +20111,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__320(
+			int __result = global::__Interop.Intrinsics.StdCall__340(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19504,7 +20149,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__321(
+			int __result = global::__Interop.Intrinsics.StdCall__341(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19534,39 +20179,6 @@ namespace __Interop
 					void* arg0, 
 					global::System.Runtime.InteropServices.HSTRING arg1, 
 					int arg2, 
-					void* arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__322(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					void* arg0, 
-					global::System.Runtime.InteropServices.HSTRING arg1, 
-					int arg2, 
 					int arg3, 
 					void* arg4)
 		{
@@ -19575,7 +20187,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__323(
+			int __result = global::__Interop.Intrinsics.StdCall__342(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19609,7 +20221,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__324(
+			int __result = global::__Interop.Intrinsics.StdCall__343(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19643,7 +20255,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__325(
+			int __result = global::__Interop.Intrinsics.StdCall__344(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19678,7 +20290,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__326(
+			int __result = global::__Interop.Intrinsics.StdCall__345(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19710,7 +20322,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__327(
+			int __result = global::__Interop.Intrinsics.StdCall__346(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19740,7 +20352,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__328(
+			int __result = global::__Interop.Intrinsics.StdCall__347(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19772,7 +20384,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__329(
+			int __result = global::__Interop.Intrinsics.StdCall__348(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19805,7 +20417,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__330(
+			int __result = global::__Interop.Intrinsics.StdCall__349(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19840,7 +20452,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__331(
+			int __result = global::__Interop.Intrinsics.StdCall__350(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19875,7 +20487,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__332(
+			int __result = global::__Interop.Intrinsics.StdCall__351(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19907,7 +20519,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__333(
+			int __result = global::__Interop.Intrinsics.StdCall__352(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19937,7 +20549,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__334(
+			int __result = global::__Interop.Intrinsics.StdCall__353(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -19972,7 +20584,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__335(
+			int __result = global::__Interop.Intrinsics.StdCall__354(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20022,7 +20634,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__336(
+			int __result = global::__Interop.Intrinsics.StdCall__355(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20074,7 +20686,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__337(
+			int __result = global::__Interop.Intrinsics.StdCall__356(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20116,7 +20728,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__338(
+			int __result = global::__Interop.Intrinsics.StdCall__357(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20161,7 +20773,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__339(
+			int __result = global::__Interop.Intrinsics.StdCall__358(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20214,7 +20826,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__340(
+			int __result = global::__Interop.Intrinsics.StdCall__359(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20258,7 +20870,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__342(
+			int __result = global::__Interop.Intrinsics.StdCall__361(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20293,7 +20905,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__346(
+			int __result = global::__Interop.Intrinsics.StdCall__365(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20327,7 +20939,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__347(
+			int __result = global::__Interop.Intrinsics.StdCall__366(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20363,7 +20975,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__348(
+			int __result = global::__Interop.Intrinsics.StdCall__367(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20404,7 +21016,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__349(
+			int __result = global::__Interop.Intrinsics.StdCall__368(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20440,7 +21052,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__350(
+			int __result = global::__Interop.Intrinsics.StdCall__369(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20473,7 +21085,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__351(
+			int __result = global::__Interop.Intrinsics.StdCall__370(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20505,7 +21117,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__352(
+			int __result = global::__Interop.Intrinsics.StdCall__371(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20535,7 +21147,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__353(
+			int __result = global::__Interop.Intrinsics.StdCall__372(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20564,7 +21176,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__354(
+			int __result = global::__Interop.Intrinsics.StdCall__373(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -20592,7 +21204,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__355(
+			int __result = global::__Interop.Intrinsics.StdCall__374(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20621,11 +21233,71 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__356(
+			int __result = global::__Interop.Intrinsics.StdCall__375(
 								__pTarget, 
 								__pThis, 
 								arg0, 
 								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::Windows.UI.Composition.CompositionBatchTypes arg0, 
+					void* arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__376(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					float arg0, 
+					global::Windows.UI.Color arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__377(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -20651,7 +21323,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__357(
+			int __result = global::__Interop.Intrinsics.StdCall__378(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20685,7 +21357,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__358(
+			int __result = global::__Interop.Intrinsics.StdCall__379(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20726,7 +21398,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__359(
+			int __result = global::__Interop.Intrinsics.StdCall__380(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20769,7 +21441,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__360(
+			int __result = global::__Interop.Intrinsics.StdCall__381(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -20803,7 +21475,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__361(
+			int __result = global::__Interop.Intrinsics.StdCall__382(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -20830,7 +21502,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__362(
+			int __result = global::__Interop.Intrinsics.StdCall__383(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -20857,287 +21529,10 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__363(
+			int __result = global::__Interop.Intrinsics.StdCall__384(
 								__pTarget, 
 								__pThis, 
 								arg0
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::System.Type__Impl.UnsafeType arg0, 
-					void* arg1, 
-					void* arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__364(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					uint arg0, 
-					global::System.Type__Impl.UnsafeType arg1)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__365(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::Windows.Storage.StorageItemTypes arg0, 
-					void* arg1)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__368(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					int arg0, 
-					uint arg1, 
-					void* arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__371(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					int arg0, 
-					uint arg1, 
-					global::Windows.Storage.FileProperties.ThumbnailOptions arg2, 
-					void* arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__372(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					int arg0, 
-					uint arg1, 
-					uint arg2, 
-					void* arg3)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__377(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2, 
-								arg3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					uint arg0, 
-					uint arg1, 
-					void* arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__378(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					int arg0, 
-					global::Windows.Storage.StorageOpenOptions arg1, 
-					void* arg2)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__381(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					global::Windows.Storage.StorageOpenOptions arg0, 
-					void* arg1)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__382(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -21162,7 +21557,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__383(
+			int __result = global::__Interop.Intrinsics.StdCall__385(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21190,10 +21585,68 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__385(
+			int __result = global::__Interop.Intrinsics.StdCall__387(
 								__pTarget, 
 								__pThis, 
 								arg0
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::Windows.UI.Xaml.Media.Matrix arg0)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__388(
+								__pTarget, 
+								__pThis, 
+								arg0
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Type__Impl.UnsafeType arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__389(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -21220,7 +21673,69 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__386(
+			int __result = global::__Interop.Intrinsics.StdCall__390(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					uint arg0, 
+					global::Windows.Foundation.Point arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__391(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					global::System.Runtime.InteropServices.HSTRING arg2, 
+					void* arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__392(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21252,7 +21767,156 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__387(
+			int __result = global::__Interop.Intrinsics.StdCall__393(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					void* arg0, 
+					ulong arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__394(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					void* arg0, 
+					sbyte arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__396(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					uint arg0, 
+					int arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__397(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					void* arg0, 
+					global::Windows.Web.Http.HttpProgress__Impl.UnsafeType arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__399(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					void* arg0, 
+					double arg1, 
+					void* arg2)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__400(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21286,7 +21950,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__388(
+			int __result = global::__Interop.Intrinsics.StdCall__401(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21322,7 +21986,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__389(
+			int __result = global::__Interop.Intrinsics.StdCall__402(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21330,6 +21994,35 @@ namespace __Interop
 								arg2, 
 								arg3, 
 								arg4
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Guid arg0, 
+					void* arg1)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__403(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -21354,7 +22047,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__390(
+			int __result = global::__Interop.Intrinsics.StdCall__404(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21385,7 +22078,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__391(
+			int __result = global::__Interop.Intrinsics.StdCall__405(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21408,77 +22101,23 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					uint arg0, 
-					int arg1)
+					global::Windows.Security.Authentication.Web.WebAuthenticationOptions arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__392(
+			int __result = global::__Interop.Intrinsics.StdCall__406(
 								__pTarget, 
 								__pThis, 
 								arg0, 
-								arg1
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					void* arg0, 
-					ulong arg1)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__393(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.GC.KeepAlive(__this);
-			if (__result < 0)
-				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
-									__result, 
-									__typeHnd
-								);
-			return __result;
-		}
-
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Call(
-					global::System.__ComObject __this, 
-					global::System.RuntimeTypeHandle __typeHnd, 
-					int __targetIndex, 
-					void* arg0, 
-					global::Windows.Web.Http.HttpProgress__Impl.UnsafeType arg1)
-		{
-			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
-								__this, 
-								__typeHnd
-							));
-			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__396(
-								__pTarget, 
-								__pThis, 
-								arg0, 
-								arg1
+								arg1, 
+								arg2, 
+								arg3
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -21505,7 +22144,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__397(
+			int __result = global::__Interop.Intrinsics.StdCall__407(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21588,7 +22227,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__398(
+			int __result = global::__Interop.Intrinsics.StdCall__408(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21625,7 +22264,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__399(
+			int __result = global::__Interop.Intrinsics.StdCall__409(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21657,7 +22296,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__400(
+			int __result = global::__Interop.Intrinsics.StdCall__410(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -21686,7 +22325,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__401(
+			int __result = global::__Interop.Intrinsics.StdCall__411(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21718,7 +22357,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__402(
+			int __result = global::__Interop.Intrinsics.StdCall__412(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21754,7 +22393,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__403(
+			int __result = global::__Interop.Intrinsics.StdCall__413(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21791,7 +22430,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__404(
+			int __result = global::__Interop.Intrinsics.StdCall__414(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21826,7 +22465,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__405(
+			int __result = global::__Interop.Intrinsics.StdCall__415(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21859,7 +22498,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__406(
+			int __result = global::__Interop.Intrinsics.StdCall__416(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21888,7 +22527,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			global::__Interop.Intrinsics.StdCall__407(
+			global::__Interop.Intrinsics.StdCall__417(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -21914,7 +22553,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__410(
+			int __result = global::__Interop.Intrinsics.StdCall__420(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -21949,7 +22588,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__411(
+			int __result = global::__Interop.Intrinsics.StdCall__421(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -22003,7 +22642,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__412(
+			int __result = global::__Interop.Intrinsics.StdCall__422(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -22025,7 +22664,7 @@ namespace __Interop
 
 	internal unsafe static partial class ReverseComStubs
 	{
-		// Signature, Windows.Foundation.IStringable.ToString, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, 
+		// Signature, Windows.Foundation.IStringable.ToString, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_1(
 					object __this, 
@@ -22050,7 +22689,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_value__retval != null)
@@ -22063,7 +22702,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Data.IValueConverter.Convert, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x0003F75C] System_Type__Windows_UI_Xaml_Interop__TypeName, [rev] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+		// Signature, Windows.UI.Xaml.Data.IValueConverter.Convert, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_2(
 					object __this, 
@@ -22107,7 +22746,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_result__retval != null)
@@ -22120,7 +22759,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.PropertyChangedCallback.Invoke, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.PropertyChangedCallback.Invoke, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_3<TArg0, TArg1>(
 					object __this, 
@@ -22153,14 +22792,14 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionReturn
 				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
 			}
 		}
 
-		// Signature, Windows.UI.Core.DispatchedHandler.Invoke, [rev] [return] [EETypeRva:0x000406BC] void__int, 
+		// Signature, Windows.UI.Core.DispatchedHandler.Invoke, [rev] [return] [EETypeRva:0x00042030] void__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_4(
 					object __this, 
@@ -22178,14 +22817,14 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionReturn
 				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
 			}
 		}
 
-		// Signature, Windows.UI.Core.IdleDispatchedHandler.Invoke, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Core.IdleDispatchedHandler.Invoke, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_5<TArg0>(
 					object __this, 
@@ -22211,14 +22850,14 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionReturn
 				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Input.KeyEventHandler.Invoke, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [rev] [in] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.UI.Xaml.Input.KeyEventHandler.Invoke, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [in] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_6<TArg0>(
 					object __this, 
@@ -22248,835 +22887,92 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionReturn
 				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.IUIElementOverrides.OnCreateAutomationPeer, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Object>>.get_HasCurrent, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_7<TResult>(
+		internal static int Stub_7(
 					object __this, 
-					void** unsafe_result__retval, 
+					sbyte* unsafe___value__retval, 
 					global::System.IntPtr __methodPtr)
 		{
 			// Setup
-			if (unsafe_result__retval != null)
-				(*(unsafe_result__retval)) = null;
-			TResult TResult__retval = default(TResult);
+			bool __value__retval;
 			try
 			{
 				// Marshalling
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__34<TResult>(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-										TResult__retval, 
-										typeof(TResult).TypeHandle
-									);
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_result__retval != null)
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
-					(*(unsafe_result__retval)) = null;
-				}
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Foundation.TypedEventHandler<Windows.UI.Xaml.FrameworkElement,System.Object>.Invoke, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_8<TArg0>(
-					object __this, 
-					void* unsafe_sender, 
-					void* unsafe_args, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			TArg0 TArg0__arg = default(TArg0);
-			object args = default(object);
-			try
-			{
-				// Marshalling
-				TArg0__arg = (TArg0)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-									((global::System.IntPtr)unsafe_sender), 
-									typeof(TArg0).TypeHandle
-								);
-				args = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_args));
-				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__40<TArg0>(
-									__this, 
-									__methodPtr, 
-									TArg0__arg, 
-									args
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.IFrameworkElementOverrides.MeasureOverride, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0004157C] Windows_Foundation_Size__Windows_Foundation__Size, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] Windows_Foundation_Size__Windows_Foundation__Size, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_9(
-					object __this, 
-					global::Windows.Foundation.Size unsafe_availableSize, 
-					global::Windows.Foundation.Size* unsafe_result__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			global::Windows.Foundation.Size result__retval;
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				result__retval = global::__Interop.Intrinsics.HasThisCall__42(
-									__this, 
-									__methodPtr, 
-									unsafe_availableSize
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = result__retval;
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = default(global::Windows.Foundation.Size);
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentChanged, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_10(
-					object __this, 
-					void* unsafe_oldContent, 
-					void* unsafe_newContent, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			object oldContent = default(object);
-			object newContent = default(object);
-			try
-			{
-				// Marshalling
-				oldContent = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_oldContent));
-				newContent = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_newContent));
-				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__47(
-									__this, 
-									__methodPtr, 
-									oldContent, 
-									newContent
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_11<TResult>(
-					object __this, 
-					void* unsafe_item, 
-					void** unsafe_result__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			object item = default(object);
-			if (unsafe_result__retval != null)
-				(*(unsafe_result__retval)) = null;
-			TResult TResult__retval = default(TResult);
-			try
-			{
-				// Marshalling
-				item = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_item));
-				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__48<TResult>(
-									__this, 
-									__methodPtr, 
-									item
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-										TResult__retval, 
-										typeof(TResult).TypeHandle
-									);
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_result__retval != null)
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
-					(*(unsafe_result__retval)) = null;
-				}
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IItemsControlOverrides.IsItemItsOwnContainerOverride, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_12(
-					object __this, 
-					void* unsafe_item, 
-					sbyte* unsafe_result__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			object item = default(object);
-			bool result__retval;
-			try
-			{
-				// Marshalling
-				item = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_item));
-				// Call to managed method
-				result__retval = global::__Interop.Intrinsics.HasThisCall__50(
-									__this, 
-									__methodPtr, 
-									item
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = (result__retval ? ((sbyte)1) : ((sbyte)0));
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = 0;
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IItemsControlOverrides.OnItemsChanged, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_13(
-					object __this, 
-					void* unsafe_e, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			object e = default(object);
-			try
-			{
-				// Marshalling
-				e = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_e));
-				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__51(
-									__this, 
-									__methodPtr, 
-									e
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.ISemanticZoomInformation.get_IsActiveView, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_14(
-					object __this, 
-					sbyte* unsafe_value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			bool value__retval;
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__67(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_value__retval != null)
-					(*(unsafe_value__retval)) = (value__retval ? ((sbyte)1) : ((sbyte)0));
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_value__retval != null)
-					(*(unsafe_value__retval)) = 0;
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.ISemanticZoomInformation.put_IsActiveView, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003EFA8] bool__bool, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_15(
-					object __this, 
-					sbyte unsafe_value, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			bool value;
-			try
-			{
-				// Marshalling
-				value = unsafe_value != 0;
-				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__68(
-									__this, 
-									__methodPtr, 
-									value
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003F75C] System_Type__Windows_UI_Xaml_Interop__TypeName, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_16<TResult>(
-					object __this, 
-					global::System.Type__Impl.UnsafeType unsafe_type, 
-					void** unsafe_result__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			global::System.Type type = default(global::System.Type);
-			if (unsafe_result__retval != null)
-				(*(unsafe_result__retval)) = null;
-			TResult TResult__retval = default(TResult);
-			try
-			{
-				// Marshalling
-				type = global::System.Runtime.InteropServices.McgMarshal.TypeNameToType(
-									unsafe_type.Name, 
-									((int)unsafe_type.Kind)
-								);
-				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__70<TResult>(
-									__this, 
-									__methodPtr, 
-									type
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-										TResult__retval, 
-										typeof(TResult).TypeHandle
-									);
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_result__retval != null)
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
-					(*(unsafe_result__retval)) = null;
-				}
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_17<TResult>(
-					object __this, 
-					global::System.Runtime.InteropServices.HSTRING unsafe_fullName, 
-					void** unsafe_result__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			string fullName = default(string);
-			if (unsafe_result__retval != null)
-				(*(unsafe_result__retval)) = null;
-			TResult TResult__retval = default(TResult);
-			try
-			{
-				// Marshalling
-				fullName = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_fullName);
-				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__71<TResult>(
-									__this, 
-									__methodPtr, 
-									fullName
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-										TResult__retval, 
-										typeof(TResult).TypeHandle
-									);
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_result__retval != null)
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
-					(*(unsafe_result__retval)) = null;
-				}
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Markup.IXamlType.get_UnderlyingType, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F75C] System_Type__Windows_UI_Xaml_Interop__TypeName, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_18(
-					object __this, 
-					global::System.Type__Impl.UnsafeType* unsafe_value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			if (unsafe_value__retval != null)
-				(*(unsafe_value__retval)) = default(global::System.Type__Impl.UnsafeType);
-			global::System.Type value__retval = default(global::System.Type);
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__72(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_value__retval != null)
-				{
-					global::System.Runtime.InteropServices.HSTRING unsafe_value__retval__HSTRING__Name;
-					int unsafe_value__retval__int__Kind;
-					global::System.Runtime.InteropServices.McgMarshal.TypeToTypeName(
-										value__retval, 
-										out unsafe_value__retval__HSTRING__Name, 
-										out unsafe_value__retval__int__Kind
-									);
-					(*(unsafe_value__retval)).Name = unsafe_value__retval__HSTRING__Name;
-					(*(unsafe_value__retval)).Kind = (global::Windows.UI.Xaml.Interop.TypeKind)unsafe_value__retval__int__Kind;
-				}
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_value__retval != null)
-				{
-					global::System.Runtime.InteropServices.McgMarshal.FreeHString((*(unsafe_value__retval)).Name.handle);
-					(*(unsafe_value__retval)) = default(global::System.Type__Impl.UnsafeType);
-				}
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Markup.IXamlType.ActivateInstance, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_19(
-					object __this, 
-					void** unsafe_result__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			if (unsafe_result__retval != null)
-				(*(unsafe_result__retval)) = null;
-			object result__retval = default(object);
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				result__retval = global::__Interop.Intrinsics.HasThisCall__73(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(result__retval);
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_result__retval != null)
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
-					(*(unsafe_result__retval)) = null;
-				}
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Markup.IXamlType.CreateFromString, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_20(
-					object __this, 
-					global::System.Runtime.InteropServices.HSTRING unsafe_value, 
-					void** unsafe_result__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			string value = default(string);
-			if (unsafe_result__retval != null)
-				(*(unsafe_result__retval)) = null;
-			object result__retval = default(object);
-			try
-			{
-				// Marshalling
-				value = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_value);
-				// Call to managed method
-				result__retval = global::__Interop.Intrinsics.HasThisCall__74(
-									__this, 
-									__methodPtr, 
-									value
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_result__retval != null)
-					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(result__retval);
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_result__retval != null)
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
-					(*(unsafe_result__retval)) = null;
-				}
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Storage.Streams.IRandomAccessStream.get_Size, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] ulong__unsigned __int64, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_21(
-					object __this, 
-					ulong* unsafe_value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			ulong value__retval;
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__83(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_value__retval != null)
-					(*(unsafe_value__retval)) = value__retval;
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_value__retval != null)
-					(*(unsafe_value__retval)) = 0;
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Storage.Streams.IRandomAccessStream.put_Size, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0004157C] ulong__unsigned __int64, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_22(
-					object __this, 
-					ulong unsafe_value, 
-					global::System.IntPtr __methodPtr)
-		{
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__84(
-									__this, 
-									__methodPtr, 
-									unsafe_value
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Storage.Streams.IRandomAccessStream.GetInputStreamAt, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0004157C] ulong__unsigned __int64, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_23<TResult>(
-					object __this, 
-					ulong unsafe_position, 
-					void** unsafe_stream__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			if (unsafe_stream__retval != null)
-				(*(unsafe_stream__retval)) = null;
-			TResult TResult__retval = default(TResult);
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__85<TResult>(
-									__this, 
-									__methodPtr, 
-									unsafe_position
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_stream__retval != null)
-					(*(unsafe_stream__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-										TResult__retval, 
-										typeof(TResult).TypeHandle
-									);
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_stream__retval != null)
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_stream__retval)))));
-					(*(unsafe_stream__retval)) = null;
-				}
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Storage.Streams.IBuffer.get_Capacity, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] uint__unsigned int, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_24(
-					object __this, 
-					uint* unsafe_value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			uint value__retval;
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__88(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe_value__retval != null)
-					(*(unsafe_value__retval)) = value__retval;
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe_value__retval != null)
-					(*(unsafe_value__retval)) = 0;
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Storage.Streams.IBuffer.put_Length, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0004157C] uint__unsigned int, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_25(
-					object __this, 
-					uint unsafe_value, 
-					global::System.IntPtr __methodPtr)
-		{
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__89(
-									__this, 
-									__methodPtr, 
-									unsafe_value
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Progress, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F504] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_26(
-					object __this, 
-					void** unsafe___value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			if (unsafe___value__retval != null)
-				(*(unsafe___value__retval)) = null;
-			global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>);
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				__value__retval = global::__Interop.Intrinsics.HasThisCall__90(
+				__value__retval = global::__Interop.Intrinsics.HasThisCall__35(
 									__this, 
 									__methodPtr
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
-										__value__retval, 
-										typeof(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>).TypeHandle
+					(*(unsafe___value__retval)) = (__value__retval ? ((sbyte)1) : ((sbyte)0));
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = 0;
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageFile.OpenTransactedWriteAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_8<TResult>(
+					object __this, 
+					void** unsafe_operation__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			if (unsafe_operation__retval != null)
+				(*(unsafe_operation__retval)) = null;
+			TResult TResult__retval = default(TResult);
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__41<TResult>(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_operation__retval != null)
+					(*(unsafe_operation__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+										TResult__retval, 
+										typeof(TResult).TypeHandle
 									);
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
-				if (unsafe___value__retval != null)
+				if (unsafe_operation__retval != null)
 				{
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
-					(*(unsafe___value__retval)) = null;
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_operation__retval)))));
+					(*(unsafe_operation__retval)) = null;
 				}
 				// ExceptionReturn
 				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
 			}
 		}
 
-		// Signature, Windows.Foundation.AsyncOperationProgressHandler<Windows.Storage.Streams.IBuffer,uint>.Invoke, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x0004157C] uint__unsigned int, 
+		// Signature, Windows.Storage.IStorageFile.CopyAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_27<TArg0>(
+		internal static int Stub_9<TArg0, TResult>(
 					object __this, 
-					void* unsafe_asyncInfo, 
-					uint unsafe_progressInfo, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			TArg0 TArg0__arg = default(TArg0);
-			try
-			{
-				// Marshalling
-				TArg0__arg = (TArg0)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-									((global::System.IntPtr)unsafe_asyncInfo), 
-									typeof(TArg0).TypeHandle
-								);
-				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__92<TArg0>(
-									__this, 
-									__methodPtr, 
-									TArg0__arg, 
-									unsafe_progressInfo
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Foundation.AsyncOperationWithProgressCompletedHandler<Windows.Storage.Streams.IBuffer,uint>.Invoke, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x000414B4] Windows_Foundation_AsyncStatus__Windows_Foundation__AsyncStatus, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_28<TArg0>(
-					object __this, 
-					void* unsafe_asyncInfo, 
-					global::Windows.Foundation.AsyncStatus unsafe_asyncStatus, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			TArg0 TArg0__arg = default(TArg0);
-			try
-			{
-				// Marshalling
-				TArg0__arg = (TArg0)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-									((global::System.IntPtr)unsafe_asyncInfo), 
-									typeof(TArg0).TypeHandle
-								);
-				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__93<TArg0>(
-									__this, 
-									__methodPtr, 
-									TArg0__arg, 
-									unsafe_asyncStatus
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Storage.Streams.IOutputStream.WriteAsync, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_29<TArg0, TResult>(
-					object __this, 
-					void* unsafe_buffer, 
+					void* unsafe_destinationFolder, 
 					void** unsafe_operation__retval, 
 					global::System.IntPtr __methodPtr)
 		{
@@ -23089,11 +22985,11 @@ namespace __Interop
 			{
 				// Marshalling
 				TArg0__arg = (TArg0)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-									((global::System.IntPtr)unsafe_buffer), 
+									((global::System.IntPtr)unsafe_destinationFolder), 
 									typeof(TArg0).TypeHandle
 								);
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__94<TArg0, TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__42<TArg0, TResult>(
 									__this, 
 									__methodPtr, 
 									TArg0__arg
@@ -23107,7 +23003,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_operation__retval != null)
@@ -23120,187 +23016,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Progress, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F504] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
+		// Signature, Windows.Storage.IStorageFile.CopyAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_30(
-					object __this, 
-					void** unsafe___value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			if (unsafe___value__retval != null)
-				(*(unsafe___value__retval)) = null;
-			global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>);
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				__value__retval = global::__Interop.Intrinsics.HasThisCall__95(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
-										__value__retval, 
-										typeof(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>).TypeHandle
-									);
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe___value__retval != null)
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
-					(*(unsafe___value__retval)) = null;
-				}
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasScaledFont>.get_Key, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Text_CanvasCharacterRange__Microsoft_Graphics_Canvas_Text__CanvasCharacterRange, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_31(
-					object __this, 
-					global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange* unsafe___value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __value__retval;
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				__value__retval = global::__Interop.Intrinsics.HasThisCall__341(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = __value__retval;
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange);
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>.get_Value, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedBidi__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedBidi, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_32(
-					object __this, 
-					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi* unsafe___value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi __value__retval;
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				__value__retval = global::__Interop.Intrinsics.HasThisCall__343(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = __value__retval;
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi);
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>.get_Value, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004196C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedScript__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedScript, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_33(
-					object __this, 
-					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript* unsafe___value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript __value__retval;
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				__value__retval = global::__Interop.Intrinsics.HasThisCall__344(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = __value__retval;
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript);
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>.get_Value, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004084C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedGlyphOrientation__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedGlyphOrientation, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_34(
-					object __this, 
-					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.UnsafeType* unsafe___value__retval, 
-					global::System.IntPtr __methodPtr)
-		{
-			// Setup
-			if (unsafe___value__retval != null)
-				(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.UnsafeType);
-			global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation __value__retval = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation);
-			try
-			{
-				// Marshalling
-				// Call to managed method
-				__value__retval = global::__Interop.Intrinsics.HasThisCall__345(
-									__this, 
-									__methodPtr
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				if (unsafe___value__retval != null)
-					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.Marshal__SafeToUnsafe(
-										ref __value__retval, 
-										out (*(unsafe___value__retval))
-									);
-				// Return
-				return 0;
-			}
-			catch (global::System.Exception hrExcep)
-			{
-				// ExceptionCleanup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.UnsafeType);
-				// ExceptionReturn
-				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-			}
-		}
-
-		// Signature, Windows.Storage.IStorageFile.CopyAsync, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_35<TArg0, TResult>(
+		internal static int Stub_10<TArg0, TResult>(
 					object __this, 
 					void* unsafe_destinationFolder, 
 					global::System.Runtime.InteropServices.HSTRING unsafe_desiredNewName, 
@@ -23322,7 +23040,7 @@ namespace __Interop
 								);
 				desiredNewName = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_desiredNewName);
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__366<TArg0, TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__43<TArg0, TResult>(
 									__this, 
 									__methodPtr, 
 									TArg0__arg, 
@@ -23337,7 +23055,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_operation__retval != null)
@@ -23350,9 +23068,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.IStorageFile.CopyAsync, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [rev] [in] [EETypeRva:0x000414B4] Windows_Storage_NameCollisionOption__Windows_Storage__NameCollisionOption, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.Storage.IStorageFile.CopyAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_NameCollisionOption__Windows_Storage__NameCollisionOption, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_36<TArg0, TResult>(
+		internal static int Stub_11<TArg0, TResult>(
 					object __this, 
 					void* unsafe_destinationFolder, 
 					global::System.Runtime.InteropServices.HSTRING unsafe_desiredNewName, 
@@ -23375,7 +23093,7 @@ namespace __Interop
 								);
 				desiredNewName = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_desiredNewName);
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__367<TArg0, TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__44<TArg0, TResult>(
 									__this, 
 									__methodPtr, 
 									TArg0__arg, 
@@ -23391,7 +23109,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_operation__retval != null)
@@ -23404,9 +23122,54 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.IStorageItem.get_DateCreated, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F440] System_DateTimeOffset__Windows_Foundation__DateTime, 
+		// Signature, Windows.Storage.IStorageItem.RenameAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_37(
+		internal static int Stub_12<TResult>(
+					object __this, 
+					global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
+					void** unsafe_operation__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			string desiredName = default(string);
+			if (unsafe_operation__retval != null)
+				(*(unsafe_operation__retval)) = null;
+			TResult TResult__retval = default(TResult);
+			try
+			{
+				// Marshalling
+				desiredName = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_desiredName);
+				// Call to managed method
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__47<TResult>(
+									__this, 
+									__methodPtr, 
+									desiredName
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_operation__retval != null)
+					(*(unsafe_operation__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+										TResult__retval, 
+										typeof(TResult).TypeHandle
+									);
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_operation__retval != null)
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_operation__retval)))));
+					(*(unsafe_operation__retval)) = null;
+				}
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageItem.get_DateCreated, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040C1C] System_DateTimeOffset__Windows_Foundation__DateTime, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_13(
 					object __this, 
 					global::System.DateTimeOffset__Impl.UnsafeType* unsafe_value__retval, 
 					global::System.IntPtr __methodPtr)
@@ -23417,7 +23180,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__369(
+				value__retval = global::__Interop.Intrinsics.HasThisCall__48(
 									__this, 
 									__methodPtr
 								);
@@ -23427,7 +23190,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_value__retval != null)
@@ -23437,9 +23200,324 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.IStorageFolder.CreateFileAsync, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0003F2B8] string__System.Runtime.InteropServices.HSTRING, [rev] [in] [EETypeRva:0x000414B4] Windows_Storage_CreationCollisionOption__Windows_Storage__CreationCollisionOption, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.Storage.Streams.IRandomAccessStream.get_Size, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] ulong__unsigned __int64, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_38<TResult>(
+		internal static int Stub_14(
+					object __this, 
+					ulong* unsafe_value__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			ulong value__retval;
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				value__retval = global::__Interop.Intrinsics.HasThisCall__51(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_value__retval != null)
+					(*(unsafe_value__retval)) = value__retval;
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_value__retval != null)
+					(*(unsafe_value__retval)) = 0;
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Storage.Streams.IRandomAccessStream.put_Size, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] ulong__unsigned __int64, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_15(
+					object __this, 
+					ulong unsafe_value, 
+					global::System.IntPtr __methodPtr)
+		{
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				global::__Interop.Intrinsics.HasThisCall__52(
+									__this, 
+									__methodPtr, 
+									unsafe_value
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Storage.Streams.IRandomAccessStream.GetInputStreamAt, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] ulong__unsigned __int64, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_16<TResult>(
+					object __this, 
+					ulong unsafe_position, 
+					void** unsafe_stream__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			if (unsafe_stream__retval != null)
+				(*(unsafe_stream__retval)) = null;
+			TResult TResult__retval = default(TResult);
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__53<TResult>(
+									__this, 
+									__methodPtr, 
+									unsafe_position
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_stream__retval != null)
+					(*(unsafe_stream__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+										TResult__retval, 
+										typeof(TResult).TypeHandle
+									);
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_stream__retval != null)
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_stream__retval)))));
+					(*(unsafe_stream__retval)) = null;
+				}
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Storage.Streams.IBuffer.get_Capacity, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_17(
+					object __this, 
+					uint* unsafe_value__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			uint value__retval;
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				value__retval = global::__Interop.Intrinsics.HasThisCall__56(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_value__retval != null)
+					(*(unsafe_value__retval)) = value__retval;
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_value__retval != null)
+					(*(unsafe_value__retval)) = 0;
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Storage.Streams.IBuffer.put_Length, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_18(
+					object __this, 
+					uint unsafe_value, 
+					global::System.IntPtr __methodPtr)
+		{
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				global::__Interop.Intrinsics.HasThisCall__57(
+									__this, 
+									__methodPtr, 
+									unsafe_value
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Progress, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_19(
+					object __this, 
+					void** unsafe___value__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			if (unsafe___value__retval != null)
+				(*(unsafe___value__retval)) = null;
+			global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>);
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				__value__retval = global::__Interop.Intrinsics.HasThisCall__58(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+										__value__retval, 
+										typeof(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>).TypeHandle
+									);
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe___value__retval != null)
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
+					(*(unsafe___value__retval)) = null;
+				}
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Foundation.AsyncOperationProgressHandler<Windows.Storage.Streams.IBuffer,uint>.Invoke, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_20<TArg0>(
+					object __this, 
+					void* unsafe_asyncInfo, 
+					uint unsafe_progressInfo, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			TArg0 TArg0__arg = default(TArg0);
+			try
+			{
+				// Marshalling
+				TArg0__arg = (TArg0)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_asyncInfo), 
+									typeof(TArg0).TypeHandle
+								);
+				// Call to managed method
+				global::__Interop.Intrinsics.HasThisCall__60<TArg0>(
+									__this, 
+									__methodPtr, 
+									TArg0__arg, 
+									unsafe_progressInfo
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Foundation.AsyncOperationWithProgressCompletedHandler<Windows.Storage.Streams.IBuffer,uint>.Invoke, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x00042D60] Windows_Foundation_AsyncStatus__Windows_Foundation__AsyncStatus, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_21<TArg0>(
+					object __this, 
+					void* unsafe_asyncInfo, 
+					global::Windows.Foundation.AsyncStatus unsafe_asyncStatus, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			TArg0 TArg0__arg = default(TArg0);
+			try
+			{
+				// Marshalling
+				TArg0__arg = (TArg0)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_asyncInfo), 
+									typeof(TArg0).TypeHandle
+								);
+				// Call to managed method
+				global::__Interop.Intrinsics.HasThisCall__61<TArg0>(
+									__this, 
+									__methodPtr, 
+									TArg0__arg, 
+									unsafe_asyncStatus
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Progress, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_22(
+					object __this, 
+					void** unsafe___value__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			if (unsafe___value__retval != null)
+				(*(unsafe___value__retval)) = null;
+			global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> __value__retval = default(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>);
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				__value__retval = global::__Interop.Intrinsics.HasThisCall__62(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+										__value__retval, 
+										typeof(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>).TypeHandle
+									);
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe___value__retval != null)
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
+					(*(unsafe___value__retval)) = null;
+				}
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.Storage.IStorageFolder.CreateFileAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_CreationCollisionOption__Windows_Storage__CreationCollisionOption, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_23<TResult>(
 					object __this, 
 					global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
 					global::Windows.Storage.CreationCollisionOption unsafe_options, 
@@ -23456,7 +23534,7 @@ namespace __Interop
 				// Marshalling
 				desiredName = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_desiredName);
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__370<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__63<TResult>(
 									__this, 
 									__methodPtr, 
 									desiredName, 
@@ -23471,7 +23549,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_operation__retval != null)
@@ -23484,9 +23562,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x000414B4] Windows_Storage_FileProperties_ThumbnailMode__Windows_Storage_FileProperties__ThumbnailMode, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_FileProperties_ThumbnailMode__Windows_Storage_FileProperties__ThumbnailMode, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_39<TResult>(
+		internal static int Stub_24<TResult>(
 					object __this, 
 					global::Windows.Storage.FileProperties.ThumbnailMode unsafe_mode, 
 					void** unsafe_operation__retval, 
@@ -23500,7 +23578,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__373<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__66<TResult>(
 									__this, 
 									__methodPtr, 
 									unsafe_mode
@@ -23514,7 +23592,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_operation__retval != null)
@@ -23527,9 +23605,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x000414B4] Windows_Storage_FileProperties_ThumbnailMode__Windows_Storage_FileProperties__ThumbnailMode, [rev] [in] [EETypeRva:0x0004157C] uint__unsigned int, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_FileProperties_ThumbnailMode__Windows_Storage_FileProperties__ThumbnailMode, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_40<TResult>(
+		internal static int Stub_25<TResult>(
 					object __this, 
 					global::Windows.Storage.FileProperties.ThumbnailMode unsafe_mode, 
 					uint unsafe_requestedSize, 
@@ -23544,7 +23622,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__374<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__67<TResult>(
 									__this, 
 									__methodPtr, 
 									unsafe_mode, 
@@ -23559,7 +23637,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_operation__retval != null)
@@ -23572,9 +23650,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x000414B4] Windows_Storage_FileProperties_ThumbnailMode__Windows_Storage_FileProperties__ThumbnailMode, [rev] [in] [EETypeRva:0x0004157C] uint__unsigned int, [rev] [in] [EETypeRva:0x000414B4] Windows_Storage_FileProperties_ThumbnailOptions__Windows_Storage_FileProperties__ThumbnailOptions, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.Storage.IStorageItemProperties.GetThumbnailAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_FileProperties_ThumbnailMode__Windows_Storage_FileProperties__ThumbnailMode, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_FileProperties_ThumbnailOptions__Windows_Storage_FileProperties__ThumbnailOptions, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_41<TResult>(
+		internal static int Stub_26<TResult>(
 					object __this, 
 					global::Windows.Storage.FileProperties.ThumbnailMode unsafe_mode, 
 					uint unsafe_requestedSize, 
@@ -23590,7 +23668,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__375<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__68<TResult>(
 									__this, 
 									__methodPtr, 
 									unsafe_mode, 
@@ -23606,7 +23684,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_operation__retval != null)
@@ -23619,9 +23697,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.IStorageItem2.IsEqual, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003EFA8] bool__bool, 
+		// Signature, Windows.Storage.IStorageItem2.IsEqual, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_42<TArg0>(
+		internal static int Stub_27<TArg0>(
 					object __this, 
 					void* unsafe_item, 
 					sbyte* unsafe_value__retval, 
@@ -23638,7 +23716,7 @@ namespace __Interop
 									typeof(TArg0).TypeHandle
 								);
 				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__376<TArg0>(
+				value__retval = global::__Interop.Intrinsics.HasThisCall__69<TArg0>(
 									__this, 
 									__methodPtr, 
 									TArg0__arg
@@ -23649,7 +23727,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_value__retval != null)
@@ -23659,9 +23737,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.Search.IStorageFolderQueryOperations.CreateFileQuery, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x000414B4] Windows_Storage_Search_CommonFileQuery__Windows_Storage_Search__CommonFileQuery, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.Storage.Search.IStorageFolderQueryOperations.CreateFileQuery, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_Search_CommonFileQuery__Windows_Storage_Search__CommonFileQuery, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_43<TResult>(
+		internal static int Stub_28<TResult>(
 					object __this, 
 					global::Windows.Storage.Search.CommonFileQuery unsafe_query, 
 					void** unsafe_value__retval, 
@@ -23675,7 +23753,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__379<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__72<TResult>(
 									__this, 
 									__methodPtr, 
 									unsafe_query
@@ -23689,7 +23767,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_value__retval != null)
@@ -23702,9 +23780,9 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Storage.Search.IStorageFolderQueryOperations.CreateFolderQuery, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x000414B4] Windows_Storage_Search_CommonFolderQuery__Windows_Storage_Search__CommonFolderQuery, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, Windows.Storage.Search.IStorageFolderQueryOperations.CreateFolderQuery, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_Search_CommonFolderQuery__Windows_Storage_Search__CommonFolderQuery, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_44<TResult>(
+		internal static int Stub_29<TResult>(
 					object __this, 
 					global::Windows.Storage.Search.CommonFolderQuery unsafe_query, 
 					void** unsafe_value__retval, 
@@ -23718,7 +23796,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__380<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__73<TResult>(
 									__this, 
 									__methodPtr, 
 									unsafe_query
@@ -23732,7 +23810,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe_value__retval != null)
@@ -23745,7 +23823,568 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.UI.Xaml.Data.ICollectionView.remove_CurrentChanged, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0004157C] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+		// Signature, Windows.Foundation.TypedEventHandler<Windows.UI.Xaml.FrameworkElement,System.Object>.Invoke, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [GenericTypeMarshaller]  -> T, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_30<TArg0>(
+					object __this, 
+					void* unsafe_sender, 
+					void* unsafe_args, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			TArg0 TArg0__arg = default(TArg0);
+			object args = default(object);
+			try
+			{
+				// Marshalling
+				TArg0__arg = (TArg0)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+									((global::System.IntPtr)unsafe_sender), 
+									typeof(TArg0).TypeHandle
+								);
+				args = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_args));
+				// Call to managed method
+				global::__Interop.Intrinsics.HasThisCall__79<TArg0>(
+									__this, 
+									__methodPtr, 
+									TArg0__arg, 
+									args
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.IFrameworkElementOverrides.MeasureOverride, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] Windows_Foundation_Size__Windows_Foundation__Size, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Size__Windows_Foundation__Size, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_31(
+					object __this, 
+					global::Windows.Foundation.Size unsafe_availableSize, 
+					global::Windows.Foundation.Size* unsafe_result__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			global::Windows.Foundation.Size result__retval;
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				result__retval = global::__Interop.Intrinsics.HasThisCall__81(
+									__this, 
+									__methodPtr, 
+									unsafe_availableSize
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_result__retval != null)
+					(*(unsafe_result__retval)) = result__retval;
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_result__retval != null)
+					(*(unsafe_result__retval)) = default(global::Windows.Foundation.Size);
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentChanged, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_32(
+					object __this, 
+					void* unsafe_oldContent, 
+					void* unsafe_newContent, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			object oldContent = default(object);
+			object newContent = default(object);
+			try
+			{
+				// Marshalling
+				oldContent = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_oldContent));
+				newContent = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_newContent));
+				// Call to managed method
+				global::__Interop.Intrinsics.HasThisCall__86(
+									__this, 
+									__methodPtr, 
+									oldContent, 
+									newContent
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_33<TResult>(
+					object __this, 
+					void* unsafe_item, 
+					void** unsafe_result__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			object item = default(object);
+			if (unsafe_result__retval != null)
+				(*(unsafe_result__retval)) = null;
+			TResult TResult__retval = default(TResult);
+			try
+			{
+				// Marshalling
+				item = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_item));
+				// Call to managed method
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__87<TResult>(
+									__this, 
+									__methodPtr, 
+									item
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_result__retval != null)
+					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+										TResult__retval, 
+										typeof(TResult).TypeHandle
+									);
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_result__retval != null)
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
+					(*(unsafe_result__retval)) = null;
+				}
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Controls.IItemsControlOverrides.IsItemItsOwnContainerOverride, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_34(
+					object __this, 
+					void* unsafe_item, 
+					sbyte* unsafe_result__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			object item = default(object);
+			bool result__retval;
+			try
+			{
+				// Marshalling
+				item = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_item));
+				// Call to managed method
+				result__retval = global::__Interop.Intrinsics.HasThisCall__89(
+									__this, 
+									__methodPtr, 
+									item
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_result__retval != null)
+					(*(unsafe_result__retval)) = (result__retval ? ((sbyte)1) : ((sbyte)0));
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_result__retval != null)
+					(*(unsafe_result__retval)) = 0;
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Controls.IItemsControlOverrides.OnItemsChanged, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_35(
+					object __this, 
+					void* unsafe_e, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			object e = default(object);
+			try
+			{
+				// Marshalling
+				e = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_e));
+				// Call to managed method
+				global::__Interop.Intrinsics.HasThisCall__90(
+									__this, 
+									__methodPtr, 
+									e
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Controls.ISemanticZoomInformation.put_IsActiveView, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040784] bool__bool, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_36(
+					object __this, 
+					sbyte unsafe_value, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			bool value;
+			try
+			{
+				// Marshalling
+				value = unsafe_value != 0;
+				// Call to managed method
+				global::__Interop.Intrinsics.HasThisCall__105(
+									__this, 
+									__methodPtr, 
+									value
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [rev] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_37<TResult>(
+					object __this, 
+					global::System.Type__Impl.UnsafeType unsafe_type, 
+					void** unsafe_result__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			global::System.Type type = default(global::System.Type);
+			if (unsafe_result__retval != null)
+				(*(unsafe_result__retval)) = null;
+			TResult TResult__retval = default(TResult);
+			try
+			{
+				// Marshalling
+				type = global::System.Runtime.InteropServices.McgMarshal.TypeNameToType(
+									unsafe_type.Name, 
+									((int)unsafe_type.Kind)
+								);
+				// Call to managed method
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__109<TResult>(
+									__this, 
+									__methodPtr, 
+									type
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_result__retval != null)
+					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+										TResult__retval, 
+										typeof(TResult).TypeHandle
+									);
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_result__retval != null)
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
+					(*(unsafe_result__retval)) = null;
+				}
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Markup.IXamlType.get_UnderlyingType, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_38(
+					object __this, 
+					global::System.Type__Impl.UnsafeType* unsafe_value__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			if (unsafe_value__retval != null)
+				(*(unsafe_value__retval)) = default(global::System.Type__Impl.UnsafeType);
+			global::System.Type value__retval = default(global::System.Type);
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				value__retval = global::__Interop.Intrinsics.HasThisCall__110(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_value__retval != null)
+				{
+					global::System.Runtime.InteropServices.HSTRING unsafe_value__retval__HSTRING__Name;
+					int unsafe_value__retval__int__Kind;
+					global::System.Runtime.InteropServices.McgMarshal.TypeToTypeName(
+										value__retval, 
+										out unsafe_value__retval__HSTRING__Name, 
+										out unsafe_value__retval__int__Kind
+									);
+					(*(unsafe_value__retval)).Name = unsafe_value__retval__HSTRING__Name;
+					(*(unsafe_value__retval)).Kind = (global::Windows.UI.Xaml.Interop.TypeKind)unsafe_value__retval__int__Kind;
+				}
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_value__retval != null)
+				{
+					global::System.Runtime.InteropServices.McgMarshal.FreeHString((*(unsafe_value__retval)).Name.handle);
+					(*(unsafe_value__retval)) = default(global::System.Type__Impl.UnsafeType);
+				}
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Markup.IXamlType.ActivateInstance, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_39(
+					object __this, 
+					void** unsafe_result__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			if (unsafe_result__retval != null)
+				(*(unsafe_result__retval)) = null;
+			object result__retval = default(object);
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				result__retval = global::__Interop.Intrinsics.HasThisCall__111(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_result__retval != null)
+					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(result__retval);
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_result__retval != null)
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
+					(*(unsafe_result__retval)) = null;
+				}
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Markup.IXamlType.CreateFromString, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_40(
+					object __this, 
+					global::System.Runtime.InteropServices.HSTRING unsafe_value, 
+					void** unsafe_result__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			string value = default(string);
+			if (unsafe_result__retval != null)
+				(*(unsafe_result__retval)) = null;
+			object result__retval = default(object);
+			try
+			{
+				// Marshalling
+				value = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_value);
+				// Call to managed method
+				result__retval = global::__Interop.Intrinsics.HasThisCall__112(
+									__this, 
+									__methodPtr, 
+									value
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe_result__retval != null)
+					(*(unsafe_result__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(result__retval);
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe_result__retval != null)
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe_result__retval)))));
+					(*(unsafe_result__retval)) = null;
+				}
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasScaledFont>.get_Key, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Text_CanvasCharacterRange__Microsoft_Graphics_Canvas_Text__CanvasCharacterRange, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_41(
+					object __this, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange* unsafe___value__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __value__retval;
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				__value__retval = global::__Interop.Intrinsics.HasThisCall__360(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = __value__retval;
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange);
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>.get_Value, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedBidi__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedBidi, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_42(
+					object __this, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi* unsafe___value__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi __value__retval;
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				__value__retval = global::__Interop.Intrinsics.HasThisCall__362(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = __value__retval;
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi);
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>.get_Value, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004314C] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedScript__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedScript, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_43(
+					object __this, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript* unsafe___value__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript __value__retval;
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				__value__retval = global::__Interop.Intrinsics.HasThisCall__363(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = __value__retval;
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript);
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, System.Collections.Generic.KeyValuePair<Microsoft.Graphics.Canvas.Text.CanvasCharacterRange,Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>.get_Value, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000421C0] Microsoft_Graphics_Canvas_Text_CanvasAnalyzedGlyphOrientation__Microsoft_Graphics_Canvas_Text__CanvasAnalyzedGlyphOrientation, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Stub_44(
+					object __this, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.UnsafeType* unsafe___value__retval, 
+					global::System.IntPtr __methodPtr)
+		{
+			// Setup
+			if (unsafe___value__retval != null)
+				(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.UnsafeType);
+			global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation __value__retval = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation);
+			try
+			{
+				// Marshalling
+				// Call to managed method
+				__value__retval = global::__Interop.Intrinsics.HasThisCall__364(
+									__this, 
+									__methodPtr
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				if (unsafe___value__retval != null)
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.Marshal__SafeToUnsafe(
+										ref __value__retval, 
+										out (*(unsafe___value__retval))
+									);
+				// Return
+				return 0;
+			}
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
+			{
+				// ExceptionCleanup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = default(global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.UnsafeType);
+				// ExceptionReturn
+				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+			}
+		}
+
+		// Signature, Windows.UI.Xaml.Data.ICollectionView.remove_CurrentChanged, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_45(
 					object __this, 
@@ -23756,7 +24395,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__384(
+				global::__Interop.Intrinsics.HasThisCall__386(
 									__this, 
 									__methodPtr, 
 									unsafe_token
@@ -23765,14 +24404,14 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionReturn
 				return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
 			}
 		}
 
-		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IInputStream,ulong>.get_Progress, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F504] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IInputStream__ulong___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IInputStream_j_ulong_V_ *, 
+		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IInputStream,ulong>.get_Progress, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IInputStream__ulong___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IInputStream_j_ulong_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_46(
 					object __this, 
@@ -23787,7 +24426,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				__value__retval = global::__Interop.Intrinsics.HasThisCall__394(
+				__value__retval = global::__Interop.Intrinsics.HasThisCall__395(
 									__this, 
 									__methodPtr
 								);
@@ -23800,7 +24439,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe___value__retval != null)
@@ -23813,7 +24452,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpResponseMessage,Windows.Web.Http.HttpProgress>.get_Progress, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F504] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Web_Http_HttpResponseMessage__Windows_Web_Http_HttpProgress___Windows_Foundation__AsyncOperationProgressHandler_A__w_Web_Http_HttpResponseMessage_j__w_Web_Http_HttpProgress_V_ *, 
+		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpResponseMessage,Windows.Web.Http.HttpProgress>.get_Progress, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Web_Http_HttpResponseMessage__Windows_Web_Http_HttpProgress___Windows_Foundation__AsyncOperationProgressHandler_A__w_Web_Http_HttpResponseMessage_j__w_Web_Http_HttpProgress_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_47(
 					object __this, 
@@ -23828,7 +24467,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				__value__retval = global::__Interop.Intrinsics.HasThisCall__395(
+				__value__retval = global::__Interop.Intrinsics.HasThisCall__398(
 									__this, 
 									__methodPtr
 								);
@@ -23841,7 +24480,7 @@ namespace __Interop
 				// Return
 				return 0;
 			}
-			catch (global::System.Exception hrExcep)
+			catch (global::System.Exception hrExcep) when (global::System.Runtime.InteropServices.McgMarshal.PropagateException(hrExcep))
 			{
 				// ExceptionCleanup
 				if (unsafe___value__retval != null)
@@ -23854,7 +24493,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetFuncDesc, [rev] [return] [EETypeRva:0x000406BC] void__int, [rev] [in] [EETypeRva:0x0004157C] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetFuncDesc, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static int Stub_48(
 					object __this, 
@@ -23868,7 +24507,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__408(
+				global::__Interop.Intrinsics.HasThisCall__418(
 									__this, 
 									__methodPtr, 
 									unsafe_index, 
@@ -23889,7 +24528,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.ReleaseTypeAttr, [rev] [return] [EETypeRva:0x000405F8] void__void, [rev] [in] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
+		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.ReleaseTypeAttr, [rev] [return] [EETypeRva:0x00041F6C] void__void, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		internal static void Stub_49(
 					object __this, 
@@ -23900,7 +24539,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__409(
+				global::__Interop.Intrinsics.HasThisCall__419(
 									__this, 
 									__methodPtr, 
 									unsafe_pTypeAttr

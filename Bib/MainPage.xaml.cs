@@ -30,7 +30,7 @@ namespace Bib
                 Borrow.Margin = new Thickness(0, 0, 50, 0);
                 Books.Margin = new Thickness(50, 50, 0, 50);
                 Admin.Margin = new Thickness(0, 0, 50, 50);
-                
+                BButon.Margin = new Thickness(0, 0, 80, 0);
             }
 
             if (Device.RuntimePlatform == Device.UWP)
@@ -93,7 +93,7 @@ namespace Bib
             }
         }
 
-        private void Button_Clicked_Student(object sender, EventArgs e)
+        private async void Button_Clicked_Student(object sender, EventArgs e)
         {
             Button b = (Button)sender;
 
@@ -102,14 +102,14 @@ namespace Bib
             switch (b.Text)
             {
                 case ("Regestrieren"):
-                    PopupNavigation.Instance.PushAsync(new PopupView("", null));
+                    await PopupNavigation.Instance.PushAsync(new PopupView("", null));
                     break;
 
                 case ("Bearbeiten"):
-                    PopupNavigation.Instance.PushAsync(new PopupView("Bearbeiten", student));
+                    await PopupNavigation.Instance.PushAsync(new PopupView("Bearbeiten", student));
                     break;
                 case ("Buch ausleihen"):
-
+                   await PopupNavigation.Instance.PushAsync(new PopupViewBorrow(student));
                     break;
                 case ("Bücher anzeigen"):
 

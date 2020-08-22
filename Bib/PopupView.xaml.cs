@@ -82,7 +82,6 @@ namespace Bib
             var file = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
             {
                 SaveToAlbum = true,
-
             });
         }
     }

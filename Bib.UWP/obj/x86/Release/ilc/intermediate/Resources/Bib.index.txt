@@ -1,4 +1,7 @@
 Bib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  Bib.Images.AddAdmin.png
+  Bib.Images.Addbook.png
+  Bib.Images.AddStudent.png
   Bib.Images.Admin.png
   Bib.Images.book_login.png
   Bib.Images.Borrow.png

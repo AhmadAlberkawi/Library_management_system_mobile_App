@@ -40,7 +40,7 @@
 
         <!-- Überblick Page -->
 
-        <RelativeLayout x:Name="Ueberblick_Page" IsVisible="false" Margin="250,180,40,40" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <RelativeLayout x:Name="Ueberblick_Page" IsVisible="true" Margin="250,180,40,40" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
 
             <Grid BackgroundColor="Beige" 
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}" 
@@ -108,7 +108,7 @@
 
         <!-- Student Page -->
 
-        <RelativeLayout x:Name="Student_Page" IsVisible="true" Margin="250,180,40,40" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <RelativeLayout x:Name="Student_Page" IsVisible="false" Margin="250,180,40,40" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
 
             <Grid BackgroundColor="Beige" 
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}" 
@@ -177,11 +177,12 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Margin="0,0,30,30">
                     <Button Text="Buch ausleihen" Clicked="Button_Clicked_Student" HorizontalOptions="StartAndExpand" BackgroundColor="#ffb366" WidthRequest="160" HeightRequest="40" Margin="0,0,10,0"  />
-                    <Button Text="Bücher anzeigen" Clicked="Button_Clicked_Student" HorizontalOptions="StartAndExpand" BackgroundColor="#b3d9ff" WidthRequest="160" HeightRequest="40" Margin="0,0,150,0"  />
+                    <Button x:Name="BButon" Text="Bücher anzeigen" Clicked="Button_Clicked_Student" HorizontalOptions="StartAndExpand" BackgroundColor="#b3d9ff" WidthRequest="160" HeightRequest="40" Margin="0,0,0,0"  />
                     <Button Text="Regestrieren" Clicked="Button_Clicked_Student" BackgroundColor="#68C768" WidthRequest="160" HeightRequest="40"  />
                     <Button Text="Bearbeiten" Clicked="Button_Clicked_Student" BackgroundColor="#71A3D5" WidthRequest="160" HeightRequest="40" />
                     <Button Text="Löschen" Command="{Binding RemoveStudentCommand}" BackgroundColor="#D8836E" WidthRequest="160" HeightRequest="40" />
                 </StackLayout>
+           
             </Grid>
         </RelativeLayout>
 
@@ -287,19 +288,6 @@
                     <Button Text="Bearbeiten" Clicked="Button_Clicked_Book" BackgroundColor="#71A3D5" WidthRequest="160" HeightRequest="40" />
                     <Button Text="Löschen" Command="{Binding RemoveBookCommand}" BackgroundColor="#D8836E" WidthRequest="160" HeightRequest="40" />
                 </StackLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
             </Grid>
         </RelativeLayout>
 
