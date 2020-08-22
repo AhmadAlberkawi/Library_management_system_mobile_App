@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <None Remove="Images\AddAdmin.png" />
+    <None Remove="Images\Addbook.png" />
     <None Remove="Images\AddStudent.png" />
     <None Remove="Images\Admin.png" />
     <None Remove="Images\ausleihe.png" />
@@ -27,6 +28,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Images\AddAdmin.png" />
+    <EmbeddedResource Include="Images\Addbook.png" />
     <EmbeddedResource Include="Images\AddStudent.png" />
     <EmbeddedResource Include="Images\Admin.png" />
     <EmbeddedResource Include="Images\book_login.png" />
@@ -64,6 +66,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="PopupViewAdmin.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopupViewBook.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

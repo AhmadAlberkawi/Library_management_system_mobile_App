@@ -30,6 +30,7 @@ namespace Bib
                 Borrow.Margin = new Thickness(0, 0, 50, 0);
                 Books.Margin = new Thickness(50, 50, 0, 50);
                 Admin.Margin = new Thickness(0, 0, 50, 50);
+                
             }
 
             if (Device.RuntimePlatform == Device.UWP)
@@ -70,6 +71,7 @@ namespace Bib
                     break;
 
                 case ("Bücher"):
+                    this.BindingContext = new BookListViewModel();
                     Ueberblick_Page.IsVisible = false;
                     Student_Page.IsVisible = false;
                     Ausleihe_Page.IsVisible = false;
@@ -106,6 +108,12 @@ namespace Bib
                 case ("Bearbeiten"):
                     PopupNavigation.Instance.PushAsync(new PopupView("Bearbeiten", student));
                     break;
+                case ("Buch ausleihen"):
+
+                    break;
+                case ("Bücher anzeigen"):
+
+                    break;
             }
         }
 
@@ -123,6 +131,24 @@ namespace Bib
 
                 case ("Bearbeiten"):
                     PopupNavigation.Instance.PushAsync(new PopupViewAdmin("Bearbeiten", admin));
+                    break;
+            }
+        }
+
+        private void Button_Clicked_Book(object sender, EventArgs e)
+        {
+            Buch buch = BookListView.SelectedItem as Buch;
+
+            Button b = (Button)sender;
+
+            switch (b.Text)
+            {
+                case ("Regestrieren"):
+                    PopupNavigation.Instance.PushAsync(new PopupViewBook("",null));
+                    break;
+
+                case ("Bearbeiten"):
+                    PopupNavigation.Instance.PushAsync(new PopupViewBook("Bearbeiten", buch));
                     break;
             }
         }
@@ -151,6 +177,19 @@ namespace Bib
                 AdminListView.ItemsSource = _container.Admins.Where(i => i.Name.ToLower().Contains(e.NewTextValue.ToLower()));
 
             AdminListView.EndRefresh();
+        }
+
+        private void SearchBar_Book(object sender, TextChangedEventArgs e)
+        {
+            var _container = BindingContext as BookListViewModel;
+            BookListView.BeginRefresh();
+
+            if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                BookListView.ItemsSource = _container.Books;
+            else
+                BookListView.ItemsSource = _container.Books.Where(i => i.Titel.ToLower().Contains(e.NewTextValue.ToLower()));
+
+            BookListView.EndRefresh();
         }
     }
 }

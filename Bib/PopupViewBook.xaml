@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:local="clr-namespace:Bib.MarkupExtentions"
+             mc:Ignorable="d"
+             x:Class="Bib.PopupViewBook">
+    
+    <StackLayout x:Name="fenster" BackgroundColor="White" Margin="450,130,450,30">
+
+        <StackLayout x:Name="header" BackgroundColor="Black" Orientation="Horizontal" WidthRequest="350" Padding="30,5,0,5" Margin="0,0,0,30">
+
+            <Button x:Name="Foto" ImageSource="{local:EmbeddedImage Bib.Images.Addbook.png }" Clicked="Add_Image" Margin="5,10,10,10" HeightRequest="100" WidthRequest="100" />
+            <Label x:Name="Title" Text="Buch hinzufügen" TextColor="White" FontSize="20" Margin="0,45,0,0"/>
+
+        </StackLayout>
+
+        <Entry x:Name="Titel" Placeholder="Titel" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Isbn" Placeholder="Isbn" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Verlag" Placeholder="Verlag"  HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Anzahl" Placeholder="Anzahl" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Autor" Placeholder="Autor" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="ExemplarNr" Placeholder="ExemplarNr" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Kategorie" Placeholder="Kategorie" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+
+        <Button x:Name="registrieren" Clicked="registrieren_Clicked" Text="Hinzufügen" FontSize="20" BorderColor="Transparent" 
+                  BackgroundColor="Black" TextColor="White" Padding="50,20,50,20"
+                  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,40,0,0" />
+    </StackLayout>
+    
+</pages:PopupPage>

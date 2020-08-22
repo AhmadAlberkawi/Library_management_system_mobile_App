@@ -9,7 +9,7 @@ using System.Text;
 
 namespace Biblio_test
 {
-    class Buch
+    public class Buch
     {
         private string titel;
         private int isbn;
@@ -21,9 +21,9 @@ namespace Biblio_test
         private int exemplarnr;
 
         //private Kategorie kategorie;
-        private int kategorie;
+        private string kategorie;
 
-        public Buch(string titel, int isbn, string verlag, int verfuegbar, int anzahl, string foto, string autor, int exemplarnr, int kategorie)
+        public Buch(string titel, int isbn, string verlag, int verfuegbar, int anzahl, string foto, string autor, int exemplarnr, string kategorie)
         {
             Titel = titel;
             Isbn = isbn;
@@ -140,6 +140,7 @@ namespace Biblio_test
 
             set
             {
+                this.b_foto = value;
                 // wird implementieren und mit Exception behandeln
             }
         }
@@ -184,7 +185,7 @@ namespace Biblio_test
             }
          }
 
-        public int Kategorie
+        public string Kategorie
         {
             get
             {
@@ -193,14 +194,7 @@ namespace Biblio_test
 
             set
             {
-                if (value == 0 || value < 0)
-                {
-                    Console.WriteLine("Kategorie stimmt nicht");
-                }
-                else
-                {
-                    this.kategorie = value;
-                }
+                this.kategorie = value;
             }
         }
 
@@ -208,6 +202,5 @@ namespace Biblio_test
         {
             return titel + isbn + verlag + verfuegbar + anzahl + B_foto + Autor + Exemplarnr + Kategorie;
         }
-
     }
 }
