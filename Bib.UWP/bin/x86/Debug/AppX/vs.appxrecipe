@@ -76,7 +76,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib\bin\Debug\netstandard2.0\Bib.dll">
       <PackagePath>Bib.dll</PackagePath>
-      <Modified>2020-08-22T20:37:29.401</Modified>
+      <Modified>2020-08-24T13:08:06.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>

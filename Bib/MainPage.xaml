@@ -8,7 +8,7 @@
              mc:Ignorable="d"
              x:Class="Bib.MainPage"
              NavigationPage.HasNavigationBar="False">
-    
+     
     <Grid AnchorX="0" AnchorY="0" BackgroundColor="#FFFFFF" WidthRequest="-1">
         <!-- Place new controls here -->
 
@@ -151,8 +151,8 @@
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
-                                    <RelativeLayout  Padding="0">
-                                        <Grid Padding="20,10,20,10" HeightRequest="45" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
+                                    <RelativeLayout  Padding="5">
+                                        <Grid Padding="20,0,20,0"  HeightRequest="45" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="1.3*"/>
                                                 <ColumnDefinition Width="1.3*"/>
@@ -253,8 +253,8 @@
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
-                                    <RelativeLayout  Padding="0" >
-                                        <Grid Padding="20,10,20,10" HeightRequest="45" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
+                                    <RelativeLayout  Padding="5" >
+                                        <Grid Padding="20,0,20,0" HeightRequest="45" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="1.3*"/>
                                                 <ColumnDefinition Width="1.8*"/>
@@ -334,8 +334,8 @@
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
-                                    <RelativeLayout Padding="0">
-                                        <Grid Padding="20,10,20,10" HeightRequest="45" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
+                                    <RelativeLayout Padding="5">
+                                        <Grid Padding="20,0,20,0" HeightRequest="45" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="1.3*"/>
                                                 <ColumnDefinition Width="1.3*"/>

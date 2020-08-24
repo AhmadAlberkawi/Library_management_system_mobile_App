@@ -30,7 +30,7 @@ namespace Bib
 
             if (button.Equals("Bearbeiten"))
             {
-                Foto.ImageSource = admin.Foto;
+              //  Foto.ImageSource = admin.Foto;
                 Name.Text = admin.Name;
                 Vorname.Text = admin.Vorname;
                 Email.Text = admin.Email;
@@ -41,8 +41,6 @@ namespace Bib
                 registrieren.Text = "aktualisieren";
                 Title.Text = "Admin bearbeiten";
             }
-
-
         }
 
         private void registrieren_Clicked(object sender, EventArgs e)

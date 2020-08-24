@@ -37,7 +37,7 @@ namespace Bib
             
             if (button.Equals("Bearbeiten"))
             {
-                Foto.ImageSource = buch.B_foto;
+               // Foto.ImageSource = buch.B_foto;
                 Titel.Text = buch.Titel;
                 Isbn.Text = buch.Isbn.ToString();
                 Verlag.Text = buch.Verlag;

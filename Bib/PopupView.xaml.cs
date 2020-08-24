@@ -29,7 +29,7 @@ namespace Bib
 
             if (button.Equals("Bearbeiten")) {
 
-                Foto.ImageSource = student.Foto;
+               // Foto.ImageSource = student.Foto;
                 Name.Text = student.Name;
                 Vorname.Text = student.Vorname;
                 Email.Text = student.Email;
