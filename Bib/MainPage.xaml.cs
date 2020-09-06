@@ -63,6 +63,7 @@ namespace Bib
                     break;
 
                 case ("Ausleihe"):
+                    this.BindingContext = new BookListViewModel();
                     Ueberblick_Page.IsVisible = false;
                     Student_Page.IsVisible = false;
                     Bücher_Page.IsVisible = false;
@@ -104,15 +105,15 @@ namespace Bib
                 case ("Regestrieren"):
                     await PopupNavigation.Instance.PushAsync(new PopupView("", null));
                     break;
-
                 case ("Bearbeiten"):
-                    await PopupNavigation.Instance.PushAsync(new PopupView("Bearbeiten", student));
+                    if(student != null)
+                        await PopupNavigation.Instance.PushAsync(new PopupView("Bearbeiten", student));
                     break;
                 case ("Buch ausleihen"):
                    await PopupNavigation.Instance.PushAsync(new PopupViewBorrow(student));
                     break;
                 case ("Bücher anzeigen"):
-
+                    await PopupNavigation.Instance.PushAsync(new popupStudentBook(student));
                     break;
             }
         }
@@ -130,7 +131,8 @@ namespace Bib
                     break;
 
                 case ("Bearbeiten"):
-                    PopupNavigation.Instance.PushAsync(new PopupViewAdmin("Bearbeiten", admin));
+                    if(admin != null)
+                        PopupNavigation.Instance.PushAsync(new PopupViewAdmin("Bearbeiten", admin));
                     break;
             }
         }
@@ -144,13 +146,20 @@ namespace Bib
             switch (b.Text)
             {
                 case ("Regestrieren"):
-                    PopupNavigation.Instance.PushAsync(new PopupViewBook("",null));
+                        PopupNavigation.Instance.PushAsync(new PopupViewBook("",null));
                     break;
 
                 case ("Bearbeiten"):
-                    PopupNavigation.Instance.PushAsync(new PopupViewBook("Bearbeiten", buch));
+                    if(buch != null)                    
+                        PopupNavigation.Instance.PushAsync(new PopupViewBook("Bearbeiten", buch));
                     break;
             }
+        }
+
+        private void Button_Clicked_back(object sender, EventArgs e)
+        {
+            Buch buch = BookListView.SelectedItem as Buch;
+
         }
 
         private void SearchBar_Student(object sender, TextChangedEventArgs e)
@@ -190,6 +199,19 @@ namespace Bib
                 BookListView.ItemsSource = _container.Books.Where(i => i.Titel.ToLower().Contains(e.NewTextValue.ToLower()));
 
             BookListView.EndRefresh();
+        }
+
+        private void SearchBar_Borrow(object sender, TextChangedEventArgs e)
+        {
+            var _container = BindingContext as BookListViewModel;
+            BorrowListView.BeginRefresh();
+
+            if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                BorrowListView.ItemsSource = _container.Books;
+            else
+                BorrowListView.ItemsSource = _container.Books.Where(i => i.Titel.ToLower().Contains(e.NewTextValue.ToLower()));
+
+            BorrowListView.EndRefresh();
         }
     }
 }

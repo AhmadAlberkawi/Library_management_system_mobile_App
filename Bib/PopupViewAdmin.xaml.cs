@@ -26,6 +26,8 @@ namespace Bib
             if (Device.RuntimePlatform == Device.UWP)
             {
                 fenster.Margin = new Thickness(450, 220, 450, 80);
+                header.Margin = new Thickness(0, 0, 0, 40);
+                registrieren.Margin = new Thickness(0, 40, 0, 0);
             }
 
             if (button.Equals("Bearbeiten"))
@@ -56,14 +58,14 @@ namespace Bib
                 Admin st1 = new Admin(Name.Text, Vorname.Text, Email.Text,"", Rolle.Text, Passwort.Text);
                 DisplayAlert("Alert", st1.ToString(), "OK");
             }
+            else if (!match.Success && !Passwort.Text.Equals(ConPasswort.Text))
+                DisplayAlert("Alert", "Die Email und Passwörter stimmen nicht.", "OK");
+
             else if (!match.Success)
                 DisplayAlert("Alert", "Die Email stimmt nicht.", "OK");
            
             else if(!Passwort.Text.Equals(ConPasswort.Text))
                 DisplayAlert("Alert", "Die Passwörter stimmen nicht miteinander.", "OK");
-            
-            else if(!match.Success && !Passwort.Text.Equals(ConPasswort.Text))
-                DisplayAlert("Alert", "Die Email und Passwörter stimmen nicht.", "OK");
         }
 
         // Add Image for Admin
@@ -77,11 +79,17 @@ namespace Bib
                 return;
             }
 
-            var file = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
+            _ = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
             {
                 SaveToAlbum = true,
 
             });
+
+
+
+
+
+
         }
     }
 }

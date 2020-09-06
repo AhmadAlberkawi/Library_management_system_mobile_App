@@ -50,6 +50,8 @@ namespace Bib
             {
                 case("Bücher anzeigen"):
                     this.BindingContext = new BookListViewModel();
+                    // hier sollte andere Konstruktur aufgerufen werden 
+                    // this.BindingContext = new BookListViewModel(studenttemp);
                     break;
                 case ("Ausleihen"):
                     if(studenttemp != null && buch != null)

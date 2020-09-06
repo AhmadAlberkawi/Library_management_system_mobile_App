@@ -73,20 +73,20 @@
 	.section	.rodata.map_aname.12,"aMS",%progbits,1
 	.type	.L.map_aname.12, %object
 .L.map_aname.12:
-	.asciz	"Bib.Android"
-	.size	.L.map_aname.12, 12
+	.asciz	"Xamarin.Android.Support.Fragment"
+	.size	.L.map_aname.12, 33
 
 	.section	.rodata.map_aname.13,"aMS",%progbits,1
 	.type	.L.map_aname.13, %object
 .L.map_aname.13:
-	.asciz	"Xamarin.Android.Support.Fragment"
-	.size	.L.map_aname.13, 33
+	.asciz	"Xamarin.Android.Support.SwipeRefreshLayout"
+	.size	.L.map_aname.13, 43
 
 	.section	.rodata.map_aname.14,"aMS",%progbits,1
 	.type	.L.map_aname.14, %object
 .L.map_aname.14:
-	.asciz	"Xamarin.Android.Support.SwipeRefreshLayout"
-	.size	.L.map_aname.14, 43
+	.asciz	"Bib.Android"
+	.size	.L.map_aname.14, 12
 
 	.section	.rodata.map_aname.15,"aMS",%progbits,1
 	.type	.L.map_aname.15, %object

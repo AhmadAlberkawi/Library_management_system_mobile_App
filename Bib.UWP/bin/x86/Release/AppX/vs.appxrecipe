@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-22T17:49:13.891</Modified>
+      <Modified>2020-09-05T16:14:02.703</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -236,15 +236,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Release\ilc\Bib.UWP.dll">
       <PackagePath>Bib.UWP.dll</PackagePath>
-      <Modified>2020-08-22T17:49:11.515</Modified>
+      <Modified>2020-09-05T16:14:01.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Release\ilc\Bib.UWP.exe">
       <PackagePath>Bib.UWP.exe</PackagePath>
-      <Modified>2020-08-22T17:49:13.261</Modified>
+      <Modified>2020-09-05T16:14:02.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Release\ilc\Bib.UWP.pdb">
       <PackagePath>Bib.UWP.pdb</PackagePath>
-      <Modified>2020-08-22T17:49:13.258</Modified>
+      <Modified>2020-09-05T16:14:02.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -260,7 +260,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ahmad\Desktop\Projekt\Bib\Bib\Bib.UWP\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-22T17:47:26.758</Modified>
+      <Modified>2020-09-05T16:12:28.479</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

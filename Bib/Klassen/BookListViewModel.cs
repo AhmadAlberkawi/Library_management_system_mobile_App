@@ -34,6 +34,11 @@ namespace Bib.Klassen
             };
         }
 
+        public BookListViewModel(Student student) 
+        { 
+        
+        }
+
         public void AddBook(object obj)
         {
             Books.Add((Buch)obj);
