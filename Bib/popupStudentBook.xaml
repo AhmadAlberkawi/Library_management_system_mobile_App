@@ -48,7 +48,7 @@
                 </Grid>
             </RelativeLayout>
 
-            <ListView x:Name="BookListView" ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}" Margin="0,0,0,10" SeparatorVisibility="None" >
+            <ListView x:Name="BookListView" ItemsSource="{Binding Borrows}" SelectedItem="{Binding SelectedBorrow}" Margin="0,0,0,10" SeparatorVisibility="None" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -64,7 +64,7 @@
                                         <ColumnDefinition Width="1.3*"/>
                                     </Grid.ColumnDefinitions>
                                     <Image Margin="10,0,10,0" Source="{Binding B_foto}" HorizontalOptions="Center"  Grid.Column="0" HeightRequest="70" WidthRequest="70" />
-                                    <Label Margin="10,0,10,0" Text="{Binding Titel}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" />
+                                    <Label Margin="10,0,10,0" Text="{Binding Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" />
                                     <Label Margin="10,0,10,0" Text="{Binding Isbn}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="2" />
                                     <Label Margin="10,0,10,0" Text="{Binding Verlag}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15"  Grid.Column="3"/>
                                     <Label Margin="10,0,10,0" Text="{Binding Autor}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="4" />
@@ -79,7 +79,7 @@
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-            <Button x:Name="registrieren" Clicked="registrieren_Clicked" Text="Zurückgeben" FontSize="20" BorderColor="Transparent" 
+            <Button x:Name="registrieren" Command="{Binding RemoveBorrowCommand}" Text="Zurückgeben" FontSize="20" BorderColor="Transparent" 
                         BackgroundColor="Black" TextColor="White" Padding="50,20,50,20"
                         HorizontalOptions="Center" VerticalOptions="Center" Margin="0,5,0,10" />
         </StackLayout>

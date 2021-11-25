@@ -14,7 +14,7 @@ namespace Bib
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class popupStudentBook
     {
-        private Student studenttemp;
+        private string studentName;
 
         public popupStudentBook(Student student)
         {
@@ -25,7 +25,7 @@ namespace Bib
                 this.BindingContext = new BookListViewModel();
                 upbutton.IsVisible = false;
             }
-            studenttemp = student;
+            studentName = student.Name;
         }
 
         private void SearchBar_Book(object sender, TextChangedEventArgs e)
@@ -50,11 +50,11 @@ namespace Bib
             switch (b.Text)
             {
                 case ("Bücher anzeigen"):
-                    this.BindingContext = new BookListViewModel();
+                    this.BindingContext = new BorrowListViewModel(studentName);
                     break;
                 case ("Zurückgeben"):
-                    if (studenttemp != null && buch != null)
-                        DisplayAlert("Alert", "Dieses Buch\n(" + buch.ToString() + ")\nmuss von diesem Student\n(" + studenttemp.ToString() + ")\ngelöscht werden", "OK");
+                    if (studentName != null && buch != null)
+                        DisplayAlert("Alert", "Dieses Buch\n(" + buch.ToString() + ")\nmuss von diesem Student\n(" + studentName.ToString() + ")\ngelöscht werden", "OK");
                     break;
             }
         }

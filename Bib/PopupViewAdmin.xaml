@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+<pages:PopupPage x:Name="hauptfenster" xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -17,11 +17,11 @@
 
         </StackLayout>
 
-        <Entry x:Name="Name" Text="{Binding Name}" Placeholder="Name" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
-        <Entry x:Name="Vorname" Placeholder="Vorname" Text="{Binding Vorname}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
-        <Entry x:Name="Email" Placeholder="Email" Text="{Binding Email}"  HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
-        <Entry x:Name="Rolle" Placeholder="Rolle" Text="{Binding Rolle}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
-        <Entry x:Name="Passwort" Placeholder="Passwort" IsPassword="True" Text="{Binding Passwort}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Name" Placeholder="Name" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Vorname" Placeholder="Vorname" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Email" Placeholder="Email" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Rolle" Placeholder="Rolle" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
+        <Entry x:Name="Passwort" Placeholder="Passwort" IsPassword="True" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
         <Entry x:Name="ConPasswort" Placeholder="Bestätigung " IsPassword="True" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
 
         <Button x:Name="registrieren" Clicked="registrieren_Clicked" Text="Hinzufügen" FontSize="20" BorderColor="Transparent" 

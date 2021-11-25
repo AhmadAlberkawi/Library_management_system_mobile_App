@@ -22,8 +22,8 @@
         <Entry x:Name="Email" Placeholder="Email"  HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
         <Entry x:Name="Matrikelnummer" Placeholder="Matrikelnummer" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
         <Entry x:Name="BibliothekNummer" Placeholder="BibliothekNummer" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest ="200" />
-        
-        <Button x:Name="registrieren" Clicked="registrieren_Clicked" Text="Hinzufügen" FontSize="20" BorderColor="Transparent" 
+
+        <Button x:Name="registrieren" Clicked="registrieren_Clicked" Command="{Binding AddStudentsCommand}" Text="Hinzufügen" FontSize="20" BorderColor="Transparent" 
                   BackgroundColor="Black" TextColor="White" Padding="50,20,50,20"
                   HorizontalOptions="Center" VerticalOptions="Center" Margin="0,40,0,0" />
     </StackLayout>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage x:Name="hauptfenster" xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -7,7 +7,8 @@
              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
              mc:Ignorable="d"
              x:Class="Bib.MainPage"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False">
      
     <Grid AnchorX="0" AnchorY="0" BackgroundColor="#FFFFFF" WidthRequest="-1">
         <!-- Place new controls here -->
@@ -16,7 +17,8 @@
             <!-- Header -->
             <StackLayout x:Name="Header" BackgroundColor="Black" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="15,10,0,5">
                 <Image Source="{local:EmbeddedImage Bib.Images.Nutzer.png }" WidthRequest="100" HeightRequest="100" Margin="0,16,0,0"/>
-                <Label Text="Benutzername" TextColor="White" Margin="0,48,300,0" FontSize="24"/>
+                <Label Text="Hallo," TextColor="White" Margin="0,48,5,0" FontSize="24"/>
+                <Label x:Name="AdminName" TextColor="White" Margin="0,48,300,0" FontSize="24"/>
             </StackLayout>
 
             <!-- left list -->
@@ -28,7 +30,7 @@
                 <Button x:Name="B_Student" Clicked="Button_Clicked" Text="Student" TextColor="#FFFFFDFD" FontSize="18" BackgroundColor="#FF19191D" Margin="0,5,0,0"/>
                 <Button x:Name="B_Ausleihe" Clicked="Button_Clicked" Text="Ausleihe" TextColor="#FFFFFDFD" FontSize="18" BackgroundColor="#FF19191D" Margin="0,5,0,0"/>
                 <Button x:Name="B_Buecher" Clicked="Button_Clicked" Text="Bücher" TextColor="#FFFFFDFD" FontSize="18" BackgroundColor="#FF19191D" Margin="0,5,0,0"/>
-                <Button x:Name="B_Admin" Clicked="Button_Clicked" Text="Admin" TextColor="#FFFFFDFD" FontSize="18" BackgroundColor="#FF19191D" Margin="0,5,0,0"/>
+                <Button x:Name="B_Admin"  Clicked="Button_Clicked" Text="Admin" TextColor="#FFFFFDFD" FontSize="18" BackgroundColor="#FF19191D" Margin="0,5,0,0"/>
 
                 <StackLayout Orientation="Horizontal" Margin="15,0,0,15" VerticalOptions="EndAndExpand">
                     <Image x:Name="imag_logout" Source="{local:EmbeddedImage Bib.Images.logout.png }" HeightRequest="35" WidthRequest="35" />
@@ -51,7 +53,7 @@
                 <StackLayout x:Name="Student" Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Start" Margin="100,0,0,0">
 
                     <StackLayout BackgroundColor="#FFD6D7EB" WidthRequest="200" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,100,0,0">
-                        <Label x:Name="Anzhal_Student" FontSize="24" Text="2500" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,50,0,0" />
+                        <Label x:Name="Anzhal_Student" FontSize="24" Text="{Binding AnzahlStudent}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,50,0,0" />
                         <Label Text="Studenten" FontSize="20" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Margin="0,0,0,10"/>
                     </StackLayout>
 
@@ -65,7 +67,7 @@
                 <StackLayout x:Name="Borrow" Orientation="Horizontal" HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,100,0" >
 
                     <StackLayout BackgroundColor="#FFD6D7EB" WidthRequest="200" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,100,0,0">
-                        <Label x:Name="Anzhal_Ausleihe" FontSize="24" Text="200" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,50,0,0" />
+                        <Label x:Name="Anzhal_Ausleihe" FontSize="24" Text="{Binding AnzahlBorrow}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,50,0,0" />
                         <Label Text="Ausleihe" FontSize="20" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Margin="0,0,0,10"/>
                     </StackLayout>
 
@@ -79,7 +81,7 @@
                 <StackLayout x:Name="Books" Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="EndAndExpand" Margin="100,100,0,100">
 
                     <StackLayout BackgroundColor="#FFD6D7EB" WidthRequest="200" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,100,0,0">
-                        <Label x:Name="Anzhal_Buecher" FontSize="24" Text="3000" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,50,0,0" />
+                        <Label x:Name="Anzhal_Buecher" FontSize="24" Text="{Binding AnzhalBooks}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,50,0,0" />
                         <Label Text="Bücher" FontSize="20" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Margin="0,0,0,10"/>
                     </StackLayout>
 
@@ -93,7 +95,7 @@
                 <StackLayout x:Name="Admin" Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Margin="0,0,100,100">
 
                     <StackLayout BackgroundColor="#FFD6D7EB" WidthRequest="200" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,100,0,0">
-                        <Label x:Name="Anzhal_Admin" FontSize="24" Text="4" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,50,0,0" />
+                        <Label x:Name="Anzhal_Admin" FontSize="24" Text="{Binding AnzahlAdmin}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,50,0,0" />
                         <Label Text="Admin" FontSize="20" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Margin="0,0,0,10"/>
                     </StackLayout>
 
@@ -113,14 +115,15 @@
             <Grid BackgroundColor="Beige" 
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}" 
                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=1}"
-             >
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Studenten Liste" FontSize="Medium"  HorizontalOptions="Start" VerticalOptions="Start" Margin="30,30,0,0" />
-                </StackLayout>
-                
+            >
                 <StackLayout>
-                    <SearchBar Placeholder="Suche" TextChanged="SearchBar_Student" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Margin="0,30,30,5" WidthRequest="200"/>
-                    <RelativeLayout BackgroundColor="#f1eaea"  Padding="0" VerticalOptions="StartAndExpand" HorizontalOptions="Center" >
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Studenten Liste" FontSize="Medium"  HorizontalOptions="Start" VerticalOptions="Start" Margin="30,30,0,0" />
+                        <SearchBar Placeholder="Suche" TextChanged="SearchBar_Student" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Margin="30,30,0,5" WidthRequest="200"/>
+                        <ImageButton  Source="https://cdn0.iconfinder.com/data/icons/glyphpack/41/refresh-512.png" Clicked="StudentListView_Refreshing" VerticalOptions="StartAndExpand" Margin="0,30,30,5" HeightRequest="30" WidthRequest="30"/>
+                    </StackLayout>
+                    
+                    <RelativeLayout BackgroundColor="#f1eaea"  Padding="0" VerticalOptions="StartAndExpand" HorizontalOptions="Center">
                         <Grid Padding="10" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1.3*"/>
@@ -147,7 +150,7 @@
                         </Grid>
                     </RelativeLayout>
 
-                    <ListView x:Name="StudentListView" ItemsSource="{Binding Students}" SelectedItem="{Binding SelectedStudents}" Margin="0,0,0,90" SeparatorVisibility="None" >
+                    <ListView x:Name="StudentListView" ItemsSource="{Binding Students}" SelectedItem="{Binding SelectedStudents}" Margin="0,0,0,90" SeparatorVisibility="None" IsPullToRefreshEnabled="True" Refreshing="StudentListView_Refreshing">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
@@ -228,7 +231,7 @@
                         </Grid>
                     </RelativeLayout>
 
-                    <ListView x:Name="BorrowListView" ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}" Margin="0,0,0,90" SeparatorVisibility="None" >
+                    <ListView x:Name="BorrowListView" ItemsSource="{Binding Borrows}" SelectedItem="{Binding SelectedBorrow}" Margin="0,0,0,90" SeparatorVisibility="None" IsPullToRefreshEnabled="True" Refreshing="BorrowListView_Refreshing">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
@@ -242,12 +245,12 @@
                                                 <ColumnDefinition Width="1.3*"/>
                                                 <ColumnDefinition Width="1.3*"/>
                                             </Grid.ColumnDefinitions>
-                                            <Image Margin="10,0,10,0" Source="{Binding B_foto}" HorizontalOptions="Center"  Grid.Column="0" HeightRequest="70" WidthRequest="70" />
-                                            <Label Margin="10,0,10,0" Text="{Binding Titel}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" />
+                                            <Image Margin="10,0,10,0" Source="{Binding Foto}" HorizontalOptions="Center"  Grid.Column="0" HeightRequest="70" WidthRequest="70" />
+                                            <Label Margin="10,0,10,0" Text="{Binding Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" />
                                             <Label Margin="10,0,10,0" Text="{Binding Isbn}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="2" />
                                             <Label Margin="10,0,10,0" Text="{Binding Verlag}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15"  Grid.Column="3"/>
                                             <Label Margin="10,0,10,0" Text="{Binding Autor}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="4" />
-                                            <Label Margin="10,0,10,0" Text="{Binding Kategorie}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="5" />
+                                            <Label Margin="10,0,10,0" Text="{Binding Ausgeliehenvon}"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="15" Grid.Column="5" />
                                         </Grid>
                                     </RelativeLayout>
                                 </ViewCell>
@@ -257,7 +260,7 @@
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Margin="0,0,30,30">
-                    <Button Text="Zurückgeben" Clicked="Button_Clicked_back" BackgroundColor="#71A3D5" WidthRequest="160" HeightRequest="40"  />
+                    <Button Text="Zurückgeben" Command="{Binding RemoveBorrowCommand}" BackgroundColor="#71A3D5" WidthRequest="160" HeightRequest="40"  />
                 </StackLayout>
 
             </Grid>
@@ -270,14 +273,14 @@
             <Grid BackgroundColor="Beige" 
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}" 
                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=1}"
-             >
-
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Bücher Liste" FontSize="Medium"  HorizontalOptions="Start" VerticalOptions="Start" Margin="30,30,0,0" />
-                </StackLayout>
-
+            >
                 <StackLayout>
-                    <SearchBar Placeholder="Suche" TextChanged="SearchBar_Book" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Margin="0,30,30,5" WidthRequest="200"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Bücher Liste" FontSize="Medium"  HorizontalOptions="Start" VerticalOptions="Start" Margin="30,30,0,0" />
+                        <SearchBar Placeholder="Suche" TextChanged="SearchBar_Book" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Margin="30,30,0,5" WidthRequest="200"/>
+                        <ImageButton  Source="https://cdn0.iconfinder.com/data/icons/glyphpack/41/refresh-512.png" Clicked="BuercherListView_Refreshing" VerticalOptions="StartAndExpand" Margin="0,30,30,5" HeightRequest="30" WidthRequest="30"/>
+                    </StackLayout>
+                    
                     <RelativeLayout BackgroundColor="#f1eaea"  Padding="0" VerticalOptions="StartAndExpand" HorizontalOptions="Center" >
                         <Grid Padding="10" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}">
                             <Grid.ColumnDefinitions>
@@ -314,7 +317,7 @@
                         </Grid>
                     </RelativeLayout>
 
-                    <ListView x:Name="BookListView" ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}" Margin="0,0,0,90" SeparatorVisibility="None" >
+                    <ListView x:Name="BookListView" ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}" Margin="0,0,0,90" SeparatorVisibility="None" IsPullToRefreshEnabled="True" Refreshing="BuercherListView_Refreshing" >
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
@@ -358,7 +361,7 @@
 
         <!-- Admin Page -->
 
-        <RelativeLayout x:Name="Admin_Page" IsVisible="false" Margin="250,180,40,40" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <RelativeLayout x:Name="Admin_Page" IsVisible="false" Margin="250,180,40,40" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
 
             <Grid BackgroundColor="Beige" 
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}" 

@@ -16,7 +16,13 @@ namespace Biblio_test
             Passwort = passwort;
        }
 
-        public String Rolle
+       public Admin(string name, string vorname, string email, string foto, string rolle) :
+       base(name, vorname, email, foto)
+       {
+            Rolle = rolle;
+       }
+
+       public String Rolle
         {
             get
             {
@@ -34,7 +40,7 @@ namespace Biblio_test
                     this.rolle = value;
                 }
             }
-        }
+       }
 
         public String Passwort { get; private set; }
 

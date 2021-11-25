@@ -11,12 +11,14 @@ using System.Text.RegularExpressions;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Rg.Plugins.Popup.Services;
 
 namespace Bib
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PopupView
     {
+        private string selectedStudentName;
         public PopupView(string button, Student student)
         {
             InitializeComponent();
@@ -29,6 +31,7 @@ namespace Bib
 
             if (button.Equals("Bearbeiten")) {
 
+                selectedStudentName = student.Name;
                // Foto.ImageSource = student.Foto;
                 Name.Text = student.Name;
                 Vorname.Text = student.Vorname;
@@ -55,7 +58,16 @@ namespace Bib
             if (match.Success && match1.Success)
             {
                 Student st1 = new Student(Int32.Parse(Matrikelnummer.Text), Int32.Parse(BibliothekNummer.Text), Name.Text, Vorname.Text, Email.Text, "");
-                DisplayAlert("Alert", st1.ToString(), "OK");
+                
+                if(Title.Text.Equals("Studnet hinzufügen"))
+                { 
+                    StudentListViewModel.AddStudentinList(st1);
+                }
+                else
+                {
+                    StudentListViewModel.UpdateStudentInList(st1, selectedStudentName);
+                }
+                PopupNavigation.Instance.PopAsync();
             }
 
             else if (!match.Success && !match1.Success) 

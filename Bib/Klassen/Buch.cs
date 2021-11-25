@@ -5,14 +5,16 @@ using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
-
+using System.Threading;
 
 namespace Biblio_test
 {
     public class Buch
     {
+        public static int BookId { set; get; }
+        private static int nextId;
         private string titel;
-        private int isbn;
+        private string isbn;
         private string verlag;
         private int verfuegbar;
         private int anzahl;
@@ -23,8 +25,9 @@ namespace Biblio_test
         //private Kategorie kategorie;
         private string kategorie;
 
-        public Buch(string titel, int isbn, string verlag, int verfuegbar, int anzahl, string foto, string autor, int exemplarnr, string kategorie)
+        public Buch(string titel, string isbn, string verlag, int verfuegbar, int anzahl, string foto, string autor, int exemplarnr, string kategorie)
         {
+            BookId= Interlocked.Increment(ref nextId);
             Titel = titel;
             Isbn = isbn;
             Verlag = verlag;
@@ -57,7 +60,7 @@ namespace Biblio_test
             }
         }
 
-        public int Isbn
+        public string Isbn
         {
             get
             {
@@ -66,14 +69,7 @@ namespace Biblio_test
 
             set
             {
-                if (value == 0 || value < 0)
-                {
-                    Console.WriteLine("ISBN stimmt nicht");
-                }
-                else
-                {
                     this.isbn = value;
-                }
             }
         }
 
@@ -106,8 +102,7 @@ namespace Biblio_test
 
             set
             {
-                // brauch kein Set, da er automatisch gerechet wird
-                // mit Trigger in der DB
+                this.verfuegbar = value;
             }
         }
 

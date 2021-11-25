@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Biblio_test.Admin" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAEAAAABAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Klassen\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblio_test.Buch" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEAAAABAAACAEAEAxAABAEQAAIAACADAAAgAYAAA=</HashCode>
+      <FileName>Klassen\Buch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblio_test.Person" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAiAAAAAkAAAAAAQAAAAEAAAAAAAAQAAAAEA=</HashCode>
+      <FileName>Klassen\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblio_test.Student" Collapsed="true">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAEAAAAAAEAAACAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Klassen\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bib.Klassen.AdminListViewModel" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAACAAAAAQAABAAAAAAgAAAAABAAAAA=</HashCode>
+      <FileName>Klassen\AdminListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bib.Klassen.BookListViewModel" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAACAAAAAAgAAAAACAAAAEAAAAAAg=</HashCode>
+      <FileName>Klassen\BookListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App.Kategorie" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Klassen\Kategorie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bib.StudentListViewModel" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAIAQAEAAAA=</HashCode>
+      <FileName>Klassen\StudentListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

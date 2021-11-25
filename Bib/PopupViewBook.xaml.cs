@@ -2,6 +2,7 @@
 using Biblio_test;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace Bib
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PopupViewBook
     {
+        private Buch selectedBook;
         public PopupViewBook(string button, Buch buch)
         {
             InitializeComponent();
@@ -34,9 +36,9 @@ namespace Bib
                 registrieren.Margin = new Thickness(0, 5, 0, 0);
             }
 
-            
             if (button.Equals("Bearbeiten"))
             {
+                selectedBook = buch;
                // Foto.ImageSource = buch.B_foto;
                 Titel.Text = buch.Titel;
                 Isbn.Text = buch.Isbn.ToString();
@@ -47,21 +49,26 @@ namespace Bib
                 Kategorie.Text = buch.Kategorie;
 
                 registrieren.Text = "aktualisieren";
-                Title.Text = "Buch bearbeiten";
+                TitlePopUp.Text = "Buch bearbeiten";
             }
-            
-
         }
 
         private void registrieren_Clicked(object sender, EventArgs e)
         {
             //new Buch("C# Programmierung",2020504,"Klett-Gruppe",1,3,"https://i.imgur.com/LwYSutr.jpg","Daniel Lorig",2,"Fachbuch"),
 
-            Buch buch = new Buch(Titel.Text, Int32.Parse(Isbn.Text), Verlag.Text, 0, Int32.Parse(Anzahl.Text), "",Autor.Text, Int32.Parse(ExemplarNr.Text), Kategorie.Text);
-                DisplayAlert("Alert", buch.ToString(), "OK");
+            Buch buch = new Buch(Titel.Text, Isbn.Text, Verlag.Text, Int32.Parse(Anzahl.Text), Int32.Parse(Anzahl.Text), "",Autor.Text, Int32.Parse(ExemplarNr.Text), Kategorie.Text);
+
+            if(TitlePopUp.Text.Equals("Buch hinzufügen"))
+            {
+                BookListViewModel.AddBook(buch);
+            }
+            else
+            {
+                BookListViewModel.UpdateBook(buch, selectedBook);
+            }
+            PopupNavigation.Instance.PopAsync();
         }
-
-
 
         // Add Image for student
         private async void Add_Image(object sender, EventArgs e)
@@ -80,7 +87,5 @@ namespace Bib
 
             });
         }
-
-
     }
 }

@@ -14,7 +14,7 @@ namespace Bib
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PopupViewBorrow 
     {
-        private Student studenttemp;
+        private string studentName;
 
         public PopupViewBorrow(Student student)
         {
@@ -24,7 +24,7 @@ namespace Bib
                 this.BindingContext = new BookListViewModel();
                 upbutton.IsVisible = false;
             }
-            studenttemp = student;
+            studentName = student.Name;
         }
 
         private void SearchBar_Book(object sender, TextChangedEventArgs e)
@@ -54,8 +54,9 @@ namespace Bib
                     // this.BindingContext = new BookListViewModel(studenttemp);
                     break;
                 case ("Ausleihen"):
-                    if(studenttemp != null && buch != null)
-                        DisplayAlert("Alert","Dieses Buch\n("+buch.ToString()+")\nmuss zu diesem Student\n("+studenttemp.ToString()+")\nhinzugefügt werden", "OK");
+                    if (studentName != null && buch != null)
+                        BorrowListViewModel.BorrowBook(studentName, buch);
+                        DisplayAlert("Alert","Das Buch "+buch.Titel+" wurde von "+studentName+" erfolgreich ausgeliehen", "OK");
                     break;
             }
         }

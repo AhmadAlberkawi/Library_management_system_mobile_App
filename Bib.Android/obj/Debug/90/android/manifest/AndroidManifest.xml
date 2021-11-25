@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.bib" android:installLocation="preferExternal">
-  <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="21" />
-  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="29" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.CAMERA" />
-  <application android:label="Bib.Android" android:icon="@drawable/book" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="Bib.Android" android:icon="@drawable/book" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/book" android:label="Bibliotheksverwaltung" android:screenOrientation="landscape" android:theme="@style/MainTheme" android:name="crc642e70c80f23e47026.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
