@@ -11,7 +11,7 @@ namespace Bib.Klassen
 
         public static SqlConnection Connection()
         {
-            string connectionString = @"Server=DESKTOP-3NDHV63;Database=Bib_DB;User Id=sa;Password=*******;Trusted_Connection=false";
+            string connectionString = @"Server=nameOfServerOrIp;Database=Bib_DB;User Id=sa;Password=*******;Trusted_Connection=false";
 
             try
             {
